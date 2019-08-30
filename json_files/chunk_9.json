@@ -1,3502 +1,3502 @@
 {
-    "167": {
-        "Hardness Score": "9",
-        "Triplet #": "167",
-        "Anchor": "(4, 1, 3, 2)",
-        "Positive": "(4, 0, 0, 0)",
-        "Negative": "(5, 0, 2, 2)"
-    },
-    "211": {
-        "Hardness Score": "6",
-        "Triplet #": "211",
-        "Anchor": "(2, 2, 0, 6)",
-        "Positive": "(2, 0, 5, 1)",
-        "Negative": "(5, 2, 4, 0)"
-    },
-    "474": {
-        "Hardness Score": "4",
-        "Triplet #": "474",
-        "Anchor": "(4, 0, 6, 0)",
-        "Positive": "(4, 0, 0, 0)",
-        "Negative": "(1, 1, 3, 1)"
-    },
-    "74": {
-        "Hardness Score": "7",
-        "Triplet #": "74",
-        "Anchor": "(1, 0, 5, 5)",
-        "Positive": "(1, 0, 1, 1)",
-        "Negative": "(0, 0, 2, 6)"
-    },
-    "289": {
-        "Hardness Score": "6",
-        "Triplet #": "289",
-        "Anchor": "(3, 0, 1, 6)",
-        "Positive": "(3, 0, 3, 5)",
-        "Negative": "(4, 2, 4, 0)"
-    },
-    "138": {
-        "Hardness Score": "7",
-        "Triplet #": "138",
-        "Anchor": "(4, 1, 2, 5)",
-        "Positive": "(4, 1, 4, 6)",
-        "Negative": "(5, 2, 1, 4)"
-    },
-    "283": {
-        "Hardness Score": "5",
-        "Triplet #": "283",
-        "Anchor": "(5, 1, 2, 6)",
-        "Positive": "(5, 0, 4, 3)",
-        "Negative": "(1, 0, 6, 0)"
-    },
-    "232": {
-        "Hardness Score": "4",
-        "Triplet #": "232",
-        "Anchor": "(1, 0, 3, 0)",
+    "157": {
+        "Triplet #": "157",
+        "Anchor": "(1, 2, 3, 0)",
         "Positive": "(1, 2, 6, 0)",
-        "Negative": "(5, 1, 2, 2)"
-    },
-    "316": {
-        "Hardness Score": "8",
-        "Triplet #": "316",
-        "Anchor": "(4, 2, 6, 3)",
-        "Positive": "(4, 0, 3, 4)",
-        "Negative": "(5, 1, 6, 5)"
-    },
-    "219": {
-        "Hardness Score": "5",
-        "Triplet #": "219",
-        "Anchor": "(4, 0, 2, 1)",
-        "Positive": "(4, 2, 0, 2)",
-        "Negative": "(0, 2, 6, 0)"
-    },
-    "80": {
         "Hardness Score": "6",
-        "Triplet #": "80",
-        "Anchor": "(4, 1, 1, 2)",
-        "Positive": "(4, 1, 6, 1)",
-        "Negative": "(1, 0, 2, 1)"
-    },
-    "7": {
-        "Hardness Score": "5",
-        "Triplet #": "7",
-        "Anchor": "(1, 2, 5, 1)",
-        "Positive": "(1, 2, 4, 6)",
-        "Negative": "(3, 0, 2, 3)"
-    },
-    "336": {
-        "Hardness Score": "2",
-        "Triplet #": "336",
-        "Anchor": "(5, 0, 1, 1)",
-        "Positive": "(5, 0, 0, 0)",
-        "Negative": "(1, 0, 0, 3)"
-    },
-    "249": {
-        "Hardness Score": "6",
-        "Triplet #": "249",
-        "Anchor": "(4, 1, 0, 6)",
-        "Positive": "(4, 0, 1, 5)",
-        "Negative": "(1, 0, 2, 2)"
-    },
-    "199": {
-        "Hardness Score": "7",
-        "Triplet #": "199",
-        "Anchor": "(3, 1, 5, 1)",
-        "Positive": "(3, 1, 6, 5)",
-        "Negative": "(2, 0, 0, 5)"
-    },
-    "245": {
-        "Hardness Score": "7",
-        "Triplet #": "245",
-        "Anchor": "(0, 0, 0, 0)",
-        "Positive": "(0, 1, 4, 2)",
-        "Negative": "(2, 2, 3, 0)"
-    },
-    "209": {
-        "Hardness Score": "7",
-        "Triplet #": "209",
-        "Anchor": "(1, 0, 6, 4)",
-        "Positive": "(1, 0, 2, 1)",
-        "Negative": "(0, 0, 6, 5)"
-    },
-    "411": {
-        "Hardness Score": "6",
-        "Triplet #": "411",
-        "Anchor": "(2, 1, 4, 2)",
-        "Positive": "(2, 2, 5, 1)",
-        "Negative": "(5, 0, 4, 6)"
-    },
-    "444": {
-        "Hardness Score": "8",
-        "Triplet #": "444",
-        "Anchor": "(3, 2, 2, 6)",
-        "Positive": "(3, 0, 5, 3)",
-        "Negative": "(5, 1, 5, 2)"
-    },
-    "359": {
-        "Hardness Score": "4",
-        "Triplet #": "359",
-        "Anchor": "(4, 2, 2, 3)",
-        "Positive": "(4, 2, 4, 3)",
-        "Negative": "(2, 1, 5, 3)"
-    },
-    "69": {
-        "Hardness Score": "8",
-        "Triplet #": "69",
-        "Anchor": "(2, 2, 6, 4)",
-        "Positive": "(2, 1, 0, 5)",
-        "Negative": "(4, 1, 4, 2)"
-    },
-    "456": {
-        "Hardness Score": "4",
-        "Triplet #": "456",
-        "Anchor": "(0, 1, 3, 5)",
-        "Positive": "(0, 2, 2, 1)",
-        "Negative": "(5, 2, 5, 3)"
-    },
-    "347": {
-        "Hardness Score": "8",
-        "Triplet #": "347",
-        "Anchor": "(4, 2, 6, 0)",
-        "Positive": "(4, 0, 5, 2)",
-        "Negative": "(3, 0, 3, 6)"
-    },
-    "127": {
-        "Hardness Score": "8",
-        "Triplet #": "127",
-        "Anchor": "(1, 2, 4, 6)",
-        "Positive": "(1, 1, 0, 2)",
-        "Negative": "(3, 0, 6, 2)"
-    },
-    "223": {
-        "Hardness Score": "7",
-        "Triplet #": "223",
-        "Anchor": "(3, 2, 5, 0)",
-        "Positive": "(3, 1, 6, 6)",
-        "Negative": "(4, 2, 2, 3)"
-    },
-    "442": {
-        "Hardness Score": "4",
-        "Triplet #": "442",
-        "Anchor": "(0, 0, 4, 5)",
-        "Positive": "(0, 1, 3, 4)",
-        "Negative": "(4, 0, 0, 2)"
-    },
-    "430": {
-        "Hardness Score": "6",
-        "Triplet #": "430",
-        "Anchor": "(5, 0, 4, 4)",
-        "Positive": "(5, 1, 1, 2)",
-        "Negative": "(1, 0, 1, 1)"
-    },
-    "284": {
-        "Hardness Score": "4",
-        "Triplet #": "284",
-        "Anchor": "(0, 0, 2, 0)",
-        "Positive": "(0, 1, 1, 2)",
-        "Negative": "(4, 2, 3, 4)"
-    },
-    "8": {
-        "Hardness Score": "8",
-        "Triplet #": "8",
-        "Anchor": "(2, 0, 0, 4)",
-        "Positive": "(2, 2, 2, 0)",
-        "Negative": "(0, 1, 2, 4)"
-    },
-    "296": {
-        "Hardness Score": "6",
-        "Triplet #": "296",
-        "Anchor": "(3, 2, 3, 3)",
-        "Positive": "(3, 2, 5, 4)",
-        "Negative": "(5, 0, 2, 0)"
-    },
-    "303": {
-        "Hardness Score": "8",
-        "Triplet #": "303",
-        "Anchor": "(2, 1, 4, 3)",
-        "Positive": "(2, 0, 2, 2)",
-        "Negative": "(1, 0, 6, 4)"
-    },
-    "335": {
-        "Hardness Score": "7",
-        "Triplet #": "335",
-        "Anchor": "(2, 1, 6, 5)",
-        "Positive": "(2, 0, 4, 3)",
-        "Negative": "(4, 2, 6, 0)"
-    },
-    "213": {
-        "Hardness Score": "9",
-        "Triplet #": "213",
-        "Anchor": "(5, 2, 0, 1)",
-        "Positive": "(5, 1, 3, 2)",
-        "Negative": "(3, 1, 2, 2)"
-    },
-    "19": {
-        "Hardness Score": "6",
-        "Triplet #": "19",
-        "Anchor": "(2, 2, 2, 1)",
-        "Positive": "(2, 1, 0, 0)",
-        "Negative": "(5, 0, 2, 5)"
-    },
-    "173": {
-        "Hardness Score": "7",
-        "Triplet #": "173",
-        "Anchor": "(1, 0, 6, 6)",
-        "Positive": "(1, 1, 4, 5)",
-        "Negative": "(0, 0, 2, 4)"
-    },
-    "192": {
-        "Hardness Score": "6",
-        "Triplet #": "192",
-        "Anchor": "(4, 1, 2, 2)",
-        "Positive": "(4, 2, 3, 1)",
-        "Negative": "(0, 2, 2, 6)"
-    },
-    "351": {
-        "Hardness Score": "7",
-        "Triplet #": "351",
-        "Anchor": "(1, 0, 0, 4)",
-        "Positive": "(1, 0, 5, 3)",
-        "Negative": "(0, 1, 4, 5)"
-    },
-    "51": {
-        "Hardness Score": "7",
-        "Triplet #": "51",
-        "Anchor": "(3, 2, 6, 2)",
-        "Positive": "(3, 0, 6, 0)",
-        "Negative": "(1, 0, 0, 0)"
-    },
-    "485": {
-        "Hardness Score": "3",
-        "Triplet #": "485",
-        "Anchor": "(0, 2, 6, 1)",
-        "Positive": "(0, 1, 3, 0)",
-        "Negative": "(5, 0, 2, 4)"
-    },
-    "377": {
-        "Hardness Score": "6",
-        "Triplet #": "377",
-        "Anchor": "(3, 0, 6, 5)",
-        "Positive": "(3, 2, 6, 4)",
-        "Negative": "(1, 2, 1, 3)"
-    },
-    "79": {
-        "Hardness Score": "5",
-        "Triplet #": "79",
-        "Anchor": "(5, 1, 1, 3)",
-        "Positive": "(5, 2, 0, 1)",
-        "Negative": "(3, 1, 0, 3)"
-    },
-    "163": {
-        "Hardness Score": "9",
-        "Triplet #": "163",
-        "Anchor": "(3, 0, 1, 4)",
-        "Positive": "(3, 2, 4, 1)",
-        "Negative": "(2, 2, 3, 3)"
-    },
-    "497": {
-        "Hardness Score": "8",
-        "Triplet #": "497",
-        "Anchor": "(2, 0, 4, 1)",
-        "Positive": "(2, 2, 6, 1)",
-        "Negative": "(1, 1, 6, 2)"
-    },
-    "113": {
-        "Hardness Score": "9",
-        "Triplet #": "113",
-        "Anchor": "(0, 0, 4, 1)",
-        "Positive": "(0, 1, 3, 5)",
-        "Negative": "(1, 1, 4, 1)"
-    },
-    "36": {
-        "Hardness Score": "6",
-        "Triplet #": "36",
-        "Anchor": "(3, 1, 6, 0)",
-        "Positive": "(3, 0, 6, 1)",
-        "Negative": "(4, 1, 1, 3)"
-    },
-    "248": {
-        "Hardness Score": "6",
-        "Triplet #": "248",
-        "Anchor": "(4, 1, 0, 0)",
-        "Positive": "(4, 2, 3, 1)",
-        "Negative": "(1, 0, 0, 4)"
-    },
-    "477": {
-        "Hardness Score": "6",
-        "Triplet #": "477",
-        "Anchor": "(5, 1, 5, 3)",
-        "Positive": "(5, 2, 4, 6)",
-        "Negative": "(4, 0, 4, 1)"
-    },
-    "455": {
-        "Hardness Score": "8",
-        "Triplet #": "455",
-        "Anchor": "(1, 0, 3, 3)",
-        "Positive": "(1, 0, 6, 1)",
-        "Negative": "(2, 1, 6, 4)"
-    },
-    "67": {
-        "Hardness Score": "6",
-        "Triplet #": "67",
-        "Anchor": "(5, 1, 4, 4)",
-        "Positive": "(5, 0, 5, 5)",
-        "Negative": "(3, 1, 3, 4)"
-    },
-    "384": {
-        "Hardness Score": "6",
-        "Triplet #": "384",
-        "Anchor": "(2, 2, 5, 6)",
-        "Positive": "(2, 1, 2, 6)",
-        "Negative": "(5, 1, 5, 2)"
-    },
-    "20": {
-        "Hardness Score": "3",
-        "Triplet #": "20",
-        "Anchor": "(5, 0, 3, 6)",
-        "Positive": "(5, 1, 4, 6)",
-        "Negative": "(1, 1, 4, 1)"
-    },
-    "179": {
-        "Hardness Score": "7",
-        "Triplet #": "179",
-        "Anchor": "(4, 0, 2, 6)",
-        "Positive": "(4, 0, 6, 0)",
-        "Negative": "(3, 1, 1, 2)"
-    },
-    "361": {
-        "Hardness Score": "7",
-        "Triplet #": "361",
-        "Anchor": "(2, 2, 0, 4)",
-        "Positive": "(2, 1, 4, 4)",
-        "Negative": "(1, 2, 1, 6)"
-    },
-    "319": {
-        "Hardness Score": "6",
-        "Triplet #": "319",
-        "Anchor": "(1, 2, 0, 0)",
-        "Positive": "(1, 2, 1, 6)",
-        "Negative": "(3, 0, 5, 6)"
-    },
-    "483": {
-        "Hardness Score": "4",
-        "Triplet #": "483",
-        "Anchor": "(4, 2, 1, 4)",
-        "Positive": "(4, 2, 2, 1)",
-        "Negative": "(1, 1, 4, 2)"
-    },
-    "382": {
-        "Hardness Score": "6",
-        "Triplet #": "382",
-        "Anchor": "(4, 2, 2, 5)",
-        "Positive": "(4, 2, 6, 6)",
-        "Negative": "(2, 0, 1, 3)"
-    },
-    "112": {
-        "Hardness Score": "6",
-        "Triplet #": "112",
-        "Anchor": "(2, 0, 2, 4)",
-        "Positive": "(2, 1, 0, 4)",
-        "Negative": "(5, 1, 2, 4)"
-    },
-    "307": {
-        "Hardness Score": "5",
-        "Triplet #": "307",
-        "Anchor": "(1, 2, 4, 1)",
-        "Positive": "(1, 2, 6, 2)",
-        "Negative": "(3, 1, 1, 6)"
-    },
-    "348": {
-        "Hardness Score": "5",
-        "Triplet #": "348",
-        "Anchor": "(2, 1, 6, 2)",
-        "Positive": "(2, 1, 5, 3)",
-        "Negative": "(4, 0, 2, 5)"
-    },
-    "146": {
-        "Hardness Score": "8",
-        "Triplet #": "146",
-        "Anchor": "(2, 2, 2, 2)",
-        "Positive": "(2, 0, 5, 3)",
-        "Negative": "(3, 0, 6, 1)"
-    },
-    "206": {
-        "Hardness Score": "4",
-        "Triplet #": "206",
-        "Anchor": "(0, 0, 1, 6)",
-        "Positive": "(0, 2, 6, 1)",
-        "Negative": "(5, 0, 3, 3)"
-    },
-    "148": {
-        "Hardness Score": "6",
-        "Triplet #": "148",
-        "Anchor": "(4, 0, 3, 0)",
-        "Positive": "(4, 0, 4, 1)",
-        "Negative": "(5, 0, 5, 4)"
-    },
-    "286": {
-        "Hardness Score": "6",
-        "Triplet #": "286",
-        "Anchor": "(5, 0, 3, 0)",
-        "Positive": "(5, 0, 5, 1)",
-        "Negative": "(4, 2, 6, 6)"
-    },
-    "405": {
-        "Hardness Score": "8",
-        "Triplet #": "405",
-        "Anchor": "(2, 1, 1, 0)",
-        "Positive": "(2, 0, 3, 1)",
-        "Negative": "(1, 1, 6, 1)"
-    },
-    "169": {
-        "Hardness Score": "7",
-        "Triplet #": "169",
-        "Anchor": "(1, 0, 4, 2)",
-        "Positive": "(1, 1, 2, 5)",
-        "Negative": "(2, 2, 0, 4)"
-    },
-    "489": {
-        "Hardness Score": "5",
-        "Triplet #": "489",
-        "Anchor": "(2, 1, 1, 2)",
-        "Positive": "(2, 1, 3, 1)",
-        "Negative": "(4, 2, 5, 6)"
-    },
-    "30": {
-        "Hardness Score": "6",
-        "Triplet #": "30",
-        "Anchor": "(1, 0, 0, 5)",
-        "Positive": "(1, 2, 0, 4)",
-        "Negative": "(2, 1, 2, 1)"
-    },
-    "159": {
-        "Hardness Score": "6",
-        "Triplet #": "159",
-        "Anchor": "(5, 1, 6, 6)",
-        "Positive": "(5, 0, 4, 5)",
-        "Negative": "(3, 2, 2, 1)"
-    },
-    "40": {
-        "Hardness Score": "9",
-        "Triplet #": "40",
-        "Anchor": "(3, 2, 2, 6)",
-        "Positive": "(3, 0, 6, 4)",
-        "Negative": "(2, 0, 5, 3)"
-    },
-    "471": {
-        "Hardness Score": "4",
-        "Triplet #": "471",
-        "Anchor": "(3, 1, 6, 5)",
-        "Positive": "(3, 2, 6, 5)",
-        "Negative": "(0, 2, 4, 2)"
-    },
-    "200": {
-        "Hardness Score": "8",
-        "Triplet #": "200",
-        "Anchor": "(1, 1, 1, 0)",
-        "Positive": "(1, 0, 4, 0)",
-        "Negative": "(2, 0, 3, 3)"
-    },
-    "129": {
-        "Hardness Score": "4",
-        "Triplet #": "129",
-        "Anchor": "(5, 2, 6, 2)",
-        "Positive": "(5, 2, 5, 1)",
-        "Negative": "(2, 2, 2, 0)"
-    },
-    "217": {
-        "Hardness Score": "11",
-        "Triplet #": "217",
-        "Anchor": "(1, 1, 6, 0)",
-        "Positive": "(1, 2, 0, 6)",
-        "Negative": "(0, 2, 0, 3)"
-    },
-    "494": {
-        "Hardness Score": "9",
-        "Triplet #": "494",
-        "Anchor": "(1, 1, 4, 4)",
-        "Positive": "(1, 2, 6, 1)",
-        "Negative": "(3, 2, 3, 1)"
-    },
-    "149": {
-        "Hardness Score": "10",
-        "Triplet #": "149",
-        "Anchor": "(1, 0, 2, 6)",
-        "Positive": "(1, 1, 0, 0)",
-        "Negative": "(0, 1, 3, 0)"
-    },
-    "88": {
-        "Hardness Score": "9",
-        "Triplet #": "88",
-        "Anchor": "(1, 2, 6, 6)",
-        "Positive": "(1, 0, 3, 2)",
-        "Negative": "(2, 1, 3, 5)"
-    },
-    "274": {
-        "Hardness Score": "7",
-        "Triplet #": "274",
-        "Anchor": "(4, 2, 6, 0)",
-        "Positive": "(4, 2, 1, 3)",
-        "Negative": "(3, 0, 4, 0)"
-    },
-    "161": {
-        "Hardness Score": "7",
-        "Triplet #": "161",
-        "Anchor": "(3, 0, 0, 6)",
-        "Positive": "(3, 2, 1, 3)",
-        "Negative": "(5, 2, 3, 2)"
-    },
-    "16": {
-        "Hardness Score": "7",
-        "Triplet #": "16",
-        "Anchor": "(0, 2, 5, 0)",
-        "Positive": "(0, 0, 0, 6)",
-        "Negative": "(3, 1, 4, 6)"
-    },
-    "124": {
-        "Hardness Score": "6",
-        "Triplet #": "124",
-        "Anchor": "(4, 1, 3, 0)",
-        "Positive": "(4, 1, 6, 2)",
-        "Negative": "(1, 2, 6, 6)"
-    },
-    "100": {
-        "Hardness Score": "5",
-        "Triplet #": "100",
-        "Anchor": "(4, 0, 1, 1)",
-        "Positive": "(4, 2, 2, 6)",
-        "Negative": "(1, 1, 2, 6)"
-    },
-    "152": {
-        "Hardness Score": "4",
-        "Triplet #": "152",
-        "Anchor": "(3, 0, 0, 1)",
-        "Positive": "(3, 0, 0, 3)",
-        "Negative": "(5, 1, 3, 4)"
-    },
-    "383": {
-        "Hardness Score": "10",
-        "Triplet #": "383",
-        "Anchor": "(5, 0, 0, 6)",
-        "Positive": "(5, 1, 2, 4)",
-        "Negative": "(4, 1, 2, 3)"
-    },
-    "445": {
-        "Hardness Score": "8",
-        "Triplet #": "445",
-        "Anchor": "(0, 1, 4, 1)",
-        "Positive": "(0, 2, 3, 4)",
-        "Negative": "(1, 2, 0, 3)"
-    },
-    "500": {
-        "Hardness Score": "6",
-        "Triplet #": "500",
-        "Anchor": "(0, 2, 0, 3)",
-        "Positive": "(0, 0, 6, 3)",
-        "Negative": "(2, 1, 0, 5)"
-    },
-    "120": {
-        "Hardness Score": "6",
-        "Triplet #": "120",
-        "Anchor": "(2, 0, 2, 6)",
-        "Positive": "(2, 0, 4, 3)",
-        "Negative": "(4, 2, 3, 2)"
-    },
-    "207": {
-        "Hardness Score": "7",
-        "Triplet #": "207",
-        "Anchor": "(3, 2, 5, 0)",
-        "Positive": "(3, 1, 5, 4)",
-        "Negative": "(1, 1, 3, 4)"
-    },
-    "145": {
-        "Hardness Score": "5",
-        "Triplet #": "145",
-        "Anchor": "(2, 1, 4, 3)",
-        "Positive": "(2, 2, 1, 4)",
-        "Negative": "(5, 0, 0, 5)"
-    },
-    "64": {
-        "Hardness Score": "7",
-        "Triplet #": "64",
-        "Anchor": "(4, 0, 0, 6)",
-        "Positive": "(4, 2, 4, 1)",
-        "Negative": "(1, 2, 5, 1)"
-    },
-    "306": {
-        "Hardness Score": "7",
-        "Triplet #": "306",
-        "Anchor": "(5, 1, 4, 6)",
-        "Positive": "(5, 0, 5, 2)",
-        "Negative": "(4, 2, 6, 0)"
-    },
-    "50": {
-        "Hardness Score": "7",
-        "Triplet #": "50",
-        "Anchor": "(0, 2, 1, 2)",
-        "Positive": "(0, 1, 2, 3)",
-        "Negative": "(2, 1, 6, 2)"
-    },
-    "369": {
-        "Hardness Score": "8",
-        "Triplet #": "369",
-        "Anchor": "(4, 0, 1, 6)",
-        "Positive": "(4, 1, 0, 0)",
-        "Negative": "(3, 1, 4, 6)"
-    },
-    "153": {
-        "Hardness Score": "2",
-        "Triplet #": "153",
-        "Anchor": "(4, 1, 6, 4)",
-        "Positive": "(4, 1, 6, 5)",
-        "Negative": "(0, 0, 4, 2)"
-    },
-    "168": {
-        "Hardness Score": "4",
-        "Triplet #": "168",
-        "Anchor": "(0, 2, 3, 1)",
-        "Positive": "(0, 1, 6, 1)",
-        "Negative": "(5, 1, 4, 5)"
-    },
-    "431": {
-        "Hardness Score": "9",
-        "Triplet #": "431",
-        "Anchor": "(0, 0, 0, 3)",
-        "Positive": "(0, 1, 2, 6)",
-        "Negative": "(1, 0, 2, 4)"
-    },
-    "302": {
-        "Hardness Score": "3",
-        "Triplet #": "302",
-        "Anchor": "(3, 0, 1, 4)",
-        "Positive": "(3, 0, 1, 4)",
-        "Negative": "(5, 0, 6, 4)"
-    },
-    "449": {
-        "Hardness Score": "6",
-        "Triplet #": "449",
-        "Anchor": "(4, 0, 2, 3)",
-        "Positive": "(4, 2, 3, 0)",
-        "Negative": "(2, 1, 6, 6)"
-    },
-    "433": {
-        "Hardness Score": "6",
-        "Triplet #": "433",
-        "Anchor": "(4, 0, 2, 1)",
-        "Positive": "(4, 1, 1, 3)",
-        "Negative": "(1, 0, 0, 3)"
-    },
-    "315": {
-        "Hardness Score": "6",
-        "Triplet #": "315",
-        "Anchor": "(4, 2, 0, 3)",
-        "Positive": "(4, 1, 5, 0)",
-        "Negative": "(0, 0, 2, 0)"
-    },
-    "118": {
-        "Hardness Score": "6",
-        "Triplet #": "118",
-        "Anchor": "(5, 2, 3, 2)",
-        "Positive": "(5, 1, 5, 0)",
-        "Negative": "(2, 0, 0, 0)"
-    },
-    "114": {
-        "Hardness Score": "3",
-        "Triplet #": "114",
-        "Anchor": "(3, 0, 2, 0)",
-        "Positive": "(3, 0, 2, 5)",
-        "Negative": "(0, 2, 6, 0)"
-    },
-    "334": {
-        "Hardness Score": "2",
-        "Triplet #": "334",
-        "Anchor": "(0, 0, 2, 1)",
-        "Positive": "(0, 0, 3, 1)",
-        "Negative": "(3, 2, 3, 5)"
-    },
-    "89": {
-        "Hardness Score": "8",
-        "Triplet #": "89",
-        "Anchor": "(5, 2, 1, 2)",
-        "Positive": "(5, 0, 4, 5)",
-        "Negative": "(3, 1, 3, 5)"
-    },
-    "110": {
-        "Hardness Score": "6",
-        "Triplet #": "110",
-        "Anchor": "(5, 1, 0, 0)",
-        "Positive": "(5, 1, 6, 6)",
-        "Negative": "(1, 1, 6, 5)"
-    },
-    "385": {
-        "Hardness Score": "4",
-        "Triplet #": "385",
-        "Anchor": "(0, 1, 3, 1)",
-        "Positive": "(0, 2, 3, 4)",
-        "Negative": "(4, 2, 6, 3)"
-    },
-    "400": {
-        "Hardness Score": "8",
-        "Triplet #": "400",
-        "Anchor": "(1, 2, 1, 5)",
-        "Positive": "(1, 0, 3, 4)",
-        "Negative": "(3, 0, 0, 6)"
-    },
-    "368": {
-        "Hardness Score": "5",
-        "Triplet #": "368",
-        "Anchor": "(2, 0, 5, 1)",
-        "Positive": "(2, 2, 3, 2)",
-        "Negative": "(5, 1, 0, 0)"
-    },
-    "254": {
-        "Hardness Score": "4",
-        "Triplet #": "254",
-        "Anchor": "(0, 0, 3, 2)",
-        "Positive": "(0, 2, 1, 2)",
-        "Negative": "(4, 1, 3, 1)"
-    },
-    "48": {
-        "Hardness Score": "3",
-        "Triplet #": "48",
-        "Anchor": "(0, 2, 5, 4)",
-        "Positive": "(0, 1, 6, 1)",
-        "Negative": "(5, 2, 1, 0)"
-    },
-    "25": {
-        "Hardness Score": "6",
-        "Triplet #": "25",
-        "Anchor": "(1, 1, 2, 0)",
-        "Positive": "(1, 1, 0, 0)",
-        "Negative": "(0, 1, 3, 1)"
-    },
-    "220": {
-        "Hardness Score": "8",
-        "Triplet #": "220",
-        "Anchor": "(5, 2, 2, 5)",
-        "Positive": "(5, 1, 5, 0)",
-        "Negative": "(4, 0, 0, 3)"
-    },
-    "421": {
-        "Hardness Score": "8",
-        "Triplet #": "421",
-        "Anchor": "(1, 0, 0, 3)",
-        "Positive": "(1, 0, 5, 6)",
-        "Negative": "(2, 2, 1, 6)"
-    },
-    "304": {
-        "Hardness Score": "2",
-        "Triplet #": "304",
-        "Anchor": "(0, 1, 6, 0)",
-        "Positive": "(0, 0, 6, 6)",
-        "Negative": "(5, 2, 3, 1)"
-    },
-    "172": {
-        "Hardness Score": "3",
-        "Triplet #": "172",
-        "Anchor": "(4, 2, 6, 3)",
-        "Positive": "(4, 1, 6, 3)",
-        "Negative": "(1, 2, 5, 0)"
-    },
-    "175": {
-        "Hardness Score": "5",
-        "Triplet #": "175",
-        "Anchor": "(2, 1, 3, 0)",
-        "Positive": "(2, 0, 3, 6)",
-        "Negative": "(4, 1, 2, 4)"
-    },
-    "340": {
-        "Hardness Score": "5",
-        "Triplet #": "340",
-        "Anchor": "(0, 1, 3, 4)",
-        "Positive": "(0, 1, 5, 4)",
-        "Negative": "(2, 1, 4, 4)"
-    },
-    "94": {
-        "Hardness Score": "5",
-        "Triplet #": "94",
-        "Anchor": "(4, 2, 6, 3)",
-        "Positive": "(4, 2, 4, 4)",
-        "Negative": "(2, 2, 2, 3)"
-    },
-    "328": {
-        "Hardness Score": "7",
-        "Triplet #": "328",
-        "Anchor": "(1, 0, 1, 0)",
-        "Positive": "(1, 0, 2, 4)",
-        "Negative": "(0, 2, 4, 4)"
-    },
-    "243": {
-        "Hardness Score": "9",
-        "Triplet #": "243",
-        "Anchor": "(4, 2, 0, 2)",
-        "Positive": "(4, 0, 4, 1)",
-        "Negative": "(1, 0, 4, 4)"
-    },
-    "103": {
-        "Hardness Score": "6",
-        "Triplet #": "103",
-        "Anchor": "(2, 0, 4, 0)",
-        "Positive": "(2, 0, 6, 2)",
-        "Negative": "(0, 1, 4, 1)"
-    },
-    "463": {
-        "Hardness Score": "7",
-        "Triplet #": "463",
-        "Anchor": "(3, 2, 2, 4)",
-        "Positive": "(3, 1, 3, 1)",
-        "Negative": "(5, 1, 6, 0)"
-    },
-    "61": {
-        "Hardness Score": "5",
-        "Triplet #": "61",
-        "Anchor": "(0, 2, 1, 0)",
-        "Positive": "(0, 0, 0, 3)",
-        "Negative": "(2, 2, 0, 6)"
-    },
-    "252": {
-        "Hardness Score": "3",
-        "Triplet #": "252",
-        "Anchor": "(0, 1, 1, 3)",
-        "Positive": "(0, 1, 3, 1)",
-        "Negative": "(4, 2, 5, 2)"
-    },
-    "105": {
-        "Hardness Score": "7",
-        "Triplet #": "105",
-        "Anchor": "(3, 0, 5, 2)",
-        "Positive": "(3, 1, 4, 2)",
-        "Negative": "(5, 1, 5, 3)"
-    },
-    "187": {
-        "Hardness Score": "6",
-        "Triplet #": "187",
-        "Anchor": "(1, 0, 4, 5)",
-        "Positive": "(1, 2, 3, 3)",
-        "Negative": "(2, 1, 3, 6)"
-    },
-    "288": {
-        "Hardness Score": "3",
-        "Triplet #": "288",
-        "Anchor": "(5, 2, 3, 4)",
-        "Positive": "(5, 1, 3, 0)",
-        "Negative": "(1, 0, 0, 5)"
-    },
-    "139": {
-        "Hardness Score": "6",
-        "Triplet #": "139",
-        "Anchor": "(0, 2, 4, 6)",
-        "Positive": "(0, 1, 4, 1)",
-        "Negative": "(2, 1, 4, 4)"
-    },
-    "435": {
-        "Hardness Score": "6",
-        "Triplet #": "435",
-        "Anchor": "(4, 1, 2, 6)",
-        "Positive": "(4, 2, 3, 0)",
-        "Negative": "(2, 0, 3, 0)"
-    },
-    "31": {
-        "Hardness Score": "5",
-        "Triplet #": "31",
-        "Anchor": "(3, 0, 3, 2)",
-        "Positive": "(3, 0, 2, 5)",
-        "Negative": "(5, 1, 0, 3)"
-    },
-    "210": {
-        "Hardness Score": "5",
-        "Triplet #": "210",
-        "Anchor": "(2, 2, 4, 5)",
-        "Positive": "(2, 2, 4, 2)",
-        "Negative": "(3, 1, 4, 6)"
-    },
-    "221": {
-        "Hardness Score": "7",
-        "Triplet #": "221",
-        "Anchor": "(2, 1, 6, 5)",
-        "Positive": "(2, 2, 2, 3)",
-        "Negative": "(0, 1, 5, 2)"
-    },
-    "53": {
-        "Hardness Score": "7",
-        "Triplet #": "53",
-        "Anchor": "(3, 0, 2, 1)",
-        "Positive": "(3, 1, 6, 3)",
-        "Negative": "(1, 0, 0, 2)"
-    },
-    "398": {
-        "Hardness Score": "6",
-        "Triplet #": "398",
-        "Anchor": "(1, 2, 3, 5)",
-        "Positive": "(1, 0, 4, 3)",
-        "Negative": "(3, 2, 0, 0)"
-    },
-    "401": {
-        "Hardness Score": "5",
-        "Triplet #": "401",
-        "Anchor": "(5, 2, 6, 6)",
-        "Positive": "(5, 1, 0, 4)",
-        "Negative": "(1, 2, 4, 6)"
-    },
-    "453": {
-        "Hardness Score": "6",
-        "Triplet #": "453",
-        "Anchor": "(4, 0, 3, 3)",
-        "Positive": "(4, 0, 0, 3)",
-        "Negative": "(5, 1, 4, 1)"
-    },
-    "294": {
-        "Hardness Score": "7",
-        "Triplet #": "294",
-        "Anchor": "(1, 2, 2, 6)",
-        "Positive": "(1, 2, 3, 2)",
-        "Negative": "(0, 2, 2, 1)"
-    },
-    "60": {
-        "Hardness Score": "7",
-        "Triplet #": "60",
-        "Anchor": "(2, 0, 1, 5)",
-        "Positive": "(2, 0, 3, 5)",
-        "Negative": "(3, 0, 3, 2)"
-    },
-    "498": {
-        "Hardness Score": "4",
-        "Triplet #": "498",
-        "Anchor": "(1, 0, 5, 1)",
-        "Positive": "(1, 2, 5, 2)",
-        "Negative": "(4, 1, 2, 6)"
-    },
-    "35": {
-        "Hardness Score": "8",
-        "Triplet #": "35",
-        "Anchor": "(4, 0, 3, 4)",
-        "Positive": "(4, 1, 6, 5)",
-        "Negative": "(1, 1, 6, 3)"
-    },
-    "355": {
-        "Hardness Score": "6",
-        "Triplet #": "355",
-        "Anchor": "(4, 0, 3, 2)",
-        "Positive": "(4, 1, 4, 2)",
-        "Negative": "(5, 2, 1, 6)"
-    },
-    "285": {
-        "Hardness Score": "7",
-        "Triplet #": "285",
-        "Anchor": "(2, 1, 5, 2)",
-        "Positive": "(2, 2, 4, 4)",
-        "Negative": "(1, 1, 3, 0)"
-    },
-    "196": {
-        "Hardness Score": "6",
-        "Triplet #": "196",
-        "Anchor": "(5, 1, 3, 3)",
-        "Positive": "(5, 2, 6, 5)",
-        "Negative": "(2, 1, 3, 0)"
-    },
-    "404": {
-        "Hardness Score": "8",
-        "Triplet #": "404",
-        "Anchor": "(4, 0, 1, 4)",
-        "Positive": "(4, 1, 4, 5)",
-        "Negative": "(5, 0, 0, 6)"
-    },
-    "282": {
-        "Hardness Score": "6",
-        "Triplet #": "282",
-        "Anchor": "(1, 2, 3, 2)",
-        "Positive": "(1, 2, 1, 3)",
-        "Negative": "(2, 0, 5, 6)"
-    },
-    "86": {
-        "Hardness Score": "5",
-        "Triplet #": "86",
-        "Anchor": "(4, 1, 5, 2)",
-        "Positive": "(4, 1, 6, 1)",
-        "Negative": "(0, 2, 5, 1)"
-    },
-    "338": {
-        "Hardness Score": "5",
-        "Triplet #": "338",
-        "Anchor": "(2, 2, 0, 2)",
-        "Positive": "(2, 0, 0, 2)",
-        "Negative": "(1, 1, 5, 0)"
-    },
-    "136": {
-        "Hardness Score": "4",
-        "Triplet #": "136",
-        "Anchor": "(0, 2, 5, 5)",
-        "Positive": "(0, 2, 3, 3)",
-        "Negative": "(3, 2, 2, 5)"
-    },
-    "389": {
-        "Hardness Score": "10",
-        "Triplet #": "389",
-        "Anchor": "(1, 2, 3, 4)",
-        "Positive": "(1, 0, 1, 5)",
-        "Negative": "(2, 0, 1, 3)"
-    },
-    "354": {
-        "Hardness Score": "6",
-        "Triplet #": "354",
-        "Anchor": "(5, 2, 6, 5)",
-        "Positive": "(5, 1, 4, 1)",
-        "Negative": "(2, 2, 6, 0)"
-    },
-    "305": {
-        "Hardness Score": "7",
-        "Triplet #": "305",
-        "Anchor": "(2, 0, 3, 0)",
-        "Positive": "(2, 2, 2, 2)",
-        "Negative": "(4, 0, 3, 5)"
-    },
-    "297": {
-        "Hardness Score": "3",
-        "Triplet #": "297",
-        "Anchor": "(0, 1, 6, 6)",
-        "Positive": "(0, 2, 6, 5)",
-        "Negative": "(4, 0, 0, 4)"
-    },
-    "186": {
-        "Hardness Score": "5",
-        "Triplet #": "186",
-        "Anchor": "(2, 2, 6, 1)",
-        "Positive": "(2, 1, 6, 5)",
-        "Negative": "(4, 0, 0, 4)"
-    },
-    "464": {
-        "Hardness Score": "3",
-        "Triplet #": "464",
-        "Anchor": "(5, 0, 3, 1)",
-        "Positive": "(5, 0, 6, 6)",
-        "Negative": "(0, 0, 4, 3)"
-    },
-    "21": {
-        "Hardness Score": "4",
-        "Triplet #": "21",
-        "Anchor": "(0, 0, 1, 3)",
-        "Positive": "(0, 2, 4, 0)",
-        "Negative": "(4, 1, 6, 6)"
-    },
-    "49": {
-        "Hardness Score": "10",
-        "Triplet #": "49",
-        "Anchor": "(0, 0, 0, 1)",
-        "Positive": "(0, 2, 4, 0)",
-        "Negative": "(1, 0, 4, 3)"
-    },
-    "417": {
-        "Hardness Score": "3",
-        "Triplet #": "417",
-        "Anchor": "(2, 2, 4, 1)",
-        "Positive": "(2, 2, 4, 2)",
-        "Negative": "(5, 0, 4, 6)"
-    },
-    "203": {
-        "Hardness Score": "8",
-        "Triplet #": "203",
-        "Anchor": "(5, 2, 3, 0)",
-        "Positive": "(5, 0, 0, 5)",
-        "Negative": "(4, 1, 5, 3)"
-    },
-    "44": {
-        "Hardness Score": "5",
-        "Triplet #": "44",
-        "Anchor": "(3, 2, 0, 2)",
-        "Positive": "(3, 0, 0, 2)",
-        "Negative": "(2, 2, 1, 5)"
-    },
-    "85": {
-        "Hardness Score": "6",
-        "Triplet #": "85",
-        "Anchor": "(4, 1, 5, 1)",
-        "Positive": "(4, 1, 4, 6)",
-        "Negative": "(3, 2, 3, 1)"
-    },
-    "70": {
-        "Hardness Score": "2",
-        "Triplet #": "70",
-        "Anchor": "(0, 0, 6, 5)",
-        "Positive": "(0, 0, 5, 2)",
-        "Negative": "(5, 2, 1, 3)"
-    },
-    "75": {
-        "Hardness Score": "7",
-        "Triplet #": "75",
-        "Anchor": "(4, 1, 0, 1)",
-        "Positive": "(4, 0, 6, 1)",
-        "Negative": "(3, 2, 2, 5)"
-    },
-    "166": {
-        "Hardness Score": "4",
-        "Triplet #": "166",
-        "Anchor": "(2, 0, 2, 0)",
-        "Positive": "(2, 0, 2, 1)",
-        "Negative": "(0, 0, 3, 5)"
-    },
-    "228": {
-        "Hardness Score": "9",
-        "Triplet #": "228",
-        "Anchor": "(3, 0, 4, 0)",
-        "Positive": "(3, 2, 0, 3)",
-        "Negative": "(5, 2, 3, 3)"
-    },
-    "413": {
-        "Hardness Score": "4",
-        "Triplet #": "413",
-        "Anchor": "(1, 0, 6, 1)",
-        "Positive": "(1, 0, 6, 5)",
-        "Negative": "(3, 1, 6, 2)"
-    },
-    "109": {
-        "Hardness Score": "4",
-        "Triplet #": "109",
-        "Anchor": "(1, 1, 4, 0)",
-        "Positive": "(1, 1, 3, 1)",
-        "Negative": "(5, 2, 5, 1)"
-    },
-    "331": {
-        "Hardness Score": "8",
-        "Triplet #": "331",
-        "Anchor": "(3, 0, 4, 5)",
-        "Positive": "(3, 2, 0, 3)",
-        "Negative": "(1, 2, 3, 0)"
-    },
-    "376": {
-        "Hardness Score": "5",
-        "Triplet #": "376",
-        "Anchor": "(1, 0, 5, 3)",
-        "Positive": "(1, 2, 3, 6)",
-        "Negative": "(4, 0, 1, 3)"
-    },
-    "298": {
-        "Hardness Score": "5",
-        "Triplet #": "298",
-        "Anchor": "(2, 2, 3, 2)",
-        "Positive": "(2, 0, 4, 1)",
-        "Negative": "(0, 1, 4, 6)"
-    },
-    "84": {
-        "Hardness Score": "7",
-        "Triplet #": "84",
-        "Anchor": "(4, 1, 6, 2)",
-        "Positive": "(4, 2, 2, 3)",
-        "Negative": "(2, 1, 4, 1)"
-    },
-    "425": {
-        "Hardness Score": "8",
-        "Triplet #": "425",
-        "Anchor": "(0, 0, 6, 2)",
-        "Positive": "(0, 2, 2, 1)",
-        "Negative": "(1, 0, 6, 4)"
-    },
-    "170": {
-        "Hardness Score": "3",
-        "Triplet #": "170",
-        "Anchor": "(0, 0, 5, 1)",
-        "Positive": "(0, 2, 4, 2)",
-        "Negative": "(5, 1, 6, 1)"
-    },
-    "345": {
-        "Hardness Score": "2",
-        "Triplet #": "345",
-        "Anchor": "(1, 0, 3, 6)",
-        "Positive": "(1, 0, 2, 6)",
-        "Negative": "(5, 2, 1, 1)"
-    },
-    "97": {
-        "Hardness Score": "8",
-        "Triplet #": "97",
-        "Anchor": "(0, 2, 2, 1)",
-        "Positive": "(0, 0, 5, 2)",
-        "Negative": "(1, 1, 4, 4)"
-    },
-    "379": {
-        "Hardness Score": "4",
-        "Triplet #": "379",
-        "Anchor": "(3, 0, 0, 1)",
-        "Positive": "(3, 0, 0, 2)",
-        "Negative": "(5, 0, 4, 4)"
-    },
-    "9": {
-        "Hardness Score": "3",
-        "Triplet #": "9",
-        "Anchor": "(0, 0, 3, 4)",
-        "Positive": "(0, 0, 2, 2)",
-        "Negative": "(5, 0, 3, 1)"
-    },
-    "91": {
-        "Hardness Score": "4",
-        "Triplet #": "91",
-        "Anchor": "(3, 2, 4, 6)",
-        "Positive": "(3, 2, 5, 3)",
-        "Negative": "(0, 1, 6, 0)"
-    },
-    "117": {
-        "Hardness Score": "8",
-        "Triplet #": "117",
-        "Anchor": "(3, 0, 5, 0)",
-        "Positive": "(3, 2, 4, 5)",
-        "Negative": "(2, 2, 1, 6)"
-    },
-    "260": {
-        "Hardness Score": "6",
-        "Triplet #": "260",
-        "Anchor": "(3, 2, 5, 2)",
-        "Positive": "(3, 0, 2, 1)",
-        "Negative": "(1, 1, 1, 4)"
-    },
-    "181": {
-        "Hardness Score": "7",
-        "Triplet #": "181",
-        "Anchor": "(3, 1, 5, 0)",
-        "Positive": "(3, 2, 5, 1)",
-        "Negative": "(4, 2, 0, 4)"
-    },
-    "327": {
-        "Hardness Score": "6",
-        "Triplet #": "327",
-        "Anchor": "(0, 2, 1, 4)",
-        "Positive": "(0, 2, 5, 4)",
-        "Negative": "(1, 2, 3, 3)"
-    },
-    "241": {
-        "Hardness Score": "9",
-        "Triplet #": "241",
-        "Anchor": "(1, 1, 4, 6)",
-        "Positive": "(1, 2, 6, 5)",
-        "Negative": "(0, 1, 3, 5)"
-    },
-    "424": {
-        "Hardness Score": "5",
-        "Triplet #": "424",
-        "Anchor": "(5, 0, 5, 6)",
-        "Positive": "(5, 2, 5, 1)",
-        "Negative": "(3, 0, 5, 4)"
-    },
-    "475": {
-        "Hardness Score": "6",
-        "Triplet #": "475",
-        "Anchor": "(1, 1, 5, 3)",
-        "Positive": "(1, 0, 2, 6)",
-        "Negative": "(4, 1, 3, 0)"
-    },
-    "324": {
-        "Hardness Score": "6",
-        "Triplet #": "324",
-        "Anchor": "(5, 2, 5, 3)",
-        "Positive": "(5, 1, 3, 3)",
-        "Negative": "(3, 1, 1, 2)"
-    },
-    "330": {
-        "Hardness Score": "6",
-        "Triplet #": "330",
-        "Anchor": "(2, 0, 5, 2)",
-        "Positive": "(2, 1, 5, 5)",
-        "Negative": "(4, 1, 0, 4)"
-    },
-    "482": {
-        "Hardness Score": "7",
-        "Triplet #": "482",
-        "Anchor": "(4, 0, 5, 6)",
-        "Positive": "(4, 1, 4, 5)",
-        "Negative": "(2, 0, 0, 5)"
-    },
-    "12": {
-        "Hardness Score": "6",
-        "Triplet #": "12",
-        "Anchor": "(2, 0, 2, 4)",
-        "Positive": "(2, 1, 1, 6)",
-        "Negative": "(5, 1, 0, 2)"
-    },
-    "82": {
-        "Hardness Score": "6",
-        "Triplet #": "82",
-        "Anchor": "(2, 0, 0, 1)",
-        "Positive": "(2, 1, 0, 3)",
-        "Negative": "(4, 1, 1, 5)"
-    },
-    "235": {
-        "Hardness Score": "9",
-        "Triplet #": "235",
-        "Anchor": "(5, 0, 1, 6)",
-        "Positive": "(5, 1, 3, 1)",
-        "Negative": "(4, 1, 2, 4)"
-    },
-    "459": {
-        "Hardness Score": "5",
-        "Triplet #": "459",
-        "Anchor": "(4, 0, 2, 3)",
-        "Positive": "(4, 2, 0, 1)",
-        "Negative": "(0, 1, 6, 1)"
-    },
-    "251": {
-        "Hardness Score": "6",
-        "Triplet #": "251",
-        "Anchor": "(2, 0, 0, 0)",
-        "Positive": "(2, 2, 0, 3)",
-        "Negative": "(0, 1, 2, 3)"
-    },
-    "447": {
-        "Hardness Score": "5",
-        "Triplet #": "447",
-        "Anchor": "(4, 2, 6, 6)",
-        "Positive": "(4, 1, 2, 0)",
-        "Negative": "(0, 2, 5, 6)"
-    },
-    "237": {
-        "Hardness Score": "6",
-        "Triplet #": "237",
-        "Anchor": "(3, 1, 2, 1)",
-        "Positive": "(3, 1, 4, 5)",
-        "Negative": "(5, 1, 1, 4)"
-    },
-    "198": {
-        "Hardness Score": "5",
-        "Triplet #": "198",
-        "Anchor": "(3, 2, 6, 5)",
-        "Positive": "(3, 2, 6, 6)",
-        "Negative": "(4, 0, 1, 5)"
-    },
-    "276": {
-        "Hardness Score": "7",
-        "Triplet #": "276",
-        "Anchor": "(4, 0, 2, 6)",
-        "Positive": "(4, 0, 5, 5)",
-        "Negative": "(2, 0, 4, 5)"
-    },
-    "194": {
-        "Hardness Score": "4",
-        "Triplet #": "194",
-        "Anchor": "(4, 0, 5, 5)",
-        "Positive": "(4, 0, 5, 2)",
-        "Negative": "(2, 0, 6, 0)"
-    },
-    "141": {
-        "Hardness Score": "4",
-        "Triplet #": "141",
-        "Anchor": "(4, 2, 5, 0)",
-        "Positive": "(4, 2, 1, 0)",
-        "Negative": "(2, 1, 0, 5)"
-    },
-    "126": {
-        "Hardness Score": "6",
-        "Triplet #": "126",
-        "Anchor": "(1, 2, 6, 5)",
-        "Positive": "(1, 0, 6, 6)",
-        "Negative": "(2, 2, 6, 1)"
-    },
-    "238": {
-        "Hardness Score": "5",
-        "Triplet #": "238",
-        "Anchor": "(2, 1, 0, 0)",
-        "Positive": "(2, 1, 6, 6)",
-        "Negative": "(5, 2, 3, 1)"
-    },
-    "295": {
-        "Hardness Score": "6",
-        "Triplet #": "295",
-        "Anchor": "(5, 0, 0, 1)",
-        "Positive": "(5, 2, 1, 3)",
-        "Negative": "(3, 0, 5, 1)"
-    },
-    "142": {
-        "Hardness Score": "6",
-        "Triplet #": "142",
-        "Anchor": "(0, 2, 6, 2)",
-        "Positive": "(0, 1, 3, 1)",
-        "Negative": "(3, 1, 1, 3)"
-    },
-    "95": {
-        "Hardness Score": "4",
-        "Triplet #": "95",
-        "Anchor": "(2, 0, 3, 5)",
-        "Positive": "(2, 0, 3, 3)",
-        "Negative": "(0, 0, 1, 5)"
-    },
-    "135": {
-        "Hardness Score": "4",
-        "Triplet #": "135",
-        "Anchor": "(5, 0, 1, 0)",
-        "Positive": "(5, 2, 0, 2)",
-        "Negative": "(1, 1, 4, 0)"
-    },
-    "233": {
-        "Hardness Score": "8",
-        "Triplet #": "233",
-        "Anchor": "(4, 0, 4, 5)",
-        "Positive": "(4, 2, 0, 1)",
-        "Negative": "(5, 1, 1, 3)"
-    },
-    "81": {
-        "Hardness Score": "5",
-        "Triplet #": "81",
-        "Anchor": "(0, 1, 6, 4)",
-        "Positive": "(0, 2, 3, 0)",
-        "Negative": "(3, 1, 1, 2)"
-    },
-    "448": {
-        "Hardness Score": "5",
-        "Triplet #": "448",
-        "Anchor": "(0, 0, 1, 4)",
-        "Positive": "(0, 1, 2, 6)",
-        "Negative": "(4, 1, 4, 2)"
-    },
-    "52": {
-        "Hardness Score": "4",
-        "Triplet #": "52",
-        "Anchor": "(0, 1, 6, 0)",
-        "Positive": "(0, 0, 1, 2)",
-        "Negative": "(4, 2, 0, 1)"
-    },
-    "27": {
-        "Hardness Score": "5",
-        "Triplet #": "27",
-        "Anchor": "(0, 1, 0, 4)",
-        "Positive": "(0, 0, 3, 0)",
-        "Negative": "(4, 0, 4, 5)"
-    },
-    "349": {
-        "Hardness Score": "8",
-        "Triplet #": "349",
-        "Anchor": "(2, 0, 5, 4)",
-        "Positive": "(2, 2, 3, 0)",
-        "Negative": "(3, 0, 4, 6)"
-    },
-    "468": {
-        "Hardness Score": "7",
-        "Triplet #": "468",
-        "Anchor": "(2, 2, 1, 3)",
-        "Positive": "(2, 2, 6, 6)",
-        "Negative": "(5, 0, 6, 1)"
-    },
-    "432": {
-        "Hardness Score": "5",
-        "Triplet #": "432",
-        "Anchor": "(4, 0, 6, 3)",
-        "Positive": "(4, 0, 3, 6)",
-        "Negative": "(2, 0, 1, 2)"
-    },
-    "111": {
-        "Hardness Score": "2",
-        "Triplet #": "111",
-        "Anchor": "(5, 0, 2, 3)",
-        "Positive": "(5, 0, 2, 0)",
-        "Negative": "(1, 1, 5, 3)"
-    },
-    "13": {
-        "Hardness Score": "9",
-        "Triplet #": "13",
-        "Anchor": "(1, 1, 1, 4)",
-        "Positive": "(1, 2, 5, 0)",
-        "Negative": "(0, 2, 1, 6)"
-    },
-    "253": {
-        "Hardness Score": "2",
-        "Triplet #": "253",
-        "Anchor": "(5, 2, 6, 1)",
-        "Positive": "(5, 2, 5, 1)",
-        "Negative": "(1, 1, 4, 1)"
-    },
-    "212": {
-        "Hardness Score": "5",
-        "Triplet #": "212",
-        "Anchor": "(5, 0, 2, 4)",
-        "Positive": "(5, 1, 3, 6)",
-        "Negative": "(1, 0, 1, 6)"
-    },
-    "414": {
-        "Hardness Score": "8",
-        "Triplet #": "414",
-        "Anchor": "(0, 0, 3, 5)",
-        "Positive": "(0, 2, 1, 1)",
-        "Negative": "(1, 1, 4, 3)"
-    },
-    "396": {
-        "Hardness Score": "6",
-        "Triplet #": "396",
-        "Anchor": "(4, 2, 1, 1)",
-        "Positive": "(4, 1, 2, 5)",
-        "Negative": "(2, 2, 3, 0)"
-    },
-    "123": {
-        "Hardness Score": "5",
-        "Triplet #": "123",
-        "Anchor": "(2, 0, 2, 1)",
-        "Positive": "(2, 2, 3, 1)",
-        "Negative": "(5, 2, 5, 5)"
-    },
-    "155": {
-        "Hardness Score": "5",
-        "Triplet #": "155",
-        "Anchor": "(3, 2, 1, 5)",
-        "Positive": "(3, 0, 3, 3)",
-        "Negative": "(0, 2, 4, 5)"
-    },
-    "93": {
-        "Hardness Score": "7",
-        "Triplet #": "93",
-        "Anchor": "(5, 0, 4, 5)",
-        "Positive": "(5, 1, 5, 3)",
-        "Negative": "(3, 1, 5, 3)"
-    },
-    "144": {
-        "Hardness Score": "7",
-        "Triplet #": "144",
-        "Anchor": "(4, 1, 0, 1)",
-        "Positive": "(4, 1, 3, 0)",
-        "Negative": "(5, 2, 0, 4)"
-    },
-    "466": {
-        "Hardness Score": "9",
-        "Triplet #": "466",
-        "Anchor": "(4, 2, 6, 6)",
-        "Positive": "(4, 0, 1, 0)",
-        "Negative": "(5, 0, 3, 6)"
-    },
-    "171": {
-        "Hardness Score": "6",
-        "Triplet #": "171",
-        "Anchor": "(5, 2, 2, 2)",
-        "Positive": "(5, 0, 5, 2)",
-        "Negative": "(3, 1, 2, 2)"
-    },
-    "279": {
-        "Hardness Score": "5",
-        "Triplet #": "279",
-        "Anchor": "(3, 2, 5, 4)",
-        "Positive": "(3, 2, 2, 5)",
-        "Negative": "(5, 0, 1, 3)"
-    },
-    "344": {
-        "Hardness Score": "8",
-        "Triplet #": "344",
-        "Anchor": "(3, 0, 0, 6)",
-        "Positive": "(3, 2, 6, 6)",
-        "Negative": "(5, 0, 6, 0)"
-    },
-    "416": {
-        "Hardness Score": "7",
-        "Triplet #": "416",
-        "Anchor": "(5, 0, 2, 0)",
-        "Positive": "(5, 0, 0, 0)",
-        "Negative": "(4, 0, 0, 5)"
-    },
-    "480": {
-        "Hardness Score": "5",
-        "Triplet #": "480",
-        "Anchor": "(5, 1, 4, 2)",
-        "Positive": "(5, 0, 1, 3)",
-        "Negative": "(1, 1, 5, 6)"
-    },
-    "488": {
-        "Hardness Score": "7",
-        "Triplet #": "488",
-        "Anchor": "(5, 2, 5, 4)",
-        "Positive": "(5, 0, 3, 3)",
-        "Negative": "(3, 2, 4, 1)"
-    },
-    "486": {
-        "Hardness Score": "7",
-        "Triplet #": "486",
-        "Anchor": "(5, 1, 4, 6)",
-        "Positive": "(5, 0, 1, 5)",
-        "Negative": "(2, 0, 3, 0)"
-    },
-    "490": {
-        "Hardness Score": "5",
-        "Triplet #": "490",
-        "Anchor": "(2, 1, 0, 5)",
-        "Positive": "(2, 1, 5, 0)",
-        "Negative": "(5, 1, 4, 5)"
-    },
-    "257": {
-        "Hardness Score": "10",
-        "Triplet #": "257",
-        "Anchor": "(1, 1, 0, 2)",
-        "Positive": "(1, 2, 6, 1)",
-        "Negative": "(0, 0, 6, 0)"
-    },
-    "63": {
-        "Hardness Score": "4",
-        "Triplet #": "63",
-        "Anchor": "(5, 1, 4, 3)",
-        "Positive": "(5, 0, 1, 4)",
-        "Negative": "(0, 1, 2, 6)"
-    },
-    "225": {
-        "Hardness Score": "6",
-        "Triplet #": "225",
-        "Anchor": "(3, 0, 1, 5)",
-        "Positive": "(3, 1, 1, 2)",
-        "Negative": "(5, 0, 6, 2)"
-    },
-    "250": {
-        "Hardness Score": "9",
-        "Triplet #": "250",
-        "Anchor": "(2, 0, 4, 3)",
-        "Positive": "(2, 0, 0, 1)",
-        "Negative": "(1, 0, 0, 2)"
-    },
-    "437": {
-        "Hardness Score": "10",
-        "Triplet #": "437",
-        "Anchor": "(3, 0, 5, 2)",
-        "Positive": "(3, 1, 0, 0)",
-        "Negative": "(5, 1, 0, 3)"
-    },
-    "450": {
-        "Hardness Score": "4",
-        "Triplet #": "450",
-        "Anchor": "(5, 0, 4, 4)",
-        "Positive": "(5, 2, 5, 4)",
-        "Negative": "(0, 2, 4, 5)"
-    },
-    "133": {
-        "Hardness Score": "5",
-        "Triplet #": "133",
-        "Anchor": "(3, 0, 3, 6)",
-        "Positive": "(3, 0, 5, 1)",
-        "Negative": "(5, 0, 1, 4)"
-    },
-    "337": {
-        "Hardness Score": "7",
-        "Triplet #": "337",
-        "Anchor": "(5, 2, 6, 0)",
-        "Positive": "(5, 0, 5, 4)",
-        "Negative": "(3, 0, 4, 6)"
-    },
-    "201": {
-        "Hardness Score": "8",
-        "Triplet #": "201",
-        "Anchor": "(1, 2, 6, 3)",
-        "Positive": "(1, 1, 4, 0)",
-        "Negative": "(3, 1, 5, 4)"
-    },
-    "156": {
-        "Hardness Score": "4",
-        "Triplet #": "156",
-        "Anchor": "(5, 0, 2, 2)",
-        "Positive": "(5, 1, 3, 0)",
-        "Negative": "(0, 0, 2, 6)"
-    },
-    "310": {
-        "Hardness Score": "7",
-        "Triplet #": "310",
-        "Anchor": "(3, 0, 0, 5)",
-        "Positive": "(3, 1, 3, 6)",
-        "Negative": "(1, 0, 0, 5)"
-    },
-    "292": {
-        "Hardness Score": "2",
-        "Triplet #": "292",
-        "Anchor": "(1, 2, 4, 3)",
-        "Positive": "(1, 2, 4, 1)",
-        "Negative": "(5, 0, 5, 4)"
-    },
-    "37": {
-        "Hardness Score": "6",
-        "Triplet #": "37",
-        "Anchor": "(3, 2, 0, 3)",
-        "Positive": "(3, 1, 1, 4)",
-        "Negative": "(5, 2, 3, 5)"
-    },
-    "403": {
-        "Hardness Score": "7",
-        "Triplet #": "403",
-        "Anchor": "(2, 1, 6, 1)",
-        "Positive": "(2, 0, 4, 3)",
-        "Negative": "(4, 0, 1, 5)"
-    },
-    "357": {
-        "Hardness Score": "5",
-        "Triplet #": "357",
-        "Anchor": "(0, 2, 2, 1)",
-        "Positive": "(0, 2, 5, 5)",
-        "Negative": "(3, 2, 2, 0)"
-    },
-    "281": {
-        "Hardness Score": "7",
-        "Triplet #": "281",
-        "Anchor": "(0, 1, 1, 0)",
-        "Positive": "(0, 2, 0, 1)",
-        "Negative": "(4, 2, 1, 1)"
-    },
-    "183": {
-        "Hardness Score": "6",
-        "Triplet #": "183",
-        "Anchor": "(1, 1, 5, 2)",
-        "Positive": "(1, 1, 2, 1)",
-        "Negative": "(3, 0, 6, 4)"
-    },
-    "65": {
-        "Hardness Score": "10",
-        "Triplet #": "65",
-        "Anchor": "(4, 1, 6, 1)",
-        "Positive": "(4, 2, 2, 4)",
-        "Negative": "(3, 0, 2, 5)"
-    },
-    "236": {
-        "Hardness Score": "4",
-        "Triplet #": "236",
-        "Anchor": "(5, 0, 6, 3)",
-        "Positive": "(5, 2, 6, 0)",
-        "Negative": "(2, 0, 1, 6)"
-    },
-    "132": {
-        "Hardness Score": "7",
-        "Triplet #": "132",
-        "Anchor": "(3, 2, 4, 3)",
-        "Positive": "(3, 1, 1, 5)",
-        "Negative": "(1, 2, 3, 4)"
-    },
-    "312": {
-        "Hardness Score": "6",
-        "Triplet #": "312",
-        "Anchor": "(2, 2, 3, 4)",
-        "Positive": "(2, 0, 3, 0)",
-        "Negative": "(3, 1, 4, 1)"
-    },
-    "226": {
-        "Hardness Score": "6",
-        "Triplet #": "226",
-        "Anchor": "(0, 1, 6, 0)",
-        "Positive": "(0, 1, 0, 0)",
-        "Negative": "(1, 0, 3, 0)"
-    },
-    "269": {
-        "Hardness Score": "5",
-        "Triplet #": "269",
-        "Anchor": "(5, 0, 1, 3)",
-        "Positive": "(5, 2, 6, 2)",
-        "Negative": "(1, 1, 2, 1)"
-    },
-    "90": {
-        "Hardness Score": "5",
-        "Triplet #": "90",
-        "Anchor": "(3, 0, 5, 3)",
-        "Positive": "(3, 0, 4, 4)",
-        "Negative": "(0, 0, 2, 4)"
-    },
-    "259": {
-        "Hardness Score": "8",
-        "Triplet #": "259",
-        "Anchor": "(3, 0, 3, 4)",
-        "Positive": "(3, 2, 6, 2)",
-        "Negative": "(4, 1, 4, 0)"
-    },
-    "339": {
-        "Hardness Score": "8",
-        "Triplet #": "339",
-        "Anchor": "(4, 0, 6, 6)",
-        "Positive": "(4, 1, 0, 4)",
-        "Negative": "(5, 2, 1, 1)"
-    },
-    "72": {
-        "Hardness Score": "8",
-        "Triplet #": "72",
-        "Anchor": "(0, 1, 2, 1)",
-        "Positive": "(0, 2, 6, 5)",
-        "Negative": "(1, 1, 1, 3)"
-    },
-    "54": {
-        "Hardness Score": "3",
-        "Triplet #": "54",
-        "Anchor": "(5, 2, 1, 0)",
-        "Positive": "(5, 2, 1, 2)",
-        "Negative": "(2, 0, 0, 1)"
-    },
-    "484": {
-        "Hardness Score": "6",
-        "Triplet #": "484",
-        "Anchor": "(3, 1, 1, 3)",
-        "Positive": "(3, 2, 3, 3)",
-        "Negative": "(2, 1, 6, 2)"
-    },
-    "441": {
-        "Hardness Score": "4",
-        "Triplet #": "441",
-        "Anchor": "(2, 0, 0, 2)",
-        "Positive": "(2, 2, 3, 2)",
-        "Negative": "(5, 0, 5, 5)"
-    },
-    "418": {
-        "Hardness Score": "8",
-        "Triplet #": "418",
-        "Anchor": "(5, 2, 1, 4)",
-        "Positive": "(5, 1, 4, 4)",
-        "Negative": "(3, 1, 4, 2)"
-    },
-    "122": {
-        "Hardness Score": "7",
-        "Triplet #": "122",
-        "Anchor": "(1, 0, 0, 0)",
-        "Positive": "(1, 2, 6, 5)",
-        "Negative": "(3, 0, 2, 3)"
-    },
-    "266": {
-        "Hardness Score": "7",
-        "Triplet #": "266",
-        "Anchor": "(2, 0, 6, 2)",
-        "Positive": "(2, 2, 5, 5)",
-        "Negative": "(3, 0, 4, 0)"
-    },
-    "487": {
-        "Hardness Score": "3",
-        "Triplet #": "487",
-        "Anchor": "(0, 2, 0, 6)",
-        "Positive": "(0, 0, 1, 1)",
-        "Negative": "(5, 0, 1, 5)"
-    },
-    "402": {
-        "Hardness Score": "6",
-        "Triplet #": "402",
-        "Anchor": "(2, 0, 3, 4)",
-        "Positive": "(2, 0, 4, 1)",
-        "Negative": "(0, 1, 6, 1)"
-    },
-    "390": {
-        "Hardness Score": "3",
-        "Triplet #": "390",
-        "Anchor": "(1, 2, 5, 0)",
-        "Positive": "(1, 2, 3, 1)",
-        "Negative": "(5, 0, 0, 5)"
-    },
-    "375": {
-        "Hardness Score": "6",
-        "Triplet #": "375",
-        "Anchor": "(1, 0, 2, 3)",
-        "Positive": "(1, 1, 6, 3)",
-        "Negative": "(5, 2, 6, 6)"
-    },
-    "39": {
-        "Hardness Score": "3",
-        "Triplet #": "39",
-        "Anchor": "(2, 1, 5, 2)",
-        "Positive": "(2, 0, 5, 2)",
-        "Negative": "(5, 1, 5, 4)"
-    },
-    "420": {
-        "Hardness Score": "6",
-        "Triplet #": "420",
-        "Anchor": "(0, 0, 3, 1)",
-        "Positive": "(0, 2, 1, 0)",
-        "Negative": "(3, 0, 2, 5)"
-    },
-    "214": {
-        "Hardness Score": "8",
-        "Triplet #": "214",
-        "Anchor": "(3, 0, 4, 0)",
-        "Positive": "(3, 1, 1, 4)",
-        "Negative": "(2, 2, 6, 5)"
-    },
-    "461": {
-        "Hardness Score": "4",
-        "Triplet #": "461",
-        "Anchor": "(4, 1, 2, 1)",
-        "Positive": "(4, 0, 5, 1)",
-        "Negative": "(0, 1, 3, 2)"
-    },
-    "465": {
-        "Hardness Score": "5",
-        "Triplet #": "465",
-        "Anchor": "(5, 1, 5, 4)",
-        "Positive": "(5, 0, 4, 6)",
-        "Negative": "(1, 0, 0, 5)"
-    },
-    "99": {
-        "Hardness Score": "5",
-        "Triplet #": "99",
-        "Anchor": "(5, 0, 0, 6)",
-        "Positive": "(5, 0, 0, 3)",
-        "Negative": "(4, 1, 2, 2)"
-    },
-    "256": {
-        "Hardness Score": "5",
-        "Triplet #": "256",
-        "Anchor": "(5, 1, 2, 1)",
-        "Positive": "(5, 2, 4, 6)",
-        "Negative": "(0, 2, 3, 1)"
-    },
-    "182": {
-        "Hardness Score": "7",
-        "Triplet #": "182",
-        "Anchor": "(1, 1, 2, 3)",
-        "Positive": "(1, 1, 3, 6)",
-        "Negative": "(2, 0, 2, 1)"
-    },
-    "457": {
-        "Hardness Score": "9",
-        "Triplet #": "457",
-        "Anchor": "(3, 1, 0, 4)",
-        "Positive": "(3, 0, 1, 0)",
-        "Negative": "(4, 0, 0, 2)"
-    },
-    "392": {
-        "Hardness Score": "7",
-        "Triplet #": "392",
-        "Anchor": "(1, 1, 2, 1)",
-        "Positive": "(1, 0, 6, 5)",
-        "Negative": "(4, 1, 3, 5)"
-    },
-    "121": {
-        "Hardness Score": "5",
-        "Triplet #": "121",
-        "Anchor": "(2, 2, 1, 3)",
-        "Positive": "(2, 0, 0, 6)",
-        "Negative": "(4, 2, 0, 2)"
-    },
-    "321": {
-        "Hardness Score": "4",
-        "Triplet #": "321",
-        "Anchor": "(1, 2, 2, 1)",
-        "Positive": "(1, 2, 2, 5)",
-        "Negative": "(3, 0, 4, 2)"
-    },
-    "395": {
-        "Hardness Score": "8",
-        "Triplet #": "395",
-        "Anchor": "(5, 1, 1, 5)",
-        "Positive": "(5, 0, 3, 0)",
-        "Negative": "(2, 0, 3, 6)"
-    },
-    "197": {
-        "Hardness Score": "6",
-        "Triplet #": "197",
-        "Anchor": "(2, 2, 4, 0)",
-        "Positive": "(2, 1, 6, 6)",
-        "Negative": "(5, 1, 2, 5)"
-    },
-    "496": {
-        "Hardness Score": "8",
-        "Triplet #": "496",
-        "Anchor": "(1, 1, 6, 2)",
-        "Positive": "(1, 0, 2, 6)",
-        "Negative": "(3, 0, 6, 3)"
-    },
-    "68": {
-        "Hardness Score": "8",
-        "Triplet #": "68",
-        "Anchor": "(2, 0, 5, 5)",
-        "Positive": "(2, 0, 3, 0)",
-        "Negative": "(3, 0, 3, 5)"
-    },
-    "356": {
-        "Hardness Score": "6",
-        "Triplet #": "356",
-        "Anchor": "(0, 1, 0, 0)",
-        "Positive": "(0, 2, 0, 2)",
-        "Negative": "(2, 2, 5, 4)"
-    },
-    "43": {
-        "Hardness Score": "6",
-        "Triplet #": "43",
-        "Anchor": "(1, 2, 6, 0)",
-        "Positive": "(1, 0, 5, 4)",
-        "Negative": "(4, 0, 1, 1)"
-    },
-    "478": {
-        "Hardness Score": "6",
-        "Triplet #": "478",
-        "Anchor": "(3, 1, 0, 6)",
-        "Positive": "(3, 0, 4, 2)",
-        "Negative": "(0, 2, 2, 0)"
-    },
-    "59": {
-        "Hardness Score": "7",
-        "Triplet #": "59",
-        "Anchor": "(2, 0, 5, 2)",
-        "Positive": "(2, 1, 6, 0)",
-        "Negative": "(3, 0, 3, 3)"
-    },
-    "429": {
-        "Hardness Score": "6",
-        "Triplet #": "429",
-        "Anchor": "(2, 0, 4, 2)",
-        "Positive": "(2, 0, 4, 5)",
-        "Negative": "(1, 1, 4, 5)"
-    },
-    "240": {
-        "Hardness Score": "5",
-        "Triplet #": "240",
-        "Anchor": "(1, 1, 6, 3)",
-        "Positive": "(1, 2, 5, 2)",
-        "Negative": "(5, 2, 3, 3)"
-    },
-    "193": {
-        "Hardness Score": "8",
-        "Triplet #": "193",
-        "Anchor": "(2, 0, 3, 1)",
-        "Positive": "(2, 0, 5, 5)",
-        "Negative": "(3, 0, 5, 4)"
-    },
-    "185": {
-        "Hardness Score": "4",
-        "Triplet #": "185",
-        "Anchor": "(0, 2, 3, 0)",
-        "Positive": "(0, 1, 6, 0)",
-        "Negative": "(4, 0, 3, 3)"
-    },
-    "128": {
-        "Hardness Score": "4",
-        "Triplet #": "128",
-        "Anchor": "(5, 2, 3, 6)",
-        "Positive": "(5, 1, 1, 6)",
-        "Negative": "(0, 1, 3, 6)"
-    },
-    "493": {
-        "Hardness Score": "3",
-        "Triplet #": "493",
-        "Anchor": "(4, 2, 3, 3)",
-        "Positive": "(4, 0, 4, 3)",
-        "Negative": "(1, 2, 4, 5)"
-    },
-    "491": {
-        "Hardness Score": "4",
-        "Triplet #": "491",
-        "Anchor": "(4, 1, 5, 2)",
-        "Positive": "(4, 2, 6, 2)",
-        "Negative": "(0, 2, 0, 3)"
-    },
-    "17": {
-        "Hardness Score": "6",
-        "Triplet #": "17",
-        "Anchor": "(2, 1, 5, 1)",
-        "Positive": "(2, 1, 2, 6)",
-        "Negative": "(3, 1, 1, 3)"
-    },
-    "415": {
-        "Hardness Score": "5",
-        "Triplet #": "415",
-        "Anchor": "(5, 1, 0, 5)",
-        "Positive": "(5, 0, 6, 4)",
-        "Negative": "(0, 0, 0, 1)"
-    },
-    "323": {
-        "Hardness Score": "7",
-        "Triplet #": "323",
-        "Anchor": "(4, 2, 3, 0)",
-        "Positive": "(4, 1, 4, 1)",
-        "Negative": "(2, 2, 5, 1)"
-    },
-    "140": {
-        "Hardness Score": "7",
-        "Triplet #": "140",
-        "Anchor": "(4, 0, 4, 5)",
-        "Positive": "(4, 2, 5, 1)",
-        "Negative": "(3, 2, 5, 3)"
-    },
-    "365": {
-        "Hardness Score": "4",
-        "Triplet #": "365",
-        "Anchor": "(5, 1, 6, 2)",
-        "Positive": "(5, 2, 0, 6)",
-        "Negative": "(0, 1, 1, 3)"
-    },
-    "218": {
-        "Hardness Score": "7",
-        "Triplet #": "218",
-        "Anchor": "(3, 1, 0, 0)",
-        "Positive": "(3, 1, 3, 1)",
-        "Negative": "(1, 1, 3, 4)"
-    },
-    "409": {
-        "Hardness Score": "7",
-        "Triplet #": "409",
-        "Anchor": "(2, 0, 1, 0)",
-        "Positive": "(2, 2, 2, 4)",
-        "Negative": "(4, 1, 4, 4)"
-    },
-    "162": {
-        "Hardness Score": "4",
-        "Triplet #": "162",
-        "Anchor": "(2, 0, 0, 0)",
-        "Positive": "(2, 2, 3, 0)",
-        "Negative": "(5, 0, 5, 3)"
-    },
-    "227": {
-        "Hardness Score": "5",
-        "Triplet #": "227",
-        "Anchor": "(2, 0, 4, 3)",
-        "Positive": "(2, 0, 5, 6)",
-        "Negative": "(4, 0, 0, 0)"
-    },
-    "178": {
-        "Hardness Score": "4",
-        "Triplet #": "178",
-        "Anchor": "(1, 0, 0, 1)",
-        "Positive": "(1, 2, 0, 2)",
-        "Negative": "(4, 0, 6, 1)"
-    },
-    "422": {
-        "Hardness Score": "7",
-        "Triplet #": "422",
-        "Anchor": "(3, 1, 6, 0)",
-        "Positive": "(3, 2, 3, 6)",
-        "Negative": "(4, 1, 1, 0)"
-    },
-    "267": {
-        "Hardness Score": "10",
-        "Triplet #": "267",
-        "Anchor": "(1, 0, 6, 4)",
-        "Positive": "(1, 2, 0, 6)",
-        "Negative": "(2, 0, 0, 5)"
-    },
-    "386": {
-        "Hardness Score": "3",
-        "Triplet #": "386",
-        "Anchor": "(0, 0, 1, 3)",
-        "Positive": "(0, 1, 1, 2)",
-        "Negative": "(5, 2, 3, 2)"
-    },
-    "434": {
-        "Hardness Score": "7",
-        "Triplet #": "434",
-        "Anchor": "(2, 0, 4, 1)",
-        "Positive": "(2, 0, 5, 4)",
-        "Negative": "(3, 1, 1, 4)"
-    },
-    "147": {
-        "Hardness Score": "6",
-        "Triplet #": "147",
-        "Anchor": "(3, 1, 3, 6)",
-        "Positive": "(3, 0, 2, 1)",
-        "Negative": "(5, 1, 1, 5)"
-    },
-    "410": {
-        "Hardness Score": "7",
-        "Triplet #": "410",
-        "Anchor": "(5, 2, 6, 3)",
-        "Positive": "(5, 0, 3, 6)",
-        "Negative": "(1, 0, 3, 5)"
-    },
-    "18": {
-        "Hardness Score": "6",
-        "Triplet #": "18",
-        "Anchor": "(4, 0, 1, 2)",
-        "Positive": "(4, 1, 3, 2)",
-        "Negative": "(5, 0, 4, 5)"
-    },
-    "499": {
-        "Hardness Score": "5",
-        "Triplet #": "499",
-        "Anchor": "(5, 2, 6, 2)",
-        "Positive": "(5, 1, 1, 3)",
-        "Negative": "(1, 0, 4, 6)"
-    },
-    "263": {
-        "Hardness Score": "5",
-        "Triplet #": "263",
-        "Anchor": "(0, 1, 3, 1)",
-        "Positive": "(0, 2, 2, 6)",
-        "Negative": "(4, 2, 6, 0)"
-    },
-    "234": {
-        "Hardness Score": "7",
-        "Triplet #": "234",
-        "Anchor": "(2, 1, 4, 2)",
-        "Positive": "(2, 1, 6, 5)",
-        "Negative": "(0, 1, 6, 2)"
-    },
-    "66": {
-        "Hardness Score": "7",
-        "Triplet #": "66",
-        "Anchor": "(2, 2, 2, 4)",
-        "Positive": "(2, 2, 0, 6)",
-        "Negative": "(1, 2, 1, 4)"
-    },
-    "317": {
-        "Hardness Score": "5",
-        "Triplet #": "317",
-        "Anchor": "(4, 0, 5, 2)",
-        "Positive": "(4, 0, 2, 5)",
-        "Negative": "(1, 1, 5, 0)"
-    },
-    "204": {
-        "Hardness Score": "8",
-        "Triplet #": "204",
-        "Anchor": "(2, 2, 0, 6)",
-        "Positive": "(2, 1, 1, 1)",
-        "Negative": "(3, 1, 2, 0)"
-    },
-    "176": {
-        "Hardness Score": "4",
-        "Triplet #": "176",
-        "Anchor": "(4, 0, 4, 4)",
-        "Positive": "(4, 0, 4, 4)",
-        "Negative": "(5, 0, 4, 6)"
-    },
-    "222": {
-        "Hardness Score": "7",
-        "Triplet #": "222",
-        "Anchor": "(1, 2, 0, 3)",
-        "Positive": "(1, 2, 6, 1)",
-        "Negative": "(0, 1, 4, 3)"
-    },
-    "119": {
-        "Hardness Score": "4",
-        "Triplet #": "119",
-        "Anchor": "(4, 2, 1, 5)",
-        "Positive": "(4, 0, 2, 6)",
-        "Negative": "(0, 0, 2, 0)"
-    },
-    "11": {
-        "Hardness Score": "5",
-        "Triplet #": "11",
-        "Anchor": "(4, 1, 5, 4)",
-        "Positive": "(4, 1, 4, 4)",
-        "Negative": "(3, 2, 2, 3)"
-    },
-    "428": {
-        "Hardness Score": "5",
-        "Triplet #": "428",
-        "Anchor": "(3, 1, 6, 1)",
-        "Positive": "(3, 1, 6, 6)",
-        "Negative": "(4, 0, 4, 3)"
-    },
-    "278": {
-        "Hardness Score": "6",
-        "Triplet #": "278",
-        "Anchor": "(4, 2, 1, 2)",
-        "Positive": "(4, 0, 4, 2)",
-        "Negative": "(2, 2, 0, 5)"
-    },
-    "270": {
-        "Hardness Score": "5",
-        "Triplet #": "270",
-        "Anchor": "(1, 2, 6, 3)",
-        "Positive": "(1, 0, 6, 2)",
-        "Negative": "(4, 0, 1, 1)"
-    },
-    "343": {
-        "Hardness Score": "5",
-        "Triplet #": "343",
-        "Anchor": "(5, 1, 0, 5)",
-        "Positive": "(5, 2, 0, 5)",
-        "Negative": "(4, 0, 3, 6)"
-    },
-    "255": {
-        "Hardness Score": "9",
-        "Triplet #": "255",
-        "Anchor": "(3, 2, 1, 6)",
-        "Positive": "(3, 1, 4, 0)",
-        "Negative": "(4, 2, 4, 5)"
-    },
-    "262": {
-        "Hardness Score": "5",
-        "Triplet #": "262",
-        "Anchor": "(0, 1, 4, 3)",
-        "Positive": "(0, 1, 3, 6)",
-        "Negative": "(2, 0, 1, 3)"
-    },
-    "134": {
-        "Hardness Score": "7",
-        "Triplet #": "134",
-        "Anchor": "(0, 0, 4, 0)",
-        "Positive": "(0, 1, 5, 1)",
-        "Negative": "(2, 1, 2, 0)"
-    },
-    "332": {
-        "Hardness Score": "6",
-        "Triplet #": "332",
-        "Anchor": "(3, 1, 6, 3)",
-        "Positive": "(3, 1, 2, 5)",
-        "Negative": "(1, 0, 5, 3)"
-    },
-    "467": {
-        "Hardness Score": "7",
-        "Triplet #": "467",
-        "Anchor": "(0, 1, 4, 5)",
-        "Positive": "(0, 0, 6, 0)",
-        "Negative": "(2, 1, 1, 0)"
-    },
-    "205": {
-        "Hardness Score": "5",
-        "Triplet #": "205",
-        "Anchor": "(1, 2, 3, 1)",
-        "Positive": "(1, 2, 2, 2)",
-        "Negative": "(3, 1, 5, 0)"
-    },
-    "154": {
-        "Hardness Score": "7",
-        "Triplet #": "154",
-        "Anchor": "(1, 1, 2, 0)",
-        "Positive": "(1, 1, 6, 5)",
-        "Negative": "(0, 0, 4, 1)"
-    },
-    "191": {
-        "Hardness Score": "4",
-        "Triplet #": "191",
-        "Anchor": "(3, 1, 1, 4)",
-        "Positive": "(3, 1, 2, 1)",
-        "Negative": "(0, 2, 0, 6)"
-    },
-    "231": {
-        "Hardness Score": "4",
-        "Triplet #": "231",
-        "Anchor": "(3, 0, 0, 2)",
-        "Positive": "(3, 0, 0, 2)",
-        "Negative": "(4, 1, 0, 6)"
-    },
-    "325": {
-        "Hardness Score": "5",
-        "Triplet #": "325",
-        "Anchor": "(4, 1, 3, 5)",
-        "Positive": "(4, 2, 2, 5)",
-        "Negative": "(1, 2, 1, 6)"
-    },
-    "22": {
-        "Hardness Score": "5",
-        "Triplet #": "22",
-        "Anchor": "(2, 2, 0, 1)",
-        "Positive": "(2, 2, 0, 5)",
-        "Negative": "(3, 2, 1, 4)"
-    },
-    "313": {
-        "Hardness Score": "7",
-        "Triplet #": "313",
-        "Anchor": "(5, 2, 3, 1)",
-        "Positive": "(5, 1, 4, 5)",
-        "Negative": "(4, 2, 2, 2)"
-    },
-    "277": {
-        "Hardness Score": "8",
-        "Triplet #": "277",
-        "Anchor": "(2, 1, 0, 1)",
-        "Positive": "(2, 0, 2, 5)",
-        "Negative": "(4, 1, 2, 4)"
-    },
-    "224": {
-        "Hardness Score": "5",
-        "Triplet #": "224",
-        "Anchor": "(2, 1, 4, 5)",
-        "Positive": "(2, 1, 0, 4)",
-        "Negative": "(5, 0, 4, 0)"
-    },
-    "360": {
-        "Hardness Score": "4",
-        "Triplet #": "360",
-        "Anchor": "(2, 0, 5, 5)",
-        "Positive": "(2, 1, 3, 5)",
-        "Negative": "(5, 0, 0, 0)"
-    },
-    "454": {
-        "Hardness Score": "6",
-        "Triplet #": "454",
-        "Anchor": "(3, 1, 1, 1)",
-        "Positive": "(3, 1, 6, 6)",
-        "Negative": "(1, 2, 0, 0)"
-    },
-    "397": {
-        "Hardness Score": "8",
-        "Triplet #": "397",
-        "Anchor": "(4, 1, 6, 0)",
-        "Positive": "(4, 2, 5, 1)",
-        "Negative": "(3, 2, 0, 0)"
-    },
-    "102": {
-        "Hardness Score": "6",
-        "Triplet #": "102",
-        "Anchor": "(3, 1, 2, 6)",
-        "Positive": "(3, 1, 0, 2)",
-        "Negative": "(2, 0, 4, 5)"
-    },
-    "364": {
-        "Hardness Score": "7",
-        "Triplet #": "364",
-        "Anchor": "(1, 1, 0, 5)",
-        "Positive": "(1, 0, 2, 6)",
-        "Negative": "(0, 1, 6, 4)"
-    },
-    "268": {
-        "Hardness Score": "5",
-        "Triplet #": "268",
-        "Anchor": "(3, 0, 5, 1)",
-        "Positive": "(3, 0, 3, 0)",
-        "Negative": "(0, 1, 6, 2)"
-    },
-    "208": {
-        "Hardness Score": "5",
-        "Triplet #": "208",
-        "Anchor": "(0, 2, 6, 6)",
-        "Positive": "(0, 2, 3, 5)",
-        "Negative": "(3, 1, 5, 4)"
-    },
-    "41": {
-        "Hardness Score": "7",
-        "Triplet #": "41",
-        "Anchor": "(1, 1, 2, 0)",
-        "Positive": "(1, 0, 4, 1)",
-        "Negative": "(3, 0, 6, 4)"
-    },
-    "408": {
-        "Hardness Score": "8",
-        "Triplet #": "408",
-        "Anchor": "(1, 1, 4, 0)",
-        "Positive": "(1, 2, 2, 3)",
-        "Negative": "(0, 1, 3, 5)"
-    },
-    "362": {
-        "Hardness Score": "6",
-        "Triplet #": "362",
-        "Anchor": "(5, 0, 0, 1)",
-        "Positive": "(5, 1, 3, 2)",
-        "Negative": "(3, 0, 6, 5)"
-    },
-    "216": {
-        "Hardness Score": "5",
-        "Triplet #": "216",
-        "Anchor": "(5, 1, 2, 5)",
-        "Positive": "(5, 1, 5, 3)",
-        "Negative": "(2, 2, 4, 2)"
-    },
-    "341": {
-        "Hardness Score": "7",
-        "Triplet #": "341",
-        "Anchor": "(5, 0, 2, 5)",
-        "Positive": "(5, 0, 3, 4)",
-        "Negative": "(4, 1, 6, 4)"
-    },
-    "476": {
-        "Hardness Score": "10",
-        "Triplet #": "476",
-        "Anchor": "(2, 0, 4, 0)",
-        "Positive": "(2, 2, 0, 5)",
-        "Negative": "(3, 2, 3, 5)"
-    },
-    "314": {
-        "Hardness Score": "7",
-        "Triplet #": "314",
-        "Anchor": "(3, 1, 6, 6)",
-        "Positive": "(3, 0, 3, 5)",
-        "Negative": "(2, 1, 1, 2)"
+        "Negative": "(0, 1, 1, 5)"
     },
     "443": {
-        "Hardness Score": "7",
         "Triplet #": "443",
-        "Anchor": "(1, 0, 0, 5)",
-        "Positive": "(1, 1, 2, 3)",
-        "Negative": "(3, 2, 1, 1)"
-    },
-    "73": {
+        "Anchor": "(0, 2, 3, 1)",
+        "Positive": "(0, 2, 6, 2)",
         "Hardness Score": "3",
-        "Triplet #": "73",
-        "Anchor": "(5, 1, 3, 0)",
-        "Positive": "(5, 1, 5, 2)",
-        "Negative": "(1, 0, 6, 6)"
+        "Negative": "(5, 1, 4, 6)"
     },
-    "299": {
-        "Hardness Score": "7",
-        "Triplet #": "299",
-        "Anchor": "(4, 2, 3, 5)",
-        "Positive": "(4, 2, 5, 0)",
-        "Negative": "(5, 0, 3, 5)"
-    },
-    "46": {
-        "Hardness Score": "7",
-        "Triplet #": "46",
-        "Anchor": "(0, 0, 5, 4)",
-        "Positive": "(0, 1, 0, 1)",
-        "Negative": "(2, 0, 3, 6)"
-    },
-    "427": {
-        "Hardness Score": "5",
-        "Triplet #": "427",
-        "Anchor": "(0, 2, 4, 2)",
-        "Positive": "(0, 0, 6, 4)",
-        "Negative": "(5, 0, 4, 0)"
-    },
-    "180": {
-        "Hardness Score": "5",
-        "Triplet #": "180",
-        "Anchor": "(0, 1, 5, 4)",
-        "Positive": "(0, 2, 4, 1)",
-        "Negative": "(4, 2, 1, 0)"
-    },
-    "125": {
-        "Hardness Score": "7",
-        "Triplet #": "125",
-        "Anchor": "(2, 1, 3, 0)",
-        "Positive": "(2, 1, 0, 6)",
-        "Negative": "(3, 0, 5, 4)"
-    },
-    "116": {
-        "Hardness Score": "5",
-        "Triplet #": "116",
-        "Anchor": "(5, 1, 3, 4)",
-        "Positive": "(5, 1, 0, 0)",
-        "Negative": "(2, 1, 3, 6)"
-    },
-    "412": {
-        "Hardness Score": "6",
-        "Triplet #": "412",
-        "Anchor": "(0, 2, 6, 0)",
-        "Positive": "(0, 2, 4, 4)",
-        "Negative": "(1, 2, 3, 0)"
-    },
-    "160": {
-        "Hardness Score": "3",
-        "Triplet #": "160",
-        "Anchor": "(2, 1, 3, 6)",
-        "Positive": "(2, 1, 3, 2)",
-        "Negative": "(5, 0, 1, 6)"
-    },
-    "76": {
-        "Hardness Score": "10",
-        "Triplet #": "76",
-        "Anchor": "(2, 1, 4, 5)",
-        "Positive": "(2, 2, 2, 2)",
-        "Negative": "(1, 1, 2, 2)"
-    },
-    "387": {
+    "475": {
+        "Triplet #": "475",
+        "Anchor": "(4, 2, 6, 3)",
+        "Positive": "(4, 2, 2, 1)",
         "Hardness Score": "4",
-        "Triplet #": "387",
-        "Anchor": "(5, 1, 1, 4)",
-        "Positive": "(5, 2, 2, 4)",
-        "Negative": "(2, 1, 0, 6)"
-    },
-    "287": {
-        "Hardness Score": "5",
-        "Triplet #": "287",
-        "Anchor": "(5, 0, 6, 4)",
-        "Positive": "(5, 1, 5, 4)",
-        "Negative": "(2, 1, 3, 3)"
-    },
-    "275": {
-        "Hardness Score": "4",
-        "Triplet #": "275",
-        "Anchor": "(1, 2, 2, 3)",
-        "Positive": "(1, 0, 3, 3)",
-        "Negative": "(4, 2, 4, 1)"
-    },
-    "469": {
-        "Hardness Score": "8",
-        "Triplet #": "469",
-        "Anchor": "(3, 2, 0, 4)",
-        "Positive": "(3, 2, 5, 2)",
-        "Negative": "(2, 0, 4, 2)"
-    },
-    "246": {
-        "Hardness Score": "6",
-        "Triplet #": "246",
-        "Anchor": "(5, 0, 0, 0)",
-        "Positive": "(5, 0, 2, 0)",
-        "Negative": "(3, 2, 2, 6)"
-    },
-    "10": {
-        "Hardness Score": "3",
-        "Triplet #": "10",
-        "Anchor": "(5, 1, 2, 5)",
-        "Positive": "(5, 2, 5, 5)",
-        "Negative": "(0, 0, 3, 0)"
-    },
-    "137": {
-        "Hardness Score": "3",
-        "Triplet #": "137",
-        "Anchor": "(3, 2, 3, 4)",
-        "Positive": "(3, 2, 3, 4)",
-        "Negative": "(5, 2, 0, 0)"
-    },
-    "264": {
-        "Hardness Score": "4",
-        "Triplet #": "264",
-        "Anchor": "(1, 0, 1, 0)",
-        "Positive": "(1, 0, 2, 4)",
-        "Negative": "(3, 2, 2, 1)"
-    },
-    "388": {
-        "Hardness Score": "6",
-        "Triplet #": "388",
-        "Anchor": "(5, 1, 6, 2)",
-        "Positive": "(5, 2, 6, 0)",
-        "Negative": "(4, 0, 6, 4)"
-    },
-    "215": {
-        "Hardness Score": "7",
-        "Triplet #": "215",
-        "Anchor": "(0, 0, 4, 3)",
-        "Positive": "(0, 1, 1, 2)",
-        "Negative": "(2, 0, 3, 5)"
-    },
-    "381": {
-        "Hardness Score": "9",
-        "Triplet #": "381",
-        "Anchor": "(3, 0, 4, 0)",
-        "Positive": "(3, 1, 6, 4)",
-        "Negative": "(4, 1, 3, 3)"
-    },
-    "423": {
-        "Hardness Score": "8",
-        "Triplet #": "423",
-        "Anchor": "(4, 0, 1, 0)",
-        "Positive": "(4, 1, 6, 2)",
-        "Negative": "(5, 0, 0, 4)"
-    },
-    "42": {
-        "Hardness Score": "9",
-        "Triplet #": "42",
-        "Anchor": "(3, 2, 2, 5)",
-        "Positive": "(3, 0, 6, 0)",
-        "Negative": "(2, 0, 5, 3)"
-    },
-    "370": {
-        "Hardness Score": "6",
-        "Triplet #": "370",
-        "Anchor": "(5, 1, 3, 0)",
-        "Positive": "(5, 0, 5, 3)",
-        "Negative": "(1, 0, 3, 4)"
-    },
-    "363": {
-        "Hardness Score": "3",
-        "Triplet #": "363",
-        "Anchor": "(0, 2, 1, 1)",
-        "Positive": "(0, 2, 5, 6)",
-        "Negative": "(5, 0, 0, 2)"
-    },
-    "14": {
-        "Hardness Score": "8",
-        "Triplet #": "14",
-        "Anchor": "(2, 0, 1, 3)",
-        "Positive": "(2, 1, 3, 5)",
-        "Negative": "(4, 0, 3, 4)"
-    },
-    "28": {
-        "Hardness Score": "4",
-        "Triplet #": "28",
-        "Anchor": "(1, 2, 2, 2)",
-        "Positive": "(1, 2, 0, 1)",
-        "Negative": "(4, 1, 5, 0)"
-    },
-    "320": {
-        "Hardness Score": "7",
-        "Triplet #": "320",
-        "Anchor": "(4, 0, 3, 4)",
-        "Positive": "(4, 2, 0, 5)",
-        "Negative": "(2, 1, 4, 6)"
-    },
-    "290": {
-        "Hardness Score": "5",
-        "Triplet #": "290",
-        "Anchor": "(2, 1, 1, 3)",
-        "Positive": "(2, 1, 2, 3)",
-        "Negative": "(4, 1, 1, 0)"
-    },
-    "165": {
-        "Hardness Score": "6",
-        "Triplet #": "165",
-        "Anchor": "(0, 2, 5, 5)",
-        "Positive": "(0, 2, 3, 0)",
-        "Negative": "(3, 1, 4, 0)"
-    },
-    "87": {
-        "Hardness Score": "6",
-        "Triplet #": "87",
-        "Anchor": "(2, 0, 4, 4)",
-        "Positive": "(2, 2, 4, 4)",
-        "Negative": "(1, 2, 6, 6)"
-    },
-    "239": {
-        "Hardness Score": "6",
-        "Triplet #": "239",
-        "Anchor": "(1, 0, 3, 5)",
-        "Positive": "(1, 2, 0, 6)",
-        "Negative": "(4, 1, 1, 5)"
-    },
-    "440": {
-        "Hardness Score": "10",
-        "Triplet #": "440",
-        "Anchor": "(1, 0, 4, 5)",
-        "Positive": "(1, 2, 1, 3)",
-        "Negative": "(0, 2, 1, 4)"
-    },
-    "291": {
-        "Hardness Score": "5",
-        "Triplet #": "291",
-        "Anchor": "(4, 0, 4, 5)",
-        "Positive": "(4, 1, 5, 6)",
-        "Negative": "(1, 1, 5, 5)"
-    },
-    "247": {
-        "Hardness Score": "7",
-        "Triplet #": "247",
-        "Anchor": "(1, 0, 5, 2)",
-        "Positive": "(1, 1, 5, 1)",
-        "Negative": "(3, 1, 1, 1)"
-    },
-    "309": {
-        "Hardness Score": "9",
-        "Triplet #": "309",
-        "Anchor": "(3, 0, 3, 4)",
-        "Positive": "(3, 1, 6, 0)",
-        "Negative": "(4, 1, 3, 5)"
-    },
-    "394": {
-        "Hardness Score": "8",
-        "Triplet #": "394",
-        "Anchor": "(2, 1, 0, 2)",
-        "Positive": "(2, 2, 6, 1)",
-        "Negative": "(0, 2, 3, 2)"
-    },
-    "96": {
-        "Hardness Score": "9",
-        "Triplet #": "96",
-        "Anchor": "(1, 1, 6, 3)",
-        "Positive": "(1, 0, 0, 6)",
-        "Negative": "(0, 0, 2, 1)"
-    },
-    "107": {
-        "Hardness Score": "6",
-        "Triplet #": "107",
-        "Anchor": "(1, 2, 4, 6)",
-        "Positive": "(1, 0, 6, 1)",
-        "Negative": "(4, 1, 4, 4)"
-    },
-    "143": {
-        "Hardness Score": "7",
-        "Triplet #": "143",
-        "Anchor": "(3, 1, 5, 1)",
-        "Positive": "(3, 1, 2, 3)",
-        "Negative": "(4, 2, 3, 1)"
-    },
-    "419": {
-        "Hardness Score": "8",
-        "Triplet #": "419",
-        "Anchor": "(0, 0, 0, 5)",
-        "Positive": "(0, 2, 2, 2)",
-        "Negative": "(1, 2, 5, 6)"
-    },
-    "230": {
-        "Hardness Score": "8",
-        "Triplet #": "230",
-        "Anchor": "(2, 2, 2, 6)",
-        "Positive": "(2, 1, 6, 1)",
-        "Negative": "(1, 0, 1, 6)"
-    },
-    "131": {
-        "Hardness Score": "6",
-        "Triplet #": "131",
-        "Anchor": "(4, 2, 1, 0)",
-        "Positive": "(4, 1, 0, 6)",
-        "Negative": "(2, 0, 4, 3)"
-    },
-    "353": {
-        "Hardness Score": "7",
-        "Triplet #": "353",
-        "Anchor": "(5, 0, 6, 0)",
-        "Positive": "(5, 0, 0, 2)",
-        "Negative": "(2, 2, 0, 6)"
-    },
-    "4": {
-        "Hardness Score": "5",
-        "Triplet #": "4",
-        "Anchor": "(4, 1, 0, 5)",
-        "Positive": "(4, 2, 1, 5)",
-        "Negative": "(2, 1, 6, 5)"
-    },
-    "56": {
-        "Hardness Score": "7",
-        "Triplet #": "56",
-        "Anchor": "(2, 2, 5, 0)",
-        "Positive": "(2, 0, 1, 2)",
-        "Negative": "(4, 1, 3, 4)"
-    },
-    "495": {
-        "Hardness Score": "4",
-        "Triplet #": "495",
-        "Anchor": "(5, 2, 1, 1)",
-        "Positive": "(5, 0, 4, 6)",
-        "Negative": "(0, 1, 1, 3)"
-    },
-    "104": {
-        "Hardness Score": "5",
-        "Triplet #": "104",
-        "Anchor": "(4, 1, 1, 5)",
-        "Positive": "(4, 1, 5, 3)",
-        "Negative": "(1, 2, 2, 6)"
-    },
-    "6": {
-        "Hardness Score": "7",
-        "Triplet #": "6",
-        "Anchor": "(4, 0, 2, 0)",
-        "Positive": "(4, 2, 1, 3)",
-        "Negative": "(3, 0, 0, 5)"
-    },
-    "406": {
-        "Hardness Score": "3",
-        "Triplet #": "406",
-        "Anchor": "(0, 1, 4, 0)",
-        "Positive": "(0, 1, 3, 5)",
-        "Negative": "(3, 2, 3, 4)"
-    },
-    "439": {
-        "Hardness Score": "10",
-        "Triplet #": "439",
-        "Anchor": "(4, 2, 0, 2)",
-        "Positive": "(4, 2, 6, 1)",
-        "Negative": "(5, 1, 6, 1)"
-    },
-    "280": {
-        "Hardness Score": "5",
-        "Triplet #": "280",
-        "Anchor": "(5, 2, 3, 6)",
-        "Positive": "(5, 2, 5, 5)",
-        "Negative": "(2, 0, 4, 6)"
-    },
-    "244": {
-        "Hardness Score": "3",
-        "Triplet #": "244",
-        "Anchor": "(0, 1, 0, 3)",
-        "Positive": "(0, 1, 4, 0)",
-        "Negative": "(4, 2, 5, 3)"
-    },
-    "352": {
-        "Hardness Score": "7",
-        "Triplet #": "352",
-        "Anchor": "(5, 1, 6, 5)",
-        "Positive": "(5, 0, 5, 6)",
-        "Negative": "(4, 1, 1, 4)"
-    },
-    "23": {
-        "Hardness Score": "7",
-        "Triplet #": "23",
-        "Anchor": "(5, 1, 4, 4)",
-        "Positive": "(5, 0, 5, 5)",
-        "Negative": "(4, 1, 3, 3)"
-    },
-    "451": {
-        "Hardness Score": "5",
-        "Triplet #": "451",
-        "Anchor": "(5, 1, 0, 0)",
-        "Positive": "(5, 2, 4, 4)",
-        "Negative": "(0, 2, 3, 5)"
-    },
-    "29": {
-        "Hardness Score": "1",
-        "Triplet #": "29",
-        "Anchor": "(5, 2, 2, 1)",
-        "Positive": "(5, 2, 2, 3)",
-        "Negative": "(0, 0, 0, 6)"
-    },
-    "261": {
-        "Hardness Score": "5",
-        "Triplet #": "261",
-        "Anchor": "(4, 0, 4, 1)",
-        "Positive": "(4, 1, 4, 0)",
-        "Negative": "(2, 0, 2, 6)"
-    },
-    "462": {
-        "Hardness Score": "4",
-        "Triplet #": "462",
-        "Anchor": "(3, 0, 2, 1)",
-        "Positive": "(3, 0, 6, 1)",
-        "Negative": "(0, 1, 0, 2)"
-    },
-    "399": {
-        "Hardness Score": "5",
-        "Triplet #": "399",
-        "Anchor": "(1, 0, 5, 6)",
-        "Positive": "(1, 2, 1, 2)",
-        "Negative": "(4, 1, 0, 4)"
-    },
-    "3": {
-        "Hardness Score": "7",
-        "Triplet #": "3",
-        "Anchor": "(3, 2, 1, 4)",
-        "Positive": "(3, 0, 2, 5)",
-        "Negative": "(2, 2, 5, 0)"
-    },
-    "26": {
-        "Hardness Score": "7",
-        "Triplet #": "26",
-        "Anchor": "(1, 1, 4, 3)",
-        "Positive": "(1, 2, 6, 2)",
-        "Negative": "(5, 2, 5, 2)"
-    },
-    "367": {
-        "Hardness Score": "8",
-        "Triplet #": "367",
-        "Anchor": "(3, 2, 5, 5)",
-        "Positive": "(3, 0, 2, 6)",
-        "Negative": "(4, 0, 1, 2)"
-    },
-    "157": {
-        "Hardness Score": "4",
-        "Triplet #": "157",
-        "Anchor": "(1, 1, 4, 1)",
-        "Positive": "(1, 0, 4, 0)",
-        "Negative": "(5, 1, 4, 0)"
-    },
-    "177": {
-        "Hardness Score": "7",
-        "Triplet #": "177",
-        "Anchor": "(2, 2, 0, 2)",
-        "Positive": "(2, 0, 6, 4)",
-        "Negative": "(0, 1, 2, 1)"
-    },
-    "164": {
-        "Hardness Score": "6",
-        "Triplet #": "164",
-        "Anchor": "(0, 2, 5, 1)",
-        "Positive": "(0, 0, 5, 6)",
-        "Negative": "(1, 1, 6, 4)"
-    },
-    "265": {
-        "Hardness Score": "9",
-        "Triplet #": "265",
-        "Anchor": "(2, 2, 3, 6)",
-        "Positive": "(2, 1, 6, 5)",
-        "Negative": "(4, 1, 5, 5)"
-    },
-    "470": {
-        "Hardness Score": "6",
-        "Triplet #": "470",
-        "Anchor": "(5, 0, 3, 1)",
-        "Positive": "(5, 2, 4, 1)",
-        "Negative": "(4, 1, 5, 0)"
-    },
-    "2": {
-        "Hardness Score": "7",
-        "Triplet #": "2",
-        "Anchor": "(2, 1, 5, 4)",
-        "Positive": "(2, 2, 4, 5)",
-        "Negative": "(0, 2, 6, 3)"
-    },
-    "71": {
-        "Hardness Score": "9",
-        "Triplet #": "71",
-        "Anchor": "(1, 2, 3, 4)",
-        "Positive": "(1, 0, 0, 3)",
-        "Negative": "(2, 2, 3, 3)"
-    },
-    "301": {
-        "Hardness Score": "6",
-        "Triplet #": "301",
-        "Anchor": "(5, 2, 3, 2)",
-        "Positive": "(5, 2, 1, 4)",
-        "Negative": "(3, 1, 6, 4)"
-    },
-    "45": {
-        "Hardness Score": "6",
-        "Triplet #": "45",
-        "Anchor": "(5, 1, 1, 6)",
-        "Positive": "(5, 2, 1, 4)",
-        "Negative": "(4, 1, 0, 2)"
-    },
-    "38": {
-        "Hardness Score": "7",
-        "Triplet #": "38",
-        "Anchor": "(1, 1, 0, 6)",
-        "Positive": "(1, 1, 6, 2)",
-        "Negative": "(0, 1, 3, 5)"
-    },
-    "229": {
-        "Hardness Score": "4",
-        "Triplet #": "229",
-        "Anchor": "(4, 1, 0, 4)",
-        "Positive": "(4, 1, 3, 4)",
-        "Negative": "(2, 0, 6, 4)"
-    },
-    "190": {
-        "Hardness Score": "2",
-        "Triplet #": "190",
-        "Anchor": "(0, 1, 5, 6)",
-        "Positive": "(0, 1, 5, 5)",
-        "Negative": "(4, 1, 0, 4)"
-    },
-    "92": {
-        "Hardness Score": "5",
-        "Triplet #": "92",
-        "Anchor": "(4, 2, 2, 2)",
-        "Positive": "(4, 2, 1, 6)",
-        "Negative": "(2, 2, 4, 4)"
-    },
-    "479": {
-        "Hardness Score": "9",
-        "Triplet #": "479",
-        "Anchor": "(3, 0, 0, 6)",
-        "Positive": "(3, 2, 6, 2)",
-        "Negative": "(1, 0, 6, 4)"
-    },
-    "108": {
-        "Hardness Score": "6",
-        "Triplet #": "108",
-        "Anchor": "(4, 1, 4, 2)",
-        "Positive": "(4, 2, 5, 5)",
-        "Negative": "(1, 2, 2, 0)"
-    },
-    "58": {
-        "Hardness Score": "8",
-        "Triplet #": "58",
-        "Anchor": "(5, 1, 5, 6)",
-        "Positive": "(5, 1, 1, 1)",
-        "Negative": "(3, 2, 1, 0)"
-    },
-    "47": {
-        "Hardness Score": "6",
-        "Triplet #": "47",
-        "Anchor": "(3, 0, 6, 0)",
-        "Positive": "(3, 0, 0, 2)",
-        "Negative": "(1, 2, 3, 1)"
-    },
-    "373": {
-        "Hardness Score": "7",
-        "Triplet #": "373",
-        "Anchor": "(1, 1, 4, 0)",
-        "Positive": "(1, 2, 1, 5)",
-        "Negative": "(4, 0, 1, 6)"
-    },
-    "300": {
-        "Hardness Score": "3",
-        "Triplet #": "300",
-        "Anchor": "(4, 1, 0, 2)",
-        "Positive": "(4, 1, 0, 6)",
-        "Negative": "(0, 1, 5, 6)"
-    },
-    "393": {
-        "Hardness Score": "9",
-        "Triplet #": "393",
-        "Anchor": "(5, 2, 0, 2)",
-        "Positive": "(5, 0, 6, 0)",
-        "Negative": "(4, 2, 2, 0)"
-    },
-    "391": {
-        "Hardness Score": "6",
-        "Triplet #": "391",
-        "Anchor": "(0, 1, 3, 0)",
-        "Positive": "(0, 0, 6, 1)",
-        "Negative": "(3, 1, 2, 2)"
-    },
-    "202": {
-        "Hardness Score": "5",
-        "Triplet #": "202",
-        "Anchor": "(3, 2, 6, 0)",
-        "Positive": "(3, 1, 6, 1)",
-        "Negative": "(1, 2, 1, 5)"
-    },
-    "492": {
-        "Hardness Score": "5",
-        "Triplet #": "492",
-        "Anchor": "(1, 0, 5, 4)",
-        "Positive": "(1, 0, 5, 2)",
-        "Negative": "(0, 1, 4, 4)"
-    },
-    "78": {
-        "Hardness Score": "4",
-        "Triplet #": "78",
-        "Anchor": "(1, 2, 4, 4)",
-        "Positive": "(1, 0, 4, 1)",
-        "Negative": "(5, 0, 4, 0)"
-    },
-    "174": {
-        "Hardness Score": "2",
-        "Triplet #": "174",
-        "Anchor": "(5, 1, 2, 5)",
-        "Positive": "(5, 2, 2, 1)",
-        "Negative": "(0, 0, 2, 4)"
-    },
-    "318": {
-        "Hardness Score": "8",
-        "Triplet #": "318",
-        "Anchor": "(1, 0, 1, 4)",
-        "Positive": "(1, 0, 6, 3)",
-        "Negative": "(3, 2, 6, 6)"
-    },
-    "195": {
-        "Hardness Score": "6",
-        "Triplet #": "195",
-        "Anchor": "(1, 2, 2, 3)",
-        "Positive": "(1, 1, 0, 1)",
-        "Negative": "(3, 0, 4, 3)"
-    },
-    "322": {
-        "Hardness Score": "7",
-        "Triplet #": "322",
-        "Anchor": "(0, 2, 6, 4)",
-        "Positive": "(0, 1, 2, 4)",
-        "Negative": "(1, 2, 3, 3)"
-    },
-    "481": {
-        "Hardness Score": "5",
-        "Triplet #": "481",
-        "Anchor": "(2, 2, 2, 6)",
-        "Positive": "(2, 2, 3, 3)",
         "Negative": "(0, 1, 5, 4)"
     },
-    "272": {
+    "174": {
+        "Triplet #": "174",
+        "Anchor": "(2, 0, 4, 6)",
+        "Positive": "(2, 1, 5, 4)",
         "Hardness Score": "7",
-        "Triplet #": "272",
-        "Anchor": "(0, 1, 2, 1)",
-        "Positive": "(0, 2, 3, 5)",
-        "Negative": "(2, 1, 0, 5)"
-    },
-    "98": {
-        "Hardness Score": "6",
-        "Triplet #": "98",
-        "Anchor": "(3, 0, 4, 6)",
-        "Positive": "(3, 0, 3, 5)",
-        "Negative": "(2, 0, 6, 3)"
-    },
-    "380": {
-        "Hardness Score": "7",
-        "Triplet #": "380",
-        "Anchor": "(3, 1, 5, 6)",
-        "Positive": "(3, 2, 2, 4)",
-        "Negative": "(4, 0, 0, 2)"
-    },
-    "158": {
-        "Hardness Score": "5",
-        "Triplet #": "158",
-        "Anchor": "(4, 2, 0, 6)",
-        "Positive": "(4, 1, 5, 2)",
-        "Negative": "(0, 0, 4, 5)"
-    },
-    "358": {
-        "Hardness Score": "7",
-        "Triplet #": "358",
-        "Anchor": "(2, 0, 6, 3)",
-        "Positive": "(2, 1, 6, 5)",
-        "Negative": "(4, 1, 5, 5)"
-    },
-    "62": {
-        "Hardness Score": "7",
-        "Triplet #": "62",
-        "Anchor": "(2, 1, 1, 4)",
-        "Positive": "(2, 0, 4, 0)",
-        "Negative": "(1, 1, 6, 2)"
-    },
-    "258": {
-        "Hardness Score": "7",
-        "Triplet #": "258",
-        "Anchor": "(5, 0, 0, 5)",
-        "Positive": "(5, 1, 6, 1)",
-        "Negative": "(3, 0, 4, 0)"
-    },
-    "273": {
-        "Hardness Score": "8",
-        "Triplet #": "273",
-        "Anchor": "(2, 2, 2, 2)",
-        "Positive": "(2, 0, 0, 2)",
-        "Negative": "(1, 2, 0, 3)"
-    },
-    "472": {
-        "Hardness Score": "8",
-        "Triplet #": "472",
-        "Anchor": "(5, 2, 0, 3)",
-        "Positive": "(5, 1, 5, 1)",
-        "Negative": "(3, 1, 3, 4)"
-    },
-    "150": {
-        "Hardness Score": "6",
-        "Triplet #": "150",
-        "Anchor": "(2, 1, 6, 0)",
-        "Positive": "(2, 1, 0, 5)",
-        "Negative": "(4, 1, 1, 6)"
-    },
-    "57": {
-        "Hardness Score": "9",
-        "Triplet #": "57",
-        "Anchor": "(3, 1, 0, 3)",
-        "Positive": "(3, 0, 3, 6)",
-        "Negative": "(4, 0, 0, 5)"
-    },
-    "33": {
-        "Hardness Score": "5",
-        "Triplet #": "33",
-        "Anchor": "(4, 2, 5, 4)",
-        "Positive": "(4, 2, 2, 1)",
-        "Negative": "(0, 2, 2, 5)"
-    },
-    "366": {
-        "Hardness Score": "8",
-        "Triplet #": "366",
-        "Anchor": "(0, 2, 5, 2)",
-        "Positive": "(0, 0, 2, 0)",
-        "Negative": "(2, 0, 3, 3)"
-    },
-    "188": {
-        "Hardness Score": "6",
-        "Triplet #": "188",
-        "Anchor": "(2, 2, 6, 5)",
-        "Positive": "(2, 0, 4, 5)",
-        "Negative": "(4, 0, 1, 1)"
-    },
-    "77": {
-        "Hardness Score": "7",
-        "Triplet #": "77",
-        "Anchor": "(4, 2, 2, 0)",
-        "Positive": "(4, 1, 2, 1)",
-        "Negative": "(3, 1, 3, 5)"
-    },
-    "115": {
-        "Hardness Score": "7",
-        "Triplet #": "115",
-        "Anchor": "(4, 1, 4, 0)",
-        "Positive": "(4, 1, 2, 5)",
-        "Negative": "(2, 0, 2, 6)"
-    },
-    "374": {
-        "Hardness Score": "3",
-        "Triplet #": "374",
-        "Anchor": "(0, 1, 2, 4)",
-        "Positive": "(0, 2, 3, 4)",
-        "Negative": "(5, 0, 2, 6)"
-    },
-    "446": {
-        "Hardness Score": "8",
-        "Triplet #": "446",
-        "Anchor": "(1, 2, 0, 1)",
-        "Positive": "(1, 0, 2, 0)",
-        "Negative": "(0, 2, 5, 0)"
-    },
-    "1": {
-        "Hardness Score": "5",
-        "Triplet #": "1",
-        "Anchor": "(2, 0, 1, 3)",
-        "Positive": "(2, 0, 0, 2)",
-        "Negative": "(1, 1, 0, 1)"
-    },
-    "83": {
-        "Hardness Score": "4",
-        "Triplet #": "83",
-        "Anchor": "(0, 0, 4, 0)",
-        "Positive": "(0, 0, 4, 6)",
-        "Negative": "(3, 1, 1, 6)"
-    },
-    "151": {
-        "Hardness Score": "7",
-        "Triplet #": "151",
-        "Anchor": "(2, 0, 6, 6)",
-        "Positive": "(2, 2, 4, 2)",
-        "Negative": "(4, 2, 2, 1)"
-    },
-    "378": {
-        "Hardness Score": "7",
-        "Triplet #": "378",
-        "Anchor": "(0, 2, 1, 4)",
-        "Positive": "(0, 1, 0, 6)",
-        "Negative": "(2, 1, 3, 2)"
-    },
-    "271": {
-        "Hardness Score": "8",
-        "Triplet #": "271",
-        "Anchor": "(1, 2, 0, 5)",
-        "Positive": "(1, 1, 3, 6)",
-        "Negative": "(0, 0, 2, 3)"
-    },
-    "458": {
-        "Hardness Score": "1",
-        "Triplet #": "458",
-        "Anchor": "(0, 2, 4, 5)",
-        "Positive": "(0, 2, 2, 5)",
-        "Negative": "(5, 2, 0, 6)"
-    },
-    "333": {
-        "Hardness Score": "6",
-        "Triplet #": "333",
-        "Anchor": "(5, 1, 6, 0)",
-        "Positive": "(5, 1, 2, 5)",
-        "Negative": "(3, 1, 3, 2)"
-    },
-    "24": {
-        "Hardness Score": "5",
-        "Triplet #": "24",
-        "Anchor": "(4, 1, 5, 5)",
-        "Positive": "(4, 2, 4, 4)",
-        "Negative": "(2, 1, 4, 1)"
-    },
-    "34": {
-        "Hardness Score": "5",
-        "Triplet #": "34",
-        "Anchor": "(0, 1, 5, 2)",
-        "Positive": "(0, 0, 3, 3)",
-        "Negative": "(4, 2, 5, 5)"
-    },
-    "293": {
-        "Hardness Score": "6",
-        "Triplet #": "293",
-        "Anchor": "(3, 0, 5, 6)",
-        "Positive": "(3, 2, 5, 4)",
-        "Negative": "(2, 0, 0, 3)"
-    },
-    "15": {
-        "Hardness Score": "6",
-        "Triplet #": "15",
-        "Anchor": "(1, 0, 3, 0)",
-        "Positive": "(1, 2, 2, 0)",
-        "Negative": "(0, 0, 6, 0)"
+        "Negative": "(4, 1, 3, 3)"
     },
     "350": {
-        "Hardness Score": "3",
         "Triplet #": "350",
-        "Anchor": "(4, 0, 6, 1)",
-        "Positive": "(4, 1, 5, 6)",
-        "Negative": "(0, 0, 5, 0)"
+        "Anchor": "(1, 2, 4, 1)",
+        "Positive": "(1, 2, 1, 2)",
+        "Hardness Score": "5",
+        "Negative": "(4, 0, 6, 4)"
     },
-    "55": {
-        "Hardness Score": "6",
-        "Triplet #": "55",
-        "Anchor": "(0, 0, 1, 1)",
-        "Positive": "(0, 1, 6, 1)",
-        "Negative": "(4, 0, 6, 5)"
+    "196": {
+        "Triplet #": "196",
+        "Anchor": "(5, 1, 2, 2)",
+        "Positive": "(5, 1, 6, 5)",
+        "Hardness Score": "9",
+        "Negative": "(4, 0, 6, 3)"
     },
-    "130": {
-        "Hardness Score": "6",
-        "Triplet #": "130",
-        "Anchor": "(5, 1, 6, 2)",
-        "Positive": "(5, 0, 6, 3)",
-        "Negative": "(3, 0, 1, 2)"
-    },
-    "371": {
-        "Hardness Score": "6",
-        "Triplet #": "371",
-        "Anchor": "(3, 2, 5, 3)",
-        "Positive": "(3, 1, 5, 5)",
-        "Negative": "(1, 1, 5, 0)"
-    },
-    "342": {
+    "72": {
+        "Triplet #": "72",
+        "Anchor": "(0, 0, 0, 6)",
+        "Positive": "(0, 1, 3, 2)",
         "Hardness Score": "4",
-        "Triplet #": "342",
-        "Anchor": "(5, 1, 2, 6)",
+        "Negative": "(4, 0, 4, 3)"
+    },
+    "341": {
+        "Triplet #": "341",
+        "Anchor": "(0, 0, 3, 5)",
+        "Positive": "(0, 2, 2, 0)",
+        "Hardness Score": "3",
+        "Negative": "(5, 1, 0, 6)"
+    },
+    "487": {
+        "Triplet #": "487",
+        "Anchor": "(2, 2, 6, 0)",
+        "Positive": "(2, 1, 4, 3)",
+        "Hardness Score": "8",
+        "Negative": "(1, 2, 5, 6)"
+    },
+    "188": {
+        "Triplet #": "188",
+        "Anchor": "(4, 2, 0, 2)",
+        "Positive": "(4, 2, 0, 2)",
+        "Hardness Score": "4",
+        "Negative": "(5, 2, 5, 5)"
+    },
+    "85": {
+        "Triplet #": "85",
+        "Anchor": "(1, 2, 5, 6)",
+        "Positive": "(1, 2, 3, 3)",
+        "Hardness Score": "3",
+        "Negative": "(5, 1, 1, 2)"
+    },
+    "320": {
+        "Triplet #": "320",
+        "Anchor": "(0, 1, 3, 2)",
+        "Positive": "(0, 0, 6, 0)",
+        "Hardness Score": "7",
+        "Negative": "(2, 2, 3, 1)"
+    },
+    "463": {
+        "Triplet #": "463",
+        "Anchor": "(5, 2, 6, 5)",
         "Positive": "(5, 0, 6, 6)",
-        "Negative": "(1, 2, 5, 1)"
-    },
-    "242": {
-        "Hardness Score": "6",
-        "Triplet #": "242",
-        "Anchor": "(4, 1, 5, 2)",
-        "Positive": "(4, 1, 0, 4)",
-        "Negative": "(2, 2, 3, 3)"
-    },
-    "346": {
-        "Hardness Score": "7",
-        "Triplet #": "346",
-        "Anchor": "(3, 0, 3, 5)",
-        "Positive": "(3, 2, 4, 4)",
-        "Negative": "(0, 0, 3, 4)"
-    },
-    "5": {
         "Hardness Score": "5",
-        "Triplet #": "5",
-        "Anchor": "(5, 2, 0, 2)",
-        "Positive": "(5, 2, 3, 0)",
-        "Negative": "(2, 0, 1, 2)"
+        "Negative": "(2, 0, 0, 5)"
     },
-    "184": {
+    "178": {
+        "Triplet #": "178",
+        "Anchor": "(2, 0, 2, 2)",
+        "Positive": "(2, 2, 4, 4)",
+        "Hardness Score": "9",
+        "Negative": "(1, 1, 2, 4)"
+    },
+    "319": {
+        "Triplet #": "319",
+        "Anchor": "(0, 0, 4, 2)",
+        "Positive": "(0, 2, 1, 4)",
+        "Hardness Score": "9",
+        "Negative": "(1, 0, 3, 4)"
+    },
+    "110": {
+        "Triplet #": "110",
+        "Anchor": "(4, 2, 0, 6)",
+        "Positive": "(4, 1, 1, 3)",
+        "Hardness Score": "7",
+        "Negative": "(3, 2, 4, 5)"
+    },
+    "338": {
+        "Triplet #": "338",
+        "Anchor": "(5, 2, 2, 6)",
+        "Positive": "(5, 2, 0, 4)",
         "Hardness Score": "6",
-        "Triplet #": "184",
-        "Anchor": "(5, 1, 4, 4)",
-        "Positive": "(5, 1, 1, 0)",
-        "Negative": "(4, 0, 0, 5)"
+        "Negative": "(3, 1, 4, 4)"
     },
-    "308": {
-        "Hardness Score": "8",
-        "Triplet #": "308",
-        "Anchor": "(2, 2, 1, 6)",
-        "Positive": "(2, 2, 4, 1)",
-        "Negative": "(1, 0, 4, 6)"
+    "11": {
+        "Triplet #": "11",
+        "Anchor": "(3, 2, 6, 0)",
+        "Positive": "(3, 2, 3, 3)",
+        "Hardness Score": "7",
+        "Negative": "(2, 1, 0, 3)"
     },
-    "426": {
+    "120": {
+        "Triplet #": "120",
+        "Anchor": "(3, 1, 0, 1)",
+        "Positive": "(3, 2, 3, 6)",
+        "Hardness Score": "9",
+        "Negative": "(2, 2, 1, 5)"
+    },
+    "70": {
+        "Triplet #": "70",
+        "Anchor": "(0, 2, 5, 3)",
+        "Positive": "(0, 2, 1, 5)",
         "Hardness Score": "3",
-        "Triplet #": "426",
-        "Anchor": "(0, 0, 1, 5)",
-        "Positive": "(0, 0, 6, 6)",
-        "Negative": "(5, 1, 3, 0)"
+        "Negative": "(5, 2, 2, 3)"
     },
-    "101": {
-        "Hardness Score": "6",
-        "Triplet #": "101",
-        "Anchor": "(1, 2, 6, 4)",
-        "Positive": "(1, 2, 5, 0)",
-        "Negative": "(0, 2, 0, 6)"
-    },
-    "311": {
-        "Hardness Score": "3",
-        "Triplet #": "311",
-        "Anchor": "(5, 0, 6, 3)",
-        "Positive": "(5, 2, 6, 6)",
-        "Negative": "(1, 0, 3, 1)"
-    },
-    "407": {
-        "Hardness Score": "7",
-        "Triplet #": "407",
-        "Anchor": "(1, 0, 6, 4)",
-        "Positive": "(1, 1, 3, 0)",
-        "Negative": "(3, 2, 4, 6)"
-    },
-    "438": {
-        "Hardness Score": "5",
-        "Triplet #": "438",
-        "Anchor": "(2, 0, 5, 5)",
-        "Positive": "(2, 0, 0, 1)",
-        "Negative": "(5, 2, 2, 5)"
-    },
-    "460": {
-        "Hardness Score": "7",
-        "Triplet #": "460",
-        "Anchor": "(5, 0, 2, 4)",
-        "Positive": "(5, 1, 5, 4)",
-        "Negative": "(4, 2, 1, 3)"
-    },
-    "436": {
-        "Hardness Score": "8",
-        "Triplet #": "436",
-        "Anchor": "(3, 0, 1, 0)",
-        "Positive": "(3, 1, 4, 2)",
-        "Negative": "(4, 2, 1, 4)"
-    },
-    "189": {
-        "Hardness Score": "7",
-        "Triplet #": "189",
-        "Anchor": "(0, 0, 2, 1)",
-        "Positive": "(0, 1, 5, 0)",
-        "Negative": "(3, 0, 5, 4)"
-    },
-    "372": {
+    "10": {
+        "Triplet #": "10",
+        "Anchor": "(4, 0, 5, 1)",
+        "Positive": "(4, 0, 5, 1)",
         "Hardness Score": "1",
-        "Triplet #": "372",
-        "Anchor": "(5, 1, 3, 0)",
-        "Positive": "(5, 1, 3, 1)",
-        "Negative": "(0, 0, 0, 0)"
+        "Negative": "(0, 1, 5, 3)"
     },
-    "329": {
+    "439": {
+        "Triplet #": "439",
+        "Anchor": "(2, 1, 3, 0)",
+        "Positive": "(2, 1, 4, 1)",
         "Hardness Score": "5",
-        "Triplet #": "329",
-        "Anchor": "(2, 0, 4, 6)",
-        "Positive": "(2, 0, 3, 0)",
-        "Negative": "(0, 1, 3, 0)"
+        "Negative": "(4, 1, 5, 0)"
     },
-    "326": {
-        "Hardness Score": "4",
-        "Triplet #": "326",
-        "Anchor": "(3, 0, 1, 6)",
-        "Positive": "(3, 1, 1, 4)",
-        "Negative": "(0, 0, 0, 2)"
+    "411": {
+        "Triplet #": "411",
+        "Anchor": "(1, 1, 0, 2)",
+        "Positive": "(1, 2, 5, 4)",
+        "Hardness Score": "8",
+        "Negative": "(0, 0, 3, 3)"
     },
-    "32": {
-        "Hardness Score": "7",
-        "Triplet #": "32",
-        "Anchor": "(4, 0, 6, 6)",
-        "Positive": "(4, 2, 5, 6)",
-        "Negative": "(3, 2, 0, 2)"
+    "366": {
+        "Triplet #": "366",
+        "Anchor": "(0, 2, 0, 4)",
+        "Positive": "(0, 2, 0, 3)",
+        "Hardness Score": "2",
+        "Negative": "(4, 2, 0, 0)"
     },
-    "452": {
+    "236": {
+        "Triplet #": "236",
+        "Anchor": "(4, 2, 6, 4)",
+        "Positive": "(4, 1, 6, 0)",
+        "Hardness Score": "3",
+        "Negative": "(0, 0, 1, 3)"
+    },
+    "386": {
+        "Triplet #": "386",
+        "Anchor": "(4, 1, 2, 3)",
+        "Positive": "(4, 2, 1, 2)",
         "Hardness Score": "6",
-        "Triplet #": "452",
-        "Anchor": "(0, 2, 2, 1)",
-        "Positive": "(0, 0, 4, 6)",
-        "Negative": "(3, 1, 6, 6)"
+        "Negative": "(1, 1, 5, 2)"
+    },
+    "193": {
+        "Triplet #": "193",
+        "Anchor": "(4, 0, 6, 1)",
+        "Positive": "(4, 0, 0, 2)",
+        "Hardness Score": "9",
+        "Negative": "(5, 0, 0, 1)"
+    },
+    "266": {
+        "Triplet #": "266",
+        "Anchor": "(3, 0, 5, 6)",
+        "Positive": "(3, 1, 4, 2)",
+        "Hardness Score": "9",
+        "Negative": "(4, 0, 5, 2)"
+    },
+    "107": {
+        "Triplet #": "107",
+        "Anchor": "(1, 1, 2, 6)",
+        "Positive": "(1, 0, 5, 5)",
+        "Hardness Score": "5",
+        "Negative": "(5, 2, 0, 1)"
+    },
+    "422": {
+        "Triplet #": "422",
+        "Anchor": "(5, 2, 2, 4)",
+        "Positive": "(5, 0, 6, 5)",
+        "Hardness Score": "7",
+        "Negative": "(1, 1, 6, 4)"
+    },
+    "45": {
+        "Triplet #": "45",
+        "Anchor": "(2, 1, 0, 4)",
+        "Positive": "(2, 2, 6, 6)",
+        "Hardness Score": "7",
+        "Negative": "(0, 0, 0, 5)"
     },
     "106": {
-        "Hardness Score": "6",
         "Triplet #": "106",
-        "Anchor": "(4, 1, 6, 6)",
+        "Anchor": "(4, 1, 3, 5)",
+        "Positive": "(4, 0, 2, 1)",
+        "Hardness Score": "6",
+        "Negative": "(2, 2, 4, 0)"
+    },
+    "99": {
+        "Triplet #": "99",
+        "Anchor": "(5, 1, 3, 6)",
+        "Positive": "(5, 1, 5, 6)",
+        "Hardness Score": "2",
+        "Negative": "(1, 1, 0, 1)"
+    },
+    "100": {
+        "Triplet #": "100",
+        "Anchor": "(2, 1, 4, 2)",
+        "Positive": "(2, 0, 4, 4)",
+        "Hardness Score": "6",
+        "Negative": "(1, 1, 0, 6)"
+    },
+    "382": {
+        "Triplet #": "382",
+        "Anchor": "(2, 0, 5, 1)",
+        "Positive": "(2, 0, 1, 6)",
+        "Hardness Score": "5",
+        "Negative": "(5, 2, 3, 2)"
+    },
+    "179": {
+        "Triplet #": "179",
+        "Anchor": "(5, 0, 5, 4)",
+        "Positive": "(5, 1, 4, 0)",
+        "Hardness Score": "7",
+        "Negative": "(3, 0, 6, 0)"
+    },
+    "491": {
+        "Triplet #": "491",
+        "Anchor": "(2, 2, 3, 0)",
+        "Positive": "(2, 2, 4, 6)",
+        "Hardness Score": "6",
+        "Negative": "(5, 2, 3, 6)"
+    },
+    "372": {
+        "Triplet #": "372",
+        "Anchor": "(4, 2, 0, 2)",
+        "Positive": "(4, 2, 4, 5)",
+        "Hardness Score": "7",
+        "Negative": "(5, 0, 2, 4)"
+    },
+    "369": {
+        "Triplet #": "369",
+        "Anchor": "(5, 2, 3, 4)",
+        "Positive": "(5, 2, 4, 3)",
+        "Hardness Score": "5",
+        "Negative": "(3, 1, 6, 5)"
+    },
+    "259": {
+        "Triplet #": "259",
+        "Anchor": "(1, 2, 0, 2)",
+        "Positive": "(1, 0, 2, 0)",
+        "Hardness Score": "5",
+        "Negative": "(4, 1, 4, 5)"
+    },
+    "294": {
+        "Triplet #": "294",
+        "Anchor": "(3, 2, 5, 3)",
+        "Positive": "(3, 1, 6, 3)",
+        "Hardness Score": "7",
+        "Negative": "(1, 1, 5, 6)"
+    },
+    "399": {
+        "Triplet #": "399",
+        "Anchor": "(3, 1, 5, 0)",
+        "Positive": "(3, 1, 3, 5)",
+        "Hardness Score": "6",
+        "Negative": "(5, 0, 5, 0)"
+    },
+    "21": {
+        "Triplet #": "21",
+        "Anchor": "(1, 2, 6, 0)",
+        "Positive": "(1, 1, 1, 3)",
+        "Hardness Score": "8",
+        "Negative": "(4, 2, 1, 1)"
+    },
+    "125": {
+        "Triplet #": "125",
+        "Anchor": "(4, 2, 3, 4)",
+        "Positive": "(4, 0, 5, 3)",
+        "Hardness Score": "8",
+        "Negative": "(2, 0, 1, 3)"
+    },
+    "482": {
+        "Triplet #": "482",
+        "Anchor": "(2, 0, 3, 4)",
+        "Positive": "(2, 1, 1, 3)",
+        "Hardness Score": "9",
+        "Negative": "(0, 1, 1, 4)"
+    },
+    "62": {
+        "Triplet #": "62",
+        "Anchor": "(2, 1, 3, 0)",
+        "Positive": "(2, 2, 4, 1)",
+        "Hardness Score": "6",
+        "Negative": "(1, 1, 4, 5)"
+    },
+    "447": {
+        "Triplet #": "447",
+        "Anchor": "(0, 2, 5, 5)",
+        "Positive": "(0, 0, 5, 4)",
+        "Hardness Score": "2",
+        "Negative": "(5, 1, 1, 3)"
+    },
+    "13": {
+        "Triplet #": "13",
+        "Anchor": "(0, 0, 2, 1)",
+        "Positive": "(0, 1, 6, 0)",
+        "Hardness Score": "4",
+        "Negative": "(5, 0, 0, 5)"
+    },
+    "201": {
+        "Triplet #": "201",
+        "Anchor": "(0, 2, 1, 6)",
+        "Positive": "(0, 0, 3, 0)",
+        "Hardness Score": "6",
+        "Negative": "(3, 2, 1, 6)"
+    },
+    "89": {
+        "Triplet #": "89",
+        "Anchor": "(3, 2, 6, 5)",
+        "Positive": "(3, 0, 2, 3)",
+        "Hardness Score": "6",
+        "Negative": "(0, 2, 3, 5)"
+    },
+    "218": {
+        "Triplet #": "218",
+        "Anchor": "(3, 2, 0, 4)",
+        "Positive": "(3, 0, 5, 1)",
+        "Hardness Score": "8",
+        "Negative": "(5, 0, 1, 5)"
+    },
+    "258": {
+        "Triplet #": "258",
+        "Anchor": "(2, 2, 5, 0)",
+        "Positive": "(2, 0, 4, 4)",
+        "Hardness Score": "8",
+        "Negative": "(3, 1, 5, 0)"
+    },
+    "488": {
+        "Triplet #": "488",
+        "Anchor": "(5, 2, 1, 3)",
+        "Positive": "(5, 0, 6, 2)",
+        "Hardness Score": "8",
+        "Negative": "(3, 0, 1, 5)"
+    },
+    "92": {
+        "Triplet #": "92",
+        "Anchor": "(5, 1, 6, 2)",
+        "Positive": "(5, 0, 3, 4)",
+        "Hardness Score": "5",
+        "Negative": "(1, 2, 4, 1)"
+    },
+    "263": {
+        "Triplet #": "263",
+        "Anchor": "(3, 0, 5, 5)",
+        "Positive": "(3, 0, 5, 0)",
+        "Hardness Score": "4",
+        "Negative": "(1, 1, 5, 2)"
+    },
+    "88": {
+        "Triplet #": "88",
+        "Anchor": "(4, 0, 5, 6)",
+        "Positive": "(4, 2, 4, 0)",
+        "Hardness Score": "7",
+        "Negative": "(5, 0, 1, 5)"
+    },
+    "109": {
+        "Triplet #": "109",
+        "Anchor": "(1, 0, 4, 2)",
+        "Positive": "(1, 2, 5, 2)",
+        "Hardness Score": "6",
+        "Negative": "(0, 0, 1, 3)"
+    },
+    "121": {
+        "Triplet #": "121",
+        "Anchor": "(2, 0, 5, 6)",
+        "Positive": "(2, 0, 0, 2)",
+        "Hardness Score": "7",
+        "Negative": "(1, 2, 1, 1)"
+    },
+    "426": {
+        "Triplet #": "426",
+        "Anchor": "(3, 2, 1, 6)",
+        "Positive": "(3, 2, 2, 1)",
+        "Hardness Score": "6",
+        "Negative": "(4, 0, 3, 5)"
+    },
+    "454": {
+        "Triplet #": "454",
+        "Anchor": "(2, 2, 0, 0)",
+        "Positive": "(2, 2, 5, 1)",
+        "Hardness Score": "7",
+        "Negative": "(1, 2, 3, 0)"
+    },
+    "80": {
+        "Triplet #": "80",
+        "Anchor": "(4, 0, 5, 0)",
+        "Positive": "(4, 1, 0, 3)",
+        "Hardness Score": "8",
+        "Negative": "(2, 1, 5, 0)"
+    },
+    "75": {
+        "Triplet #": "75",
+        "Anchor": "(3, 2, 1, 6)",
+        "Positive": "(3, 0, 0, 1)",
+        "Hardness Score": "8",
+        "Negative": "(2, 0, 3, 3)"
+    },
+    "153": {
+        "Triplet #": "153",
+        "Anchor": "(1, 1, 2, 4)",
+        "Positive": "(1, 0, 4, 2)",
+        "Hardness Score": "9",
+        "Negative": "(2, 2, 3, 2)"
+    },
+    "418": {
+        "Triplet #": "418",
+        "Anchor": "(0, 0, 3, 1)",
+        "Positive": "(0, 2, 0, 0)",
+        "Hardness Score": "7",
+        "Negative": "(4, 2, 0, 5)"
+    },
+    "119": {
+        "Triplet #": "119",
+        "Anchor": "(5, 0, 1, 3)",
+        "Positive": "(5, 0, 5, 0)",
+        "Hardness Score": "5",
+        "Negative": "(3, 0, 6, 3)"
+    },
+    "353": {
+        "Triplet #": "353",
+        "Anchor": "(4, 0, 4, 0)",
+        "Positive": "(4, 1, 6, 3)",
+        "Hardness Score": "4",
+        "Negative": "(0, 0, 2, 1)"
+    },
+    "427": {
+        "Triplet #": "427",
+        "Anchor": "(4, 0, 5, 6)",
+        "Positive": "(4, 2, 0, 2)",
+        "Hardness Score": "11",
+        "Negative": "(5, 2, 0, 6)"
+    },
+    "457": {
+        "Triplet #": "457",
+        "Anchor": "(5, 1, 5, 5)",
+        "Positive": "(5, 1, 2, 5)",
+        "Hardness Score": "1",
+        "Negative": "(0, 1, 1, 2)"
+    },
+    "421": {
+        "Triplet #": "421",
+        "Anchor": "(3, 0, 6, 3)",
+        "Positive": "(3, 2, 2, 3)",
+        "Hardness Score": "6",
+        "Negative": "(5, 1, 5, 5)"
+    },
+    "214": {
+        "Triplet #": "214",
+        "Anchor": "(2, 2, 5, 4)",
+        "Positive": "(2, 2, 0, 6)",
+        "Hardness Score": "5",
+        "Negative": "(5, 1, 3, 5)"
+    },
+    "206": {
+        "Triplet #": "206",
+        "Anchor": "(3, 1, 3, 3)",
+        "Positive": "(3, 0, 5, 5)",
+        "Hardness Score": "8",
+        "Negative": "(1, 1, 5, 4)"
+    },
+    "330": {
+        "Triplet #": "330",
+        "Anchor": "(2, 2, 4, 4)",
+        "Positive": "(2, 2, 3, 4)",
+        "Hardness Score": "5",
+        "Negative": "(1, 2, 1, 6)"
+    },
+    "184": {
+        "Triplet #": "184",
+        "Anchor": "(3, 0, 0, 1)",
+        "Positive": "(3, 0, 1, 1)",
+        "Hardness Score": "5",
+        "Negative": "(5, 2, 0, 4)"
+    },
+    "444": {
+        "Triplet #": "444",
+        "Anchor": "(1, 0, 6, 5)",
+        "Positive": "(1, 2, 0, 4)",
+        "Hardness Score": "8",
+        "Negative": "(4, 0, 0, 0)"
+    },
+    "362": {
+        "Triplet #": "362",
+        "Anchor": "(5, 0, 3, 6)",
+        "Positive": "(5, 0, 1, 5)",
+        "Hardness Score": "7",
+        "Negative": "(3, 1, 3, 5)"
+    },
+    "352": {
+        "Triplet #": "352",
+        "Anchor": "(1, 0, 6, 0)",
+        "Positive": "(1, 1, 4, 5)",
+        "Hardness Score": "4",
+        "Negative": "(5, 2, 3, 4)"
+    },
+    "278": {
+        "Triplet #": "278",
+        "Anchor": "(1, 0, 6, 5)",
+        "Positive": "(1, 2, 6, 1)",
+        "Hardness Score": "4",
+        "Negative": "(5, 2, 2, 5)"
+    },
+    "359": {
+        "Triplet #": "359",
+        "Anchor": "(0, 0, 3, 5)",
+        "Positive": "(0, 2, 4, 5)",
+        "Hardness Score": "6",
+        "Negative": "(2, 2, 6, 1)"
+    },
+    "118": {
+        "Triplet #": "118",
+        "Anchor": "(0, 0, 1, 0)",
+        "Positive": "(0, 1, 2, 1)",
+        "Hardness Score": "8",
+        "Negative": "(1, 1, 4, 3)"
+    },
+    "285": {
+        "Triplet #": "285",
+        "Anchor": "(3, 0, 0, 6)",
+        "Positive": "(3, 1, 3, 4)",
+        "Hardness Score": "9",
+        "Negative": "(2, 1, 2, 2)"
+    },
+    "470": {
+        "Triplet #": "470",
+        "Anchor": "(5, 1, 2, 2)",
+        "Positive": "(5, 2, 1, 3)",
+        "Hardness Score": "7",
+        "Negative": "(4, 1, 4, 5)"
+    },
+    "402": {
+        "Triplet #": "402",
+        "Anchor": "(0, 1, 3, 6)",
+        "Positive": "(0, 0, 0, 6)",
+        "Hardness Score": "7",
+        "Negative": "(1, 0, 6, 5)"
+    },
+    "159": {
+        "Triplet #": "159",
+        "Anchor": "(4, 2, 0, 3)",
+        "Positive": "(4, 2, 1, 4)",
+        "Hardness Score": "6",
+        "Negative": "(5, 0, 2, 1)"
+    },
+    "194": {
+        "Triplet #": "194",
+        "Anchor": "(4, 2, 6, 5)",
+        "Positive": "(4, 2, 6, 5)",
+        "Hardness Score": "1",
+        "Negative": "(0, 1, 6, 6)"
+    },
+    "215": {
+        "Triplet #": "215",
+        "Anchor": "(5, 2, 0, 3)",
+        "Positive": "(5, 0, 2, 6)",
+        "Hardness Score": "5",
+        "Negative": "(1, 2, 5, 6)"
+    },
+    "291": {
+        "Triplet #": "291",
+        "Anchor": "(0, 1, 5, 5)",
+        "Positive": "(0, 2, 2, 4)",
+        "Hardness Score": "3",
+        "Negative": "(5, 1, 1, 2)"
+    },
+    "322": {
+        "Triplet #": "322",
+        "Anchor": "(3, 0, 4, 0)",
+        "Positive": "(3, 2, 2, 5)",
+        "Hardness Score": "6",
+        "Negative": "(5, 0, 6, 6)"
+    },
+    "185": {
+        "Triplet #": "185",
+        "Anchor": "(4, 1, 0, 3)",
+        "Positive": "(4, 1, 4, 4)",
+        "Hardness Score": "5",
+        "Negative": "(2, 2, 6, 1)"
+    },
+    "76": {
+        "Triplet #": "76",
+        "Anchor": "(4, 0, 6, 4)",
+        "Positive": "(4, 0, 3, 6)",
+        "Hardness Score": "7",
+        "Negative": "(3, 2, 6, 4)"
+    },
+    "134": {
+        "Triplet #": "134",
+        "Anchor": "(4, 1, 3, 6)",
+        "Positive": "(4, 0, 0, 0)",
+        "Hardness Score": "8",
+        "Negative": "(3, 2, 6, 0)"
+    },
+    "48": {
+        "Triplet #": "48",
+        "Anchor": "(4, 1, 2, 4)",
+        "Positive": "(4, 2, 5, 2)",
+        "Hardness Score": "10",
+        "Negative": "(3, 2, 0, 2)"
+    },
+    "368": {
+        "Triplet #": "368",
+        "Anchor": "(4, 1, 1, 2)",
+        "Positive": "(4, 1, 2, 0)",
+        "Hardness Score": "5",
+        "Negative": "(2, 1, 4, 2)"
+    },
+    "434": {
+        "Triplet #": "434",
+        "Anchor": "(1, 2, 3, 6)",
+        "Positive": "(1, 1, 0, 0)",
+        "Hardness Score": "8",
+        "Negative": "(2, 0, 2, 5)"
+    },
+    "175": {
+        "Triplet #": "175",
+        "Anchor": "(4, 2, 3, 4)",
+        "Positive": "(4, 1, 1, 4)",
+        "Hardness Score": "6",
+        "Negative": "(3, 2, 5, 3)"
+    },
+    "166": {
+        "Triplet #": "166",
+        "Anchor": "(0, 0, 0, 3)",
+        "Positive": "(0, 1, 2, 5)",
+        "Hardness Score": "7",
+        "Negative": "(2, 1, 3, 3)"
+    },
+    "437": {
+        "Triplet #": "437",
+        "Anchor": "(4, 1, 1, 4)",
+        "Positive": "(4, 0, 6, 4)",
+        "Hardness Score": "5",
+        "Negative": "(1, 2, 5, 2)"
+    },
+    "54": {
+        "Triplet #": "54",
+        "Anchor": "(4, 0, 6, 5)",
+        "Positive": "(4, 0, 3, 0)",
+        "Hardness Score": "4",
+        "Negative": "(0, 2, 5, 4)"
+    },
+    "286": {
+        "Triplet #": "286",
+        "Anchor": "(0, 0, 6, 3)",
+        "Positive": "(0, 2, 2, 1)",
+        "Hardness Score": "6",
+        "Negative": "(3, 2, 0, 5)"
+    },
+    "393": {
+        "Triplet #": "393",
+        "Anchor": "(0, 1, 5, 0)",
+        "Positive": "(0, 0, 0, 5)",
+        "Hardness Score": "8",
+        "Negative": "(1, 1, 5, 3)"
+    },
+    "251": {
+        "Triplet #": "251",
+        "Anchor": "(4, 0, 2, 5)",
+        "Positive": "(4, 1, 3, 2)",
+        "Hardness Score": "5",
+        "Negative": "(0, 1, 5, 0)"
+    },
+    "205": {
+        "Triplet #": "205",
+        "Anchor": "(2, 2, 4, 5)",
+        "Positive": "(2, 1, 4, 5)",
+        "Hardness Score": "4",
+        "Negative": "(0, 0, 3, 5)"
+    },
+    "253": {
+        "Triplet #": "253",
+        "Anchor": "(5, 2, 4, 3)",
+        "Positive": "(5, 2, 0, 1)",
+        "Hardness Score": "3",
+        "Negative": "(0, 0, 5, 3)"
+    },
+    "168": {
+        "Triplet #": "168",
+        "Anchor": "(5, 1, 6, 4)",
+        "Positive": "(5, 0, 3, 4)",
+        "Hardness Score": "2",
+        "Negative": "(0, 2, 0, 1)"
+    },
+    "336": {
+        "Triplet #": "336",
+        "Anchor": "(1, 1, 0, 2)",
+        "Positive": "(1, 0, 4, 0)",
+        "Hardness Score": "9",
+        "Negative": "(4, 0, 4, 5)"
+    },
+    "396": {
+        "Triplet #": "396",
+        "Anchor": "(1, 0, 2, 6)",
+        "Positive": "(1, 1, 5, 2)",
+        "Hardness Score": "6",
+        "Negative": "(4, 2, 3, 3)"
+    },
+    "90": {
+        "Triplet #": "90",
+        "Anchor": "(3, 0, 5, 0)",
+        "Positive": "(3, 1, 1, 0)",
+        "Hardness Score": "7",
+        "Negative": "(1, 1, 3, 3)"
+    },
+    "67": {
+        "Triplet #": "67",
+        "Anchor": "(0, 2, 4, 2)",
+        "Positive": "(0, 1, 5, 0)",
+        "Hardness Score": "5",
+        "Negative": "(4, 1, 3, 4)"
+    },
+    "155": {
+        "Triplet #": "155",
+        "Anchor": "(1, 1, 4, 1)",
+        "Positive": "(1, 0, 4, 1)",
+        "Hardness Score": "3",
+        "Negative": "(4, 1, 3, 3)"
+    },
+    "317": {
+        "Triplet #": "317",
+        "Anchor": "(2, 1, 2, 3)",
+        "Positive": "(2, 1, 5, 0)",
+        "Hardness Score": "7",
+        "Negative": "(0, 0, 5, 1)"
+    },
+    "195": {
+        "Triplet #": "195",
+        "Anchor": "(4, 2, 0, 5)",
         "Positive": "(4, 0, 2, 0)",
-        "Negative": "(0, 0, 4, 5)"
+        "Hardness Score": "7",
+        "Negative": "(3, 2, 6, 3)"
+    },
+    "73": {
+        "Triplet #": "73",
+        "Anchor": "(5, 1, 0, 3)",
+        "Positive": "(5, 2, 1, 0)",
+        "Hardness Score": "3",
+        "Negative": "(0, 0, 6, 4)"
+    },
+    "51": {
+        "Triplet #": "51",
+        "Anchor": "(4, 2, 3, 3)",
+        "Positive": "(4, 1, 0, 2)",
+        "Hardness Score": "5",
+        "Negative": "(0, 2, 5, 0)"
+    },
+    "363": {
+        "Triplet #": "363",
+        "Anchor": "(5, 0, 5, 2)",
+        "Positive": "(5, 0, 1, 4)",
+        "Hardness Score": "2",
+        "Negative": "(0, 0, 0, 2)"
+    },
+    "469": {
+        "Triplet #": "469",
+        "Anchor": "(3, 1, 0, 3)",
+        "Positive": "(3, 1, 6, 5)",
+        "Hardness Score": "7",
+        "Negative": "(4, 2, 5, 3)"
+    },
+    "83": {
+        "Triplet #": "83",
+        "Anchor": "(0, 1, 4, 6)",
+        "Positive": "(0, 0, 2, 1)",
+        "Hardness Score": "3",
+        "Negative": "(5, 1, 0, 6)"
+    },
+    "314": {
+        "Triplet #": "314",
+        "Anchor": "(5, 1, 2, 3)",
+        "Positive": "(5, 0, 5, 1)",
+        "Hardness Score": "9",
+        "Negative": "(4, 1, 5, 6)"
+    },
+    "262": {
+        "Triplet #": "262",
+        "Anchor": "(4, 0, 6, 0)",
+        "Positive": "(4, 0, 2, 5)",
+        "Hardness Score": "8",
+        "Negative": "(2, 2, 2, 4)"
+    },
+    "26": {
+        "Triplet #": "26",
+        "Anchor": "(5, 2, 6, 3)",
+        "Positive": "(5, 2, 1, 2)",
+        "Hardness Score": "2",
+        "Negative": "(0, 1, 0, 6)"
+    },
+    "298": {
+        "Triplet #": "298",
+        "Anchor": "(1, 1, 6, 0)",
+        "Positive": "(1, 1, 0, 1)",
+        "Hardness Score": "6",
+        "Negative": "(4, 0, 6, 1)"
+    },
+    "255": {
+        "Triplet #": "255",
+        "Anchor": "(5, 1, 6, 0)",
+        "Positive": "(5, 1, 6, 4)",
+        "Hardness Score": "5",
+        "Negative": "(4, 2, 0, 5)"
+    },
+    "229": {
+        "Triplet #": "229",
+        "Anchor": "(2, 2, 6, 0)",
+        "Positive": "(2, 1, 6, 3)",
+        "Hardness Score": "7",
+        "Negative": "(1, 1, 5, 0)"
+    },
+    "274": {
+        "Triplet #": "274",
+        "Anchor": "(0, 0, 4, 3)",
+        "Positive": "(0, 2, 5, 6)",
+        "Hardness Score": "8",
+        "Negative": "(1, 0, 1, 6)"
+    },
+    "200": {
+        "Triplet #": "200",
+        "Anchor": "(4, 1, 3, 2)",
+        "Positive": "(4, 0, 1, 1)",
+        "Hardness Score": "7",
+        "Negative": "(0, 0, 1, 4)"
+    },
+    "79": {
+        "Triplet #": "79",
+        "Anchor": "(1, 0, 6, 3)",
+        "Positive": "(1, 2, 4, 6)",
+        "Hardness Score": "5",
+        "Negative": "(5, 2, 1, 5)"
+    },
+    "432": {
+        "Triplet #": "432",
+        "Anchor": "(3, 1, 5, 4)",
+        "Positive": "(3, 2, 5, 5)",
+        "Hardness Score": "5",
+        "Negative": "(0, 2, 1, 4)"
+    },
+    "182": {
+        "Triplet #": "182",
+        "Anchor": "(2, 1, 5, 3)",
+        "Positive": "(2, 2, 4, 4)",
+        "Hardness Score": "7",
+        "Negative": "(4, 1, 1, 4)"
+    },
+    "239": {
+        "Triplet #": "239",
+        "Anchor": "(3, 1, 1, 5)",
+        "Positive": "(3, 1, 2, 4)",
+        "Hardness Score": "7",
+        "Negative": "(2, 1, 1, 1)"
+    },
+    "460": {
+        "Triplet #": "460",
+        "Anchor": "(3, 0, 2, 6)",
+        "Positive": "(3, 1, 5, 3)",
+        "Hardness Score": "7",
+        "Negative": "(0, 2, 5, 6)"
+    },
+    "20": {
+        "Triplet #": "20",
+        "Anchor": "(0, 1, 6, 4)",
+        "Positive": "(0, 0, 2, 2)",
+        "Hardness Score": "7",
+        "Negative": "(2, 1, 4, 5)"
+    },
+    "186": {
+        "Triplet #": "186",
+        "Anchor": "(2, 2, 2, 0)",
+        "Positive": "(2, 1, 5, 2)",
+        "Hardness Score": "7",
+        "Negative": "(4, 2, 2, 6)"
+    },
+    "367": {
+        "Triplet #": "367",
+        "Anchor": "(2, 1, 6, 5)",
+        "Positive": "(2, 0, 6, 3)",
+        "Hardness Score": "5",
+        "Negative": "(0, 2, 4, 0)"
+    },
+    "192": {
+        "Triplet #": "192",
+        "Anchor": "(1, 1, 1, 4)",
+        "Positive": "(1, 1, 2, 5)",
+        "Hardness Score": "4",
+        "Negative": "(5, 2, 1, 1)"
+    },
+    "499": {
+        "Triplet #": "499",
+        "Anchor": "(3, 2, 1, 3)",
+        "Positive": "(3, 2, 5, 1)",
+        "Hardness Score": "7",
+        "Negative": "(0, 0, 5, 3)"
+    },
+    "312": {
+        "Triplet #": "312",
+        "Anchor": "(2, 1, 0, 0)",
+        "Positive": "(2, 2, 5, 4)",
+        "Hardness Score": "7",
+        "Negative": "(5, 2, 0, 6)"
+    },
+    "165": {
+        "Triplet #": "165",
+        "Anchor": "(1, 1, 4, 0)",
+        "Positive": "(1, 2, 2, 6)",
+        "Hardness Score": "6",
+        "Negative": "(5, 1, 2, 5)"
+    },
+    "149": {
+        "Triplet #": "149",
+        "Anchor": "(1, 0, 6, 2)",
+        "Positive": "(1, 1, 6, 5)",
+        "Hardness Score": "5",
+        "Negative": "(4, 2, 0, 5)"
+    },
+    "116": {
+        "Triplet #": "116",
+        "Anchor": "(4, 2, 0, 4)",
+        "Positive": "(4, 1, 3, 2)",
+        "Hardness Score": "7",
+        "Negative": "(5, 2, 4, 4)"
+    },
+    "111": {
+        "Triplet #": "111",
+        "Anchor": "(3, 0, 1, 2)",
+        "Positive": "(3, 1, 2, 0)",
+        "Hardness Score": "8",
+        "Negative": "(4, 1, 4, 6)"
+    },
+    "358": {
+        "Triplet #": "358",
+        "Anchor": "(2, 0, 2, 6)",
+        "Positive": "(2, 0, 5, 1)",
+        "Hardness Score": "6",
+        "Negative": "(3, 2, 6, 2)"
+    },
+    "242": {
+        "Triplet #": "242",
+        "Anchor": "(1, 2, 1, 1)",
+        "Positive": "(1, 0, 3, 2)",
+        "Hardness Score": "6",
+        "Negative": "(4, 2, 5, 2)"
+    },
+    "494": {
+        "Triplet #": "494",
+        "Anchor": "(1, 0, 3, 6)",
+        "Positive": "(1, 1, 0, 0)",
+        "Hardness Score": "6",
+        "Negative": "(4, 0, 6, 0)"
+    },
+    "158": {
+        "Triplet #": "158",
+        "Anchor": "(3, 0, 6, 3)",
+        "Positive": "(3, 2, 6, 0)",
+        "Hardness Score": "5",
+        "Negative": "(1, 0, 3, 4)"
+    },
+    "329": {
+        "Triplet #": "329",
+        "Anchor": "(1, 0, 0, 4)",
+        "Positive": "(1, 1, 5, 0)",
+        "Hardness Score": "8",
+        "Negative": "(0, 0, 2, 1)"
+    },
+    "408": {
+        "Triplet #": "408",
+        "Anchor": "(2, 0, 0, 5)",
+        "Positive": "(2, 2, 3, 2)",
+        "Hardness Score": "9",
+        "Negative": "(1, 1, 3, 5)"
+    },
+    "424": {
+        "Triplet #": "424",
+        "Anchor": "(3, 1, 5, 3)",
+        "Positive": "(3, 0, 5, 2)",
+        "Hardness Score": "5",
+        "Negative": "(0, 0, 6, 1)"
+    },
+    "450": {
+        "Triplet #": "450",
+        "Anchor": "(4, 0, 1, 5)",
+        "Positive": "(4, 2, 0, 3)",
+        "Hardness Score": "5",
+        "Negative": "(0, 1, 1, 5)"
+    },
+    "304": {
+        "Triplet #": "304",
+        "Anchor": "(3, 1, 2, 5)",
+        "Positive": "(3, 1, 0, 2)",
+        "Hardness Score": "5",
+        "Negative": "(5, 1, 6, 4)"
+    },
+    "53": {
+        "Triplet #": "53",
+        "Anchor": "(2, 2, 2, 3)",
+        "Positive": "(2, 1, 0, 3)",
+        "Hardness Score": "6",
+        "Negative": "(5, 0, 0, 6)"
+    },
+    "63": {
+        "Triplet #": "63",
+        "Anchor": "(1, 1, 6, 0)",
+        "Positive": "(1, 2, 6, 0)",
+        "Hardness Score": "2",
+        "Negative": "(5, 1, 4, 6)"
+    },
+    "436": {
+        "Triplet #": "436",
+        "Anchor": "(0, 0, 0, 6)",
+        "Positive": "(0, 2, 4, 6)",
+        "Hardness Score": "7",
+        "Negative": "(2, 2, 3, 6)"
+    },
+    "128": {
+        "Triplet #": "128",
+        "Anchor": "(3, 2, 3, 1)",
+        "Positive": "(3, 1, 1, 4)",
+        "Hardness Score": "9",
+        "Negative": "(2, 1, 2, 3)"
+    },
+    "142": {
+        "Triplet #": "142",
+        "Anchor": "(1, 2, 3, 0)",
+        "Positive": "(1, 0, 5, 0)",
+        "Hardness Score": "6",
+        "Negative": "(3, 0, 0, 1)"
+    },
+    "354": {
+        "Triplet #": "354",
+        "Anchor": "(0, 1, 6, 5)",
+        "Positive": "(0, 0, 3, 5)",
+        "Hardness Score": "4",
+        "Negative": "(4, 0, 1, 3)"
+    },
+    "207": {
+        "Triplet #": "207",
+        "Anchor": "(1, 0, 3, 0)",
+        "Positive": "(1, 2, 3, 2)",
+        "Hardness Score": "6",
+        "Negative": "(2, 1, 6, 1)"
+    },
+    "277": {
+        "Triplet #": "277",
+        "Anchor": "(0, 1, 2, 3)",
+        "Positive": "(0, 2, 1, 1)",
+        "Hardness Score": "5",
+        "Negative": "(3, 1, 6, 3)"
+    },
+    "241": {
+        "Triplet #": "241",
+        "Anchor": "(1, 2, 2, 1)",
+        "Positive": "(1, 1, 6, 2)",
+        "Hardness Score": "6",
+        "Negative": "(4, 2, 4, 3)"
+    },
+    "16": {
+        "Triplet #": "16",
+        "Anchor": "(1, 1, 2, 1)",
+        "Positive": "(1, 0, 1, 0)",
+        "Hardness Score": "9",
+        "Negative": "(2, 0, 2, 4)"
+    },
+    "344": {
+        "Triplet #": "344",
+        "Anchor": "(5, 0, 0, 6)",
+        "Positive": "(5, 1, 0, 2)",
+        "Hardness Score": "4",
+        "Negative": "(1, 2, 4, 2)"
+    },
+    "280": {
+        "Triplet #": "280",
+        "Anchor": "(4, 0, 6, 2)",
+        "Positive": "(4, 0, 3, 4)",
+        "Hardness Score": "4",
+        "Negative": "(1, 0, 2, 3)"
+    },
+    "310": {
+        "Triplet #": "310",
+        "Anchor": "(3, 2, 5, 2)",
+        "Positive": "(3, 0, 3, 6)",
+        "Hardness Score": "6",
+        "Negative": "(0, 0, 0, 3)"
+    },
+    "209": {
+        "Triplet #": "209",
+        "Anchor": "(1, 2, 2, 1)",
+        "Positive": "(1, 2, 1, 3)",
+        "Hardness Score": "4",
+        "Negative": "(5, 1, 3, 3)"
+    },
+    "428": {
+        "Triplet #": "428",
+        "Anchor": "(0, 0, 2, 3)",
+        "Positive": "(0, 0, 0, 3)",
+        "Hardness Score": "1",
+        "Negative": "(5, 1, 5, 4)"
+    },
+    "478": {
+        "Triplet #": "478",
+        "Anchor": "(2, 0, 3, 6)",
+        "Positive": "(2, 1, 5, 2)",
+        "Hardness Score": "6",
+        "Negative": "(5, 2, 6, 2)"
+    },
+    "458": {
+        "Triplet #": "458",
+        "Anchor": "(2, 1, 1, 5)",
+        "Positive": "(2, 0, 0, 6)",
+        "Hardness Score": "5",
+        "Negative": "(5, 1, 4, 2)"
+    },
+    "306": {
+        "Triplet #": "306",
+        "Anchor": "(1, 1, 1, 5)",
+        "Positive": "(1, 1, 4, 4)",
+        "Hardness Score": "6",
+        "Negative": "(3, 1, 1, 2)"
+    },
+    "493": {
+        "Triplet #": "493",
+        "Anchor": "(5, 1, 3, 2)",
+        "Positive": "(5, 2, 3, 2)",
+        "Hardness Score": "1",
+        "Negative": "(0, 0, 2, 6)"
+    },
+    "59": {
+        "Triplet #": "59",
+        "Anchor": "(3, 1, 4, 3)",
+        "Positive": "(3, 0, 2, 2)",
+        "Hardness Score": "9",
+        "Negative": "(2, 0, 5, 0)"
+    },
+    "284": {
+        "Triplet #": "284",
+        "Anchor": "(2, 2, 2, 6)",
+        "Positive": "(2, 0, 5, 5)",
+        "Hardness Score": "8",
+        "Negative": "(1, 0, 6, 3)"
+    },
+    "249": {
+        "Triplet #": "249",
+        "Anchor": "(3, 2, 3, 2)",
+        "Positive": "(3, 0, 1, 3)",
+        "Hardness Score": "8",
+        "Negative": "(4, 1, 4, 2)"
+    },
+    "293": {
+        "Triplet #": "293",
+        "Anchor": "(1, 2, 4, 3)",
+        "Positive": "(1, 1, 3, 6)",
+        "Hardness Score": "7",
+        "Negative": "(0, 0, 6, 4)"
+    },
+    "176": {
+        "Triplet #": "176",
+        "Anchor": "(2, 0, 0, 1)",
+        "Positive": "(2, 1, 2, 5)",
+        "Hardness Score": "7",
+        "Negative": "(3, 0, 3, 2)"
+    },
+    "384": {
+        "Triplet #": "384",
+        "Anchor": "(3, 2, 6, 6)",
+        "Positive": "(3, 1, 0, 2)",
+        "Hardness Score": "9",
+        "Negative": "(2, 1, 2, 5)"
+    },
+    "290": {
+        "Triplet #": "290",
+        "Anchor": "(4, 0, 3, 1)",
+        "Positive": "(4, 0, 2, 6)",
+        "Hardness Score": "4",
+        "Negative": "(1, 0, 0, 3)"
+    },
+    "224": {
+        "Triplet #": "224",
+        "Anchor": "(0, 0, 4, 1)",
+        "Positive": "(0, 1, 1, 2)",
+        "Hardness Score": "5",
+        "Negative": "(4, 2, 4, 6)"
+    },
+    "500": {
+        "Triplet #": "500",
+        "Anchor": "(4, 0, 0, 0)",
+        "Positive": "(4, 0, 6, 2)",
+        "Hardness Score": "6",
+        "Negative": "(2, 2, 4, 1)"
+    },
+    "202": {
+        "Triplet #": "202",
+        "Anchor": "(3, 2, 6, 3)",
+        "Positive": "(3, 0, 4, 1)",
+        "Hardness Score": "8",
+        "Negative": "(2, 0, 3, 0)"
+    },
+    "392": {
+        "Triplet #": "392",
+        "Anchor": "(3, 2, 4, 0)",
+        "Positive": "(3, 0, 2, 6)",
+        "Hardness Score": "7",
+        "Negative": "(5, 2, 3, 1)"
+    },
+    "264": {
+        "Triplet #": "264",
+        "Anchor": "(3, 2, 4, 1)",
+        "Positive": "(3, 1, 0, 1)",
+        "Hardness Score": "7",
+        "Negative": "(5, 1, 3, 4)"
+    },
+    "297": {
+        "Triplet #": "297",
+        "Anchor": "(1, 1, 5, 4)",
+        "Positive": "(1, 1, 2, 6)",
+        "Hardness Score": "8",
+        "Negative": "(3, 2, 2, 6)"
+    },
+    "464": {
+        "Triplet #": "464",
+        "Anchor": "(3, 0, 2, 0)",
+        "Positive": "(3, 0, 0, 6)",
+        "Hardness Score": "5",
+        "Negative": "(0, 0, 4, 6)"
+    },
+    "466": {
+        "Triplet #": "466",
+        "Anchor": "(1, 1, 0, 5)",
+        "Positive": "(1, 0, 2, 4)",
+        "Hardness Score": "8",
+        "Negative": "(2, 1, 0, 2)"
+    },
+    "69": {
+        "Triplet #": "69",
+        "Anchor": "(3, 0, 0, 0)",
+        "Positive": "(3, 2, 3, 6)",
+        "Hardness Score": "7",
+        "Negative": "(4, 1, 4, 4)"
+    },
+    "173": {
+        "Triplet #": "173",
+        "Anchor": "(3, 1, 6, 4)",
+        "Positive": "(3, 0, 4, 5)",
+        "Hardness Score": "9",
+        "Negative": "(2, 0, 5, 1)"
+    },
+    "335": {
+        "Triplet #": "335",
+        "Anchor": "(1, 2, 5, 2)",
+        "Positive": "(1, 1, 5, 2)",
+        "Hardness Score": "2",
+        "Negative": "(5, 0, 6, 6)"
+    },
+    "127": {
+        "Triplet #": "127",
+        "Anchor": "(3, 1, 3, 0)",
+        "Positive": "(3, 0, 3, 3)",
+        "Hardness Score": "4",
+        "Negative": "(0, 2, 6, 5)"
+    },
+    "42": {
+        "Triplet #": "42",
+        "Anchor": "(5, 2, 3, 2)",
+        "Positive": "(5, 0, 2, 3)",
+        "Hardness Score": "2",
+        "Negative": "(0, 2, 2, 1)"
+    },
+    "135": {
+        "Triplet #": "135",
+        "Anchor": "(0, 0, 3, 3)",
+        "Positive": "(0, 2, 0, 4)",
+        "Hardness Score": "7",
+        "Negative": "(2, 1, 4, 5)"
+    },
+    "333": {
+        "Triplet #": "333",
+        "Anchor": "(2, 0, 4, 2)",
+        "Positive": "(2, 1, 2, 2)",
+        "Hardness Score": "8",
+        "Negative": "(4, 1, 2, 6)"
+    },
+    "183": {
+        "Triplet #": "183",
+        "Anchor": "(5, 1, 0, 1)",
+        "Positive": "(5, 1, 5, 4)",
+        "Hardness Score": "6",
+        "Negative": "(3, 1, 2, 1)"
+    },
+    "409": {
+        "Triplet #": "409",
+        "Anchor": "(1, 2, 0, 3)",
+        "Positive": "(1, 2, 0, 5)",
+        "Hardness Score": "5",
+        "Negative": "(3, 0, 6, 5)"
+    },
+    "413": {
+        "Triplet #": "413",
+        "Anchor": "(4, 0, 2, 0)",
+        "Positive": "(4, 2, 2, 5)",
+        "Hardness Score": "6",
+        "Negative": "(5, 1, 5, 2)"
+    },
+    "300": {
+        "Triplet #": "300",
+        "Anchor": "(2, 1, 6, 5)",
+        "Positive": "(2, 1, 2, 1)",
+        "Hardness Score": "6",
+        "Negative": "(3, 2, 1, 3)"
+    },
+    "415": {
+        "Triplet #": "415",
+        "Anchor": "(0, 1, 5, 3)",
+        "Positive": "(0, 0, 4, 1)",
+        "Hardness Score": "5",
+        "Negative": "(3, 0, 4, 6)"
+    },
+    "364": {
+        "Triplet #": "364",
+        "Anchor": "(3, 1, 2, 6)",
+        "Positive": "(3, 1, 6, 3)",
+        "Hardness Score": "6",
+        "Negative": "(1, 0, 5, 4)"
+    },
+    "248": {
+        "Triplet #": "248",
+        "Anchor": "(0, 1, 6, 6)",
+        "Positive": "(0, 1, 4, 5)",
+        "Hardness Score": "4",
+        "Negative": "(5, 0, 4, 1)"
+    },
+    "250": {
+        "Triplet #": "250",
+        "Anchor": "(3, 2, 2, 6)",
+        "Positive": "(3, 1, 3, 6)",
+        "Hardness Score": "5",
+        "Negative": "(1, 0, 6, 4)"
+    },
+    "198": {
+        "Triplet #": "198",
+        "Anchor": "(5, 1, 0, 4)",
+        "Positive": "(5, 0, 1, 5)",
+        "Hardness Score": "7",
+        "Negative": "(3, 2, 0, 4)"
+    },
+    "203": {
+        "Triplet #": "203",
+        "Anchor": "(2, 2, 3, 2)",
+        "Positive": "(2, 0, 6, 3)",
+        "Hardness Score": "7",
+        "Negative": "(4, 2, 3, 2)"
+    },
+    "309": {
+        "Triplet #": "309",
+        "Anchor": "(0, 0, 5, 6)",
+        "Positive": "(0, 2, 3, 1)",
+        "Hardness Score": "5",
+        "Negative": "(4, 0, 6, 4)"
+    },
+    "412": {
+        "Triplet #": "412",
+        "Anchor": "(3, 0, 1, 0)",
+        "Positive": "(3, 2, 5, 4)",
+        "Hardness Score": "6",
+        "Negative": "(0, 0, 0, 2)"
+    },
+    "210": {
+        "Triplet #": "210",
+        "Anchor": "(0, 1, 3, 5)",
+        "Positive": "(0, 0, 2, 3)",
+        "Hardness Score": "7",
+        "Negative": "(1, 1, 6, 6)"
+    },
+    "50": {
+        "Triplet #": "50",
+        "Anchor": "(4, 2, 0, 6)",
+        "Positive": "(4, 1, 0, 3)",
+        "Hardness Score": "7",
+        "Negative": "(3, 2, 3, 3)"
+    },
+    "98": {
+        "Triplet #": "98",
+        "Anchor": "(0, 1, 2, 2)",
+        "Positive": "(0, 0, 0, 5)",
+        "Hardness Score": "6",
+        "Negative": "(5, 0, 0, 4)"
+    },
+    "445": {
+        "Triplet #": "445",
+        "Anchor": "(4, 2, 1, 0)",
+        "Positive": "(4, 0, 1, 1)",
+        "Hardness Score": "3",
+        "Negative": "(0, 1, 2, 0)"
+    },
+    "417": {
+        "Triplet #": "417",
+        "Anchor": "(0, 1, 4, 6)",
+        "Positive": "(0, 1, 6, 6)",
+        "Hardness Score": "4",
+        "Negative": "(2, 0, 1, 4)"
+    },
+    "272": {
+        "Triplet #": "272",
+        "Anchor": "(4, 1, 1, 1)",
+        "Positive": "(4, 0, 3, 4)",
+        "Hardness Score": "7",
+        "Negative": "(2, 2, 1, 6)"
+    },
+    "22": {
+        "Triplet #": "22",
+        "Anchor": "(3, 1, 4, 1)",
+        "Positive": "(3, 2, 0, 6)",
+        "Hardness Score": "10",
+        "Negative": "(4, 1, 0, 1)"
+    },
+    "490": {
+        "Triplet #": "490",
+        "Anchor": "(2, 2, 1, 5)",
+        "Positive": "(2, 0, 1, 3)",
+        "Hardness Score": "5",
+        "Negative": "(0, 2, 1, 5)"
+    },
+    "58": {
+        "Triplet #": "58",
+        "Anchor": "(3, 2, 5, 0)",
+        "Positive": "(3, 1, 4, 2)",
+        "Hardness Score": "8",
+        "Negative": "(4, 1, 6, 5)"
+    },
+    "328": {
+        "Triplet #": "328",
+        "Anchor": "(2, 1, 3, 4)",
+        "Positive": "(2, 1, 0, 0)",
+        "Hardness Score": "5",
+        "Negative": "(5, 1, 5, 6)"
+    },
+    "61": {
+        "Triplet #": "61",
+        "Anchor": "(4, 2, 4, 6)",
+        "Positive": "(4, 1, 2, 5)",
+        "Hardness Score": "7",
+        "Negative": "(2, 1, 1, 6)"
+    },
+    "6": {
+        "Triplet #": "6",
+        "Anchor": "(2, 0, 2, 6)",
+        "Positive": "(2, 1, 1, 3)",
+        "Hardness Score": "9",
+        "Negative": "(3, 1, 5, 3)"
+    },
+    "376": {
+        "Triplet #": "376",
+        "Anchor": "(5, 2, 3, 0)",
+        "Positive": "(5, 0, 0, 1)",
+        "Hardness Score": "9",
+        "Negative": "(4, 0, 2, 5)"
+    },
+    "283": {
+        "Triplet #": "283",
+        "Anchor": "(2, 2, 6, 5)",
+        "Positive": "(2, 2, 1, 4)",
+        "Hardness Score": "6",
+        "Negative": "(0, 1, 5, 1)"
+    },
+    "87": {
+        "Triplet #": "87",
+        "Anchor": "(1, 1, 5, 5)",
+        "Positive": "(1, 0, 5, 4)",
+        "Hardness Score": "6",
+        "Negative": "(2, 2, 0, 2)"
+    },
+    "143": {
+        "Triplet #": "143",
+        "Anchor": "(5, 0, 1, 3)",
+        "Positive": "(5, 2, 0, 4)",
+        "Hardness Score": "8",
+        "Negative": "(4, 2, 3, 1)"
+    },
+    "459": {
+        "Triplet #": "459",
+        "Anchor": "(0, 1, 0, 0)",
+        "Positive": "(0, 1, 3, 3)",
+        "Hardness Score": "7",
+        "Negative": "(2, 1, 3, 2)"
+    },
+    "497": {
+        "Triplet #": "497",
+        "Anchor": "(5, 2, 1, 6)",
+        "Positive": "(5, 1, 1, 2)",
+        "Hardness Score": "7",
+        "Negative": "(4, 1, 0, 0)"
+    },
+    "401": {
+        "Triplet #": "401",
+        "Anchor": "(2, 0, 4, 0)",
+        "Positive": "(2, 2, 0, 5)",
+        "Hardness Score": "7",
+        "Negative": "(5, 1, 3, 5)"
+    },
+    "138": {
+        "Triplet #": "138",
+        "Anchor": "(0, 1, 4, 5)",
+        "Positive": "(0, 0, 5, 5)",
+        "Hardness Score": "5",
+        "Negative": "(3, 0, 0, 1)"
+    },
+    "238": {
+        "Triplet #": "238",
+        "Anchor": "(5, 2, 4, 0)",
+        "Positive": "(5, 0, 4, 6)",
+        "Hardness Score": "6",
+        "Negative": "(4, 1, 1, 4)"
+    },
+    "343": {
+        "Triplet #": "343",
+        "Anchor": "(1, 2, 4, 3)",
+        "Positive": "(1, 0, 6, 4)",
+        "Hardness Score": "6",
+        "Negative": "(5, 0, 3, 2)"
+    },
+    "480": {
+        "Triplet #": "480",
+        "Anchor": "(1, 1, 2, 2)",
+        "Positive": "(1, 0, 3, 2)",
+        "Hardness Score": "3",
+        "Negative": "(5, 2, 1, 6)"
+    },
+    "189": {
+        "Triplet #": "189",
+        "Anchor": "(3, 2, 6, 1)",
+        "Positive": "(3, 2, 5, 3)",
+        "Hardness Score": "5",
+        "Negative": "(1, 1, 1, 2)"
+    },
+    "102": {
+        "Triplet #": "102",
+        "Anchor": "(0, 2, 5, 4)",
+        "Positive": "(0, 1, 3, 6)",
+        "Hardness Score": "4",
+        "Negative": "(4, 2, 2, 5)"
+    },
+    "307": {
+        "Triplet #": "307",
+        "Anchor": "(0, 0, 2, 0)",
+        "Positive": "(0, 0, 5, 4)",
+        "Hardness Score": "7",
+        "Negative": "(3, 1, 5, 4)"
+    },
+    "65": {
+        "Triplet #": "65",
+        "Anchor": "(2, 2, 3, 6)",
+        "Positive": "(2, 0, 5, 4)",
+        "Hardness Score": "7",
+        "Negative": "(4, 2, 2, 6)"
+    },
+    "112": {
+        "Triplet #": "112",
+        "Anchor": "(1, 1, 4, 6)",
+        "Positive": "(1, 0, 5, 0)",
+        "Hardness Score": "8",
+        "Negative": "(2, 2, 4, 6)"
+    },
+    "276": {
+        "Triplet #": "276",
+        "Anchor": "(5, 1, 2, 1)",
+        "Positive": "(5, 1, 4, 4)",
+        "Hardness Score": "3",
+        "Negative": "(0, 0, 3, 0)"
+    },
+    "47": {
+        "Triplet #": "47",
+        "Anchor": "(5, 1, 1, 6)",
+        "Positive": "(5, 1, 5, 4)",
+        "Hardness Score": "4",
+        "Negative": "(1, 2, 4, 2)"
+    },
+    "410": {
+        "Triplet #": "410",
+        "Anchor": "(4, 2, 5, 4)",
+        "Positive": "(4, 2, 1, 2)",
+        "Hardness Score": "5",
+        "Negative": "(0, 1, 3, 2)"
+    },
+    "496": {
+        "Triplet #": "496",
+        "Anchor": "(5, 1, 6, 4)",
+        "Positive": "(5, 2, 6, 0)",
+        "Hardness Score": "2",
+        "Negative": "(0, 1, 6, 1)"
+    },
+    "33": {
+        "Triplet #": "33",
+        "Anchor": "(4, 2, 3, 2)",
+        "Positive": "(4, 0, 3, 3)",
+        "Hardness Score": "7",
+        "Negative": "(5, 0, 2, 6)"
+    },
+    "465": {
+        "Triplet #": "465",
+        "Anchor": "(4, 2, 1, 6)",
+        "Positive": "(4, 0, 1, 2)",
+        "Hardness Score": "6",
+        "Negative": "(5, 1, 5, 1)"
+    },
+    "420": {
+        "Triplet #": "420",
+        "Anchor": "(5, 0, 5, 0)",
+        "Positive": "(5, 0, 1, 0)",
+        "Hardness Score": "4",
+        "Negative": "(2, 2, 2, 4)"
+    },
+    "97": {
+        "Triplet #": "97",
+        "Anchor": "(4, 0, 3, 6)",
+        "Positive": "(4, 1, 2, 2)",
+        "Hardness Score": "6",
+        "Negative": "(2, 2, 1, 1)"
+    },
+    "162": {
+        "Triplet #": "162",
+        "Anchor": "(2, 2, 6, 2)",
+        "Positive": "(2, 0, 5, 1)",
+        "Hardness Score": "6",
+        "Negative": "(1, 1, 5, 4)"
+    },
+    "172": {
+        "Triplet #": "172",
+        "Anchor": "(2, 0, 2, 4)",
+        "Positive": "(2, 1, 1, 2)",
+        "Hardness Score": "7",
+        "Negative": "(1, 2, 0, 4)"
+    },
+    "126": {
+        "Triplet #": "126",
+        "Anchor": "(1, 2, 6, 5)",
+        "Positive": "(1, 0, 0, 6)",
+        "Hardness Score": "8",
+        "Negative": "(4, 1, 0, 4)"
+    },
+    "60": {
+        "Triplet #": "60",
+        "Anchor": "(4, 1, 5, 0)",
+        "Positive": "(4, 0, 4, 3)",
+        "Hardness Score": "8",
+        "Negative": "(3, 2, 2, 3)"
+    },
+    "46": {
+        "Triplet #": "46",
+        "Anchor": "(5, 1, 6, 6)",
+        "Positive": "(5, 0, 2, 1)",
+        "Hardness Score": "8",
+        "Negative": "(4, 2, 4, 3)"
+    },
+    "37": {
+        "Triplet #": "37",
+        "Anchor": "(2, 1, 4, 4)",
+        "Positive": "(2, 0, 0, 4)",
+        "Hardness Score": "7",
+        "Negative": "(1, 2, 4, 1)"
+    },
+    "416": {
+        "Triplet #": "416",
+        "Anchor": "(4, 2, 3, 3)",
+        "Positive": "(4, 1, 5, 3)",
+        "Hardness Score": "7",
+        "Negative": "(3, 0, 4, 1)"
+    },
+    "438": {
+        "Triplet #": "438",
+        "Anchor": "(2, 0, 5, 0)",
+        "Positive": "(2, 2, 0, 2)",
+        "Hardness Score": "11",
+        "Negative": "(1, 1, 0, 2)"
+    },
+    "56": {
+        "Triplet #": "56",
+        "Anchor": "(4, 2, 4, 2)",
+        "Positive": "(4, 1, 0, 0)",
+        "Hardness Score": "7",
+        "Negative": "(0, 0, 0, 4)"
+    },
+    "180": {
+        "Triplet #": "180",
+        "Anchor": "(1, 1, 1, 2)",
+        "Positive": "(1, 0, 4, 6)",
+        "Hardness Score": "8",
+        "Negative": "(0, 2, 1, 5)"
+    },
+    "36": {
+        "Triplet #": "36",
+        "Anchor": "(5, 1, 6, 0)",
+        "Positive": "(5, 0, 1, 4)",
+        "Hardness Score": "5",
+        "Negative": "(2, 2, 0, 0)"
+    },
+    "14": {
+        "Triplet #": "14",
+        "Anchor": "(3, 2, 5, 4)",
+        "Positive": "(3, 1, 4, 4)",
+        "Hardness Score": "6",
+        "Negative": "(2, 0, 6, 5)"
+    },
+    "373": {
+        "Triplet #": "373",
+        "Anchor": "(2, 2, 3, 6)",
+        "Positive": "(2, 2, 5, 4)",
+        "Hardness Score": "7",
+        "Negative": "(4, 2, 3, 4)"
+    },
+    "31": {
+        "Triplet #": "31",
+        "Anchor": "(3, 1, 1, 3)",
+        "Positive": "(3, 1, 3, 1)",
+        "Hardness Score": "8",
+        "Negative": "(2, 0, 3, 4)"
+    },
+    "442": {
+        "Triplet #": "442",
+        "Anchor": "(5, 0, 0, 6)",
+        "Positive": "(5, 1, 0, 6)",
+        "Hardness Score": "5",
+        "Negative": "(4, 2, 4, 5)"
+    },
+    "220": {
+        "Triplet #": "220",
+        "Anchor": "(3, 1, 6, 6)",
+        "Positive": "(3, 1, 3, 3)",
+        "Hardness Score": "5",
+        "Negative": "(1, 2, 1, 0)"
+    },
+    "68": {
+        "Triplet #": "68",
+        "Anchor": "(4, 2, 6, 6)",
+        "Positive": "(4, 2, 4, 4)",
+        "Hardness Score": "5",
+        "Negative": "(2, 0, 3, 1)"
+    },
+    "228": {
+        "Triplet #": "228",
+        "Anchor": "(1, 1, 0, 3)",
+        "Positive": "(1, 0, 4, 2)",
+        "Hardness Score": "7",
+        "Negative": "(3, 1, 6, 2)"
+    },
+    "357": {
+        "Triplet #": "357",
+        "Anchor": "(5, 2, 0, 2)",
+        "Positive": "(5, 1, 1, 5)",
+        "Hardness Score": "5",
+        "Negative": "(2, 2, 5, 1)"
+    },
+    "385": {
+        "Triplet #": "385",
+        "Anchor": "(1, 1, 5, 1)",
+        "Positive": "(1, 0, 1, 3)",
+        "Hardness Score": "5",
+        "Negative": "(5, 0, 0, 6)"
+    },
+    "191": {
+        "Triplet #": "191",
+        "Anchor": "(3, 2, 5, 1)",
+        "Positive": "(3, 2, 4, 2)",
+        "Hardness Score": "6",
+        "Negative": "(2, 2, 6, 4)"
+    },
+    "479": {
+        "Triplet #": "479",
+        "Anchor": "(3, 1, 3, 5)",
+        "Positive": "(3, 2, 1, 3)",
+        "Hardness Score": "9",
+        "Negative": "(2, 1, 1, 5)"
+    },
+    "404": {
+        "Triplet #": "404",
+        "Anchor": "(2, 0, 2, 0)",
+        "Positive": "(2, 0, 3, 4)",
+        "Hardness Score": "4",
+        "Negative": "(0, 1, 3, 6)"
+    },
+    "315": {
+        "Triplet #": "315",
+        "Anchor": "(3, 2, 0, 3)",
+        "Positive": "(3, 1, 2, 4)",
+        "Hardness Score": "7",
+        "Negative": "(1, 0, 1, 5)"
+    },
+    "40": {
+        "Triplet #": "40",
+        "Anchor": "(3, 1, 3, 5)",
+        "Positive": "(3, 0, 5, 2)",
+        "Hardness Score": "8",
+        "Negative": "(5, 1, 5, 6)"
+    },
+    "3": {
+        "Triplet #": "3",
+        "Anchor": "(1, 0, 4, 1)",
+        "Positive": "(1, 1, 0, 3)",
+        "Hardness Score": "7",
+        "Negative": "(3, 0, 5, 0)"
+    },
+    "316": {
+        "Triplet #": "316",
+        "Anchor": "(0, 1, 1, 0)",
+        "Positive": "(0, 1, 1, 4)",
+        "Hardness Score": "3",
+        "Negative": "(3, 2, 1, 1)"
+    },
+    "348": {
+        "Triplet #": "348",
+        "Anchor": "(4, 2, 4, 1)",
+        "Positive": "(4, 1, 4, 1)",
+        "Hardness Score": "2",
+        "Negative": "(0, 2, 0, 2)"
+    },
+    "167": {
+        "Triplet #": "167",
+        "Anchor": "(4, 1, 6, 1)",
+        "Positive": "(4, 0, 3, 1)",
+        "Hardness Score": "7",
+        "Negative": "(5, 0, 1, 1)"
+    },
+    "23": {
+        "Triplet #": "23",
+        "Anchor": "(4, 0, 6, 2)",
+        "Positive": "(4, 2, 4, 5)",
+        "Hardness Score": "6",
+        "Negative": "(1, 1, 5, 3)"
+    },
+    "4": {
+        "Triplet #": "4",
+        "Anchor": "(0, 0, 0, 2)",
+        "Positive": "(0, 2, 2, 6)",
+        "Hardness Score": "4",
+        "Negative": "(5, 2, 6, 3)"
+    },
+    "115": {
+        "Triplet #": "115",
+        "Anchor": "(1, 2, 0, 4)",
+        "Positive": "(1, 1, 2, 0)",
+        "Hardness Score": "7",
+        "Negative": "(2, 2, 5, 3)"
+    },
+    "326": {
+        "Triplet #": "326",
+        "Anchor": "(1, 1, 1, 2)",
+        "Positive": "(1, 0, 2, 2)",
+        "Hardness Score": "5",
+        "Negative": "(4, 1, 1, 6)"
+    },
+    "101": {
+        "Triplet #": "101",
+        "Anchor": "(2, 2, 1, 3)",
+        "Positive": "(2, 0, 4, 0)",
+        "Hardness Score": "6",
+        "Negative": "(5, 1, 3, 4)"
+    },
+    "425": {
+        "Triplet #": "425",
+        "Anchor": "(5, 2, 4, 4)",
+        "Positive": "(5, 2, 5, 5)",
+        "Hardness Score": "2",
+        "Negative": "(0, 2, 3, 2)"
+    },
+    "151": {
+        "Triplet #": "151",
+        "Anchor": "(5, 2, 2, 3)",
+        "Positive": "(5, 1, 3, 6)",
+        "Hardness Score": "7",
+        "Negative": "(4, 0, 0, 2)"
+    },
+    "400": {
+        "Triplet #": "400",
+        "Anchor": "(2, 0, 2, 3)",
+        "Positive": "(2, 0, 0, 6)",
+        "Hardness Score": "5",
+        "Negative": "(0, 2, 6, 5)"
+    },
+    "1": {
+        "Triplet #": "1",
+        "Anchor": "(2, 0, 4, 3)",
+        "Positive": "(2, 1, 0, 5)",
+        "Hardness Score": "8",
+        "Negative": "(1, 0, 3, 6)"
+    },
+    "208": {
+        "Triplet #": "208",
+        "Anchor": "(4, 1, 5, 2)",
+        "Positive": "(4, 1, 2, 0)",
+        "Hardness Score": "4",
+        "Negative": "(0, 1, 6, 3)"
+    },
+    "281": {
+        "Triplet #": "281",
+        "Anchor": "(4, 1, 0, 1)",
+        "Positive": "(4, 0, 5, 1)",
+        "Hardness Score": "4",
+        "Negative": "(0, 1, 0, 6)"
+    },
+    "395": {
+        "Triplet #": "395",
+        "Anchor": "(1, 1, 0, 5)",
+        "Positive": "(1, 2, 6, 6)",
+        "Hardness Score": "8",
+        "Negative": "(3, 1, 4, 6)"
+    },
+    "337": {
+        "Triplet #": "337",
+        "Anchor": "(0, 1, 4, 4)",
+        "Positive": "(0, 2, 5, 2)",
+        "Hardness Score": "6",
+        "Negative": "(2, 0, 5, 2)"
+    },
+    "81": {
+        "Triplet #": "81",
+        "Anchor": "(1, 1, 0, 5)",
+        "Positive": "(1, 1, 5, 3)",
+        "Hardness Score": "4",
+        "Negative": "(5, 2, 4, 1)"
+    },
+    "103": {
+        "Triplet #": "103",
+        "Anchor": "(1, 2, 6, 1)",
+        "Positive": "(1, 2, 4, 0)",
+        "Hardness Score": "4",
+        "Negative": "(5, 2, 0, 0)"
+    },
+    "86": {
+        "Triplet #": "86",
+        "Anchor": "(1, 1, 2, 5)",
+        "Positive": "(1, 2, 3, 4)",
+        "Hardness Score": "7",
+        "Negative": "(3, 1, 4, 4)"
+    },
+    "321": {
+        "Triplet #": "321",
+        "Anchor": "(5, 2, 2, 0)",
+        "Positive": "(5, 0, 5, 4)",
+        "Hardness Score": "4",
+        "Negative": "(0, 2, 0, 0)"
+    },
+    "74": {
+        "Triplet #": "74",
+        "Anchor": "(5, 0, 3, 6)",
+        "Positive": "(5, 2, 5, 1)",
+        "Hardness Score": "4",
+        "Negative": "(1, 1, 1, 6)"
+    },
+    "233": {
+        "Triplet #": "233",
+        "Anchor": "(1, 0, 6, 3)",
+        "Positive": "(1, 1, 4, 1)",
+        "Hardness Score": "5",
+        "Negative": "(4, 0, 3, 6)"
+    },
+    "161": {
+        "Triplet #": "161",
+        "Anchor": "(0, 1, 3, 2)",
+        "Positive": "(0, 2, 4, 1)",
+        "Hardness Score": "7",
+        "Negative": "(3, 1, 3, 1)"
+    },
+    "430": {
+        "Triplet #": "430",
+        "Anchor": "(4, 1, 1, 2)",
+        "Positive": "(4, 0, 6, 2)",
+        "Hardness Score": "5",
+        "Negative": "(1, 2, 5, 5)"
+    },
+    "345": {
+        "Triplet #": "345",
+        "Anchor": "(1, 2, 6, 6)",
+        "Positive": "(1, 0, 5, 0)",
+        "Hardness Score": "5",
+        "Negative": "(5, 2, 6, 1)"
+    },
+    "461": {
+        "Triplet #": "461",
+        "Anchor": "(1, 2, 1, 3)",
+        "Positive": "(1, 1, 4, 4)",
+        "Hardness Score": "6",
+        "Negative": "(4, 0, 0, 0)"
+    },
+    "287": {
+        "Triplet #": "287",
+        "Anchor": "(3, 0, 5, 4)",
+        "Positive": "(3, 1, 6, 1)",
+        "Hardness Score": "5",
+        "Negative": "(5, 0, 6, 3)"
+    },
+    "114": {
+        "Triplet #": "114",
+        "Anchor": "(4, 2, 0, 0)",
+        "Positive": "(4, 0, 5, 6)",
+        "Hardness Score": "9",
+        "Negative": "(3, 2, 0, 6)"
+    },
+    "132": {
+        "Triplet #": "132",
+        "Anchor": "(3, 2, 0, 5)",
+        "Positive": "(3, 0, 1, 6)",
+        "Hardness Score": "8",
+        "Negative": "(2, 0, 3, 0)"
+    },
+    "377": {
+        "Triplet #": "377",
+        "Anchor": "(1, 2, 1, 6)",
+        "Positive": "(1, 0, 6, 3)",
+        "Hardness Score": "5",
+        "Negative": "(5, 2, 1, 6)"
+    },
+    "204": {
+        "Triplet #": "204",
+        "Anchor": "(3, 2, 1, 1)",
+        "Positive": "(3, 0, 2, 1)",
+        "Hardness Score": "5",
+        "Negative": "(0, 0, 3, 6)"
+    },
+    "171": {
+        "Triplet #": "171",
+        "Anchor": "(0, 2, 3, 6)",
+        "Positive": "(0, 2, 3, 4)",
+        "Hardness Score": "4",
+        "Negative": "(2, 0, 3, 2)"
+    },
+    "104": {
+        "Triplet #": "104",
+        "Anchor": "(3, 0, 1, 1)",
+        "Positive": "(3, 1, 5, 2)",
+        "Hardness Score": "9",
+        "Negative": "(5, 1, 0, 2)"
+    },
+    "108": {
+        "Triplet #": "108",
+        "Anchor": "(4, 1, 6, 2)",
+        "Positive": "(4, 0, 4, 2)",
+        "Hardness Score": "5",
+        "Negative": "(2, 1, 2, 5)"
+    },
+    "95": {
+        "Triplet #": "95",
+        "Anchor": "(5, 2, 5, 4)",
+        "Positive": "(5, 2, 0, 0)",
+        "Hardness Score": "6",
+        "Negative": "(1, 2, 0, 6)"
+    },
+    "441": {
+        "Triplet #": "441",
+        "Anchor": "(4, 0, 4, 0)",
+        "Positive": "(4, 0, 5, 0)",
+        "Hardness Score": "5",
+        "Negative": "(5, 2, 1, 1)"
+    },
+    "222": {
+        "Triplet #": "222",
+        "Anchor": "(5, 0, 4, 3)",
+        "Positive": "(5, 2, 5, 0)",
+        "Hardness Score": "4",
+        "Negative": "(1, 0, 0, 4)"
+    },
+    "57": {
+        "Triplet #": "57",
+        "Anchor": "(5, 2, 2, 5)",
+        "Positive": "(5, 2, 5, 0)",
+        "Hardness Score": "3",
+        "Negative": "(1, 1, 6, 2)"
+    },
+    "299": {
+        "Triplet #": "299",
+        "Anchor": "(1, 0, 3, 6)",
+        "Positive": "(1, 0, 3, 5)",
+        "Hardness Score": "2",
+        "Negative": "(5, 2, 5, 3)"
+    },
+    "223": {
+        "Triplet #": "223",
+        "Anchor": "(5, 0, 6, 0)",
+        "Positive": "(5, 2, 4, 2)",
+        "Hardness Score": "7",
+        "Negative": "(3, 0, 0, 2)"
+    },
+    "391": {
+        "Triplet #": "391",
+        "Anchor": "(4, 2, 5, 0)",
+        "Positive": "(4, 0, 5, 2)",
+        "Hardness Score": "6",
+        "Negative": "(5, 1, 1, 1)"
+    },
+    "313": {
+        "Triplet #": "313",
+        "Anchor": "(0, 2, 0, 6)",
+        "Positive": "(0, 2, 5, 5)",
+        "Hardness Score": "7",
+        "Negative": "(1, 1, 1, 3)"
+    },
+    "12": {
+        "Triplet #": "12",
+        "Anchor": "(4, 0, 6, 1)",
+        "Positive": "(4, 2, 5, 2)",
+        "Hardness Score": "5",
+        "Negative": "(0, 2, 4, 1)"
+    },
+    "123": {
+        "Triplet #": "123",
+        "Anchor": "(0, 1, 2, 0)",
+        "Positive": "(0, 2, 4, 4)",
+        "Hardness Score": "4",
+        "Negative": "(5, 0, 1, 2)"
+    },
+    "234": {
+        "Triplet #": "234",
+        "Anchor": "(5, 2, 6, 2)",
+        "Positive": "(5, 2, 5, 5)",
+        "Hardness Score": "4",
+        "Negative": "(2, 2, 2, 6)"
+    },
+    "226": {
+        "Triplet #": "226",
+        "Anchor": "(0, 1, 4, 5)",
+        "Positive": "(0, 1, 0, 6)",
+        "Hardness Score": "7",
+        "Negative": "(1, 2, 4, 5)"
+    },
+    "197": {
+        "Triplet #": "197",
+        "Anchor": "(4, 1, 6, 6)",
+        "Positive": "(4, 0, 6, 3)",
+        "Hardness Score": "5",
+        "Negative": "(2, 2, 5, 0)"
+    },
+    "347": {
+        "Triplet #": "347",
+        "Anchor": "(4, 0, 5, 2)",
+        "Positive": "(4, 1, 1, 4)",
+        "Hardness Score": "8",
+        "Negative": "(3, 2, 6, 3)"
+    },
+    "66": {
+        "Triplet #": "66",
+        "Anchor": "(5, 0, 0, 2)",
+        "Positive": "(5, 2, 4, 0)",
+        "Hardness Score": "7",
+        "Negative": "(3, 0, 1, 4)"
+    },
+    "365": {
+        "Triplet #": "365",
+        "Anchor": "(2, 0, 1, 0)",
+        "Positive": "(2, 1, 3, 5)",
+        "Hardness Score": "7",
+        "Negative": "(4, 1, 6, 6)"
+    },
+    "7": {
+        "Triplet #": "7",
+        "Anchor": "(0, 1, 4, 4)",
+        "Positive": "(0, 1, 0, 6)",
+        "Hardness Score": "4",
+        "Negative": "(4, 0, 5, 0)"
+    },
+    "323": {
+        "Triplet #": "323",
+        "Anchor": "(4, 2, 3, 5)",
+        "Positive": "(4, 2, 1, 1)",
+        "Hardness Score": "6",
+        "Negative": "(5, 1, 6, 4)"
+    },
+    "380": {
+        "Triplet #": "380",
+        "Anchor": "(2, 0, 6, 2)",
+        "Positive": "(2, 0, 2, 5)",
+        "Hardness Score": "8",
+        "Negative": "(5, 1, 2, 5)"
+    },
+    "334": {
+        "Triplet #": "334",
+        "Anchor": "(5, 0, 6, 3)",
+        "Positive": "(5, 2, 4, 1)",
+        "Hardness Score": "10",
+        "Negative": "(4, 2, 5, 1)"
+    },
+    "235": {
+        "Triplet #": "235",
+        "Anchor": "(4, 0, 3, 0)",
+        "Positive": "(4, 0, 4, 5)",
+        "Hardness Score": "6",
+        "Negative": "(5, 0, 1, 3)"
+    },
+    "378": {
+        "Triplet #": "378",
+        "Anchor": "(5, 2, 6, 6)",
+        "Positive": "(5, 2, 4, 1)",
+        "Hardness Score": "6",
+        "Negative": "(2, 0, 4, 6)"
+    },
+    "160": {
+        "Triplet #": "160",
+        "Anchor": "(4, 2, 5, 5)",
+        "Positive": "(4, 0, 5, 4)",
+        "Hardness Score": "7",
+        "Negative": "(5, 1, 4, 4)"
+    },
+    "243": {
+        "Triplet #": "243",
+        "Anchor": "(1, 2, 0, 6)",
+        "Positive": "(1, 0, 5, 6)",
+        "Hardness Score": "8",
+        "Negative": "(2, 0, 4, 5)"
+    },
+    "27": {
+        "Triplet #": "27",
+        "Anchor": "(0, 0, 2, 0)",
+        "Positive": "(0, 1, 6, 5)",
+        "Hardness Score": "5",
+        "Negative": "(4, 2, 5, 2)"
+    },
+    "170": {
+        "Triplet #": "170",
+        "Anchor": "(0, 0, 5, 1)",
+        "Positive": "(0, 1, 6, 0)",
+        "Hardness Score": "5",
+        "Negative": "(5, 1, 1, 0)"
+    },
+    "260": {
+        "Triplet #": "260",
+        "Anchor": "(5, 0, 2, 4)",
+        "Positive": "(5, 1, 4, 6)",
+        "Hardness Score": "8",
+        "Negative": "(4, 0, 3, 3)"
+    },
+    "405": {
+        "Triplet #": "405",
+        "Anchor": "(1, 1, 6, 2)",
+        "Positive": "(1, 1, 2, 5)",
+        "Hardness Score": "7",
+        "Negative": "(4, 0, 2, 1)"
+    },
+    "318": {
+        "Triplet #": "318",
+        "Anchor": "(1, 1, 5, 2)",
+        "Positive": "(1, 1, 5, 5)",
+        "Hardness Score": "3",
+        "Negative": "(4, 1, 1, 1)"
+    },
+    "2": {
+        "Triplet #": "2",
+        "Anchor": "(1, 0, 0, 6)",
+        "Positive": "(1, 2, 5, 2)",
+        "Hardness Score": "8",
+        "Negative": "(5, 2, 5, 6)"
+    },
+    "199": {
+        "Triplet #": "199",
+        "Anchor": "(5, 1, 0, 6)",
+        "Positive": "(5, 0, 1, 5)",
+        "Hardness Score": "7",
+        "Negative": "(3, 2, 0, 3)"
+    },
+    "435": {
+        "Triplet #": "435",
+        "Anchor": "(3, 1, 5, 6)",
+        "Positive": "(3, 0, 3, 6)",
+        "Hardness Score": "7",
+        "Negative": "(4, 1, 6, 3)"
+    },
+    "407": {
+        "Triplet #": "407",
+        "Anchor": "(5, 0, 2, 2)",
+        "Positive": "(5, 0, 6, 1)",
+        "Hardness Score": "7",
+        "Negative": "(4, 1, 4, 0)"
+    },
+    "419": {
+        "Triplet #": "419",
+        "Anchor": "(5, 2, 3, 0)",
+        "Positive": "(5, 0, 3, 2)",
+        "Hardness Score": "5",
+        "Negative": "(2, 0, 0, 3)"
+    },
+    "462": {
+        "Triplet #": "462",
+        "Anchor": "(4, 1, 2, 3)",
+        "Positive": "(4, 2, 1, 4)",
+        "Hardness Score": "8",
+        "Negative": "(3, 2, 3, 6)"
+    },
+    "8": {
+        "Triplet #": "8",
+        "Anchor": "(3, 2, 3, 6)",
+        "Positive": "(3, 0, 6, 6)",
+        "Hardness Score": "7",
+        "Negative": "(5, 0, 1, 1)"
+    },
+    "213": {
+        "Triplet #": "213",
+        "Anchor": "(5, 2, 6, 0)",
+        "Positive": "(5, 0, 4, 6)",
+        "Hardness Score": "7",
+        "Negative": "(2, 2, 4, 3)"
+    },
+    "477": {
+        "Triplet #": "477",
+        "Anchor": "(2, 2, 3, 2)",
+        "Positive": "(2, 0, 0, 3)",
+        "Hardness Score": "8",
+        "Negative": "(0, 0, 6, 3)"
+    },
+    "129": {
+        "Triplet #": "129",
+        "Anchor": "(3, 0, 5, 1)",
+        "Positive": "(3, 1, 4, 1)",
+        "Hardness Score": "4",
+        "Negative": "(0, 0, 6, 1)"
+    },
+    "77": {
+        "Triplet #": "77",
+        "Anchor": "(4, 2, 4, 0)",
+        "Positive": "(4, 1, 0, 6)",
+        "Hardness Score": "6",
+        "Negative": "(1, 2, 3, 2)"
+    },
+    "390": {
+        "Triplet #": "390",
+        "Anchor": "(5, 0, 2, 0)",
+        "Positive": "(5, 2, 3, 3)",
+        "Hardness Score": "7",
+        "Negative": "(3, 2, 5, 1)"
+    },
+    "456": {
+        "Triplet #": "456",
+        "Anchor": "(1, 1, 5, 5)",
+        "Positive": "(1, 1, 5, 5)",
+        "Hardness Score": "4",
+        "Negative": "(0, 1, 4, 0)"
+    },
+    "146": {
+        "Triplet #": "146",
+        "Anchor": "(4, 0, 5, 3)",
+        "Positive": "(4, 0, 5, 1)",
+        "Hardness Score": "2",
+        "Negative": "(0, 1, 2, 4)"
+    },
+    "379": {
+        "Triplet #": "379",
+        "Anchor": "(1, 2, 4, 2)",
+        "Positive": "(1, 0, 3, 4)",
+        "Hardness Score": "7",
+        "Negative": "(3, 0, 5, 0)"
+    },
+    "301": {
+        "Triplet #": "301",
+        "Anchor": "(4, 2, 5, 1)",
+        "Positive": "(4, 0, 3, 3)",
+        "Hardness Score": "5",
+        "Negative": "(0, 2, 5, 2)"
+    },
+    "265": {
+        "Triplet #": "265",
+        "Anchor": "(5, 1, 6, 1)",
+        "Positive": "(5, 1, 3, 1)",
+        "Hardness Score": "3",
+        "Negative": "(2, 0, 0, 2)"
+    },
+    "141": {
+        "Triplet #": "141",
+        "Anchor": "(4, 1, 2, 6)",
+        "Positive": "(4, 1, 0, 3)",
+        "Hardness Score": "6",
+        "Negative": "(1, 0, 0, 4)"
+    },
+    "93": {
+        "Triplet #": "93",
+        "Anchor": "(1, 0, 5, 4)",
+        "Positive": "(1, 2, 6, 1)",
+        "Hardness Score": "7",
+        "Negative": "(2, 0, 3, 0)"
+    },
+    "9": {
+        "Triplet #": "9",
+        "Anchor": "(3, 0, 0, 2)",
+        "Positive": "(3, 2, 2, 1)",
+        "Hardness Score": "7",
+        "Negative": "(2, 0, 3, 5)"
+    },
+    "145": {
+        "Triplet #": "145",
+        "Anchor": "(2, 2, 3, 5)",
+        "Positive": "(2, 2, 3, 6)",
+        "Hardness Score": "5",
+        "Negative": "(1, 2, 2, 1)"
+    },
+    "498": {
+        "Triplet #": "498",
+        "Anchor": "(5, 2, 5, 4)",
+        "Positive": "(5, 2, 4, 5)",
+        "Hardness Score": "2",
+        "Negative": "(0, 1, 2, 2)"
+    },
+    "232": {
+        "Triplet #": "232",
+        "Anchor": "(5, 1, 4, 4)",
+        "Positive": "(5, 0, 5, 6)",
+        "Hardness Score": "8",
+        "Negative": "(4, 0, 6, 3)"
+    },
+    "221": {
+        "Triplet #": "221",
+        "Anchor": "(4, 0, 3, 2)",
+        "Positive": "(4, 0, 4, 2)",
+        "Hardness Score": "3",
+        "Negative": "(1, 1, 6, 6)"
+    },
+    "481": {
+        "Triplet #": "481",
+        "Anchor": "(1, 1, 6, 6)",
+        "Positive": "(1, 2, 0, 2)",
+        "Hardness Score": "7",
+        "Negative": "(5, 2, 5, 2)"
+    },
+    "25": {
+        "Triplet #": "25",
+        "Anchor": "(3, 1, 1, 1)",
+        "Positive": "(3, 2, 3, 3)",
+        "Hardness Score": "5",
+        "Negative": "(0, 1, 4, 1)"
+    },
+    "381": {
+        "Triplet #": "381",
+        "Anchor": "(0, 0, 3, 0)",
+        "Positive": "(0, 0, 3, 1)",
+        "Hardness Score": "2",
+        "Negative": "(4, 0, 5, 5)"
+    },
+    "49": {
+        "Triplet #": "49",
+        "Anchor": "(0, 1, 4, 4)",
+        "Positive": "(0, 0, 5, 4)",
+        "Hardness Score": "3",
+        "Negative": "(4, 1, 3, 5)"
+    },
+    "332": {
+        "Triplet #": "332",
+        "Anchor": "(0, 0, 5, 1)",
+        "Positive": "(0, 0, 4, 5)",
+        "Hardness Score": "6",
+        "Negative": "(1, 2, 3, 3)"
+    },
+    "397": {
+        "Triplet #": "397",
+        "Anchor": "(3, 0, 0, 3)",
+        "Positive": "(3, 2, 0, 5)",
+        "Hardness Score": "7",
+        "Negative": "(2, 2, 2, 1)"
+    },
+    "82": {
+        "Triplet #": "82",
+        "Anchor": "(0, 2, 3, 5)",
+        "Positive": "(0, 1, 6, 6)",
+        "Hardness Score": "5",
+        "Negative": "(4, 2, 4, 4)"
+    },
+    "139": {
+        "Triplet #": "139",
+        "Anchor": "(4, 2, 6, 6)",
+        "Positive": "(4, 0, 2, 3)",
+        "Hardness Score": "6",
+        "Negative": "(1, 2, 4, 5)"
+    },
+    "15": {
+        "Triplet #": "15",
+        "Anchor": "(2, 2, 3, 6)",
+        "Positive": "(2, 2, 3, 6)",
+        "Hardness Score": "3",
+        "Negative": "(4, 2, 6, 5)"
+    },
+    "163": {
+        "Triplet #": "163",
+        "Anchor": "(0, 2, 1, 0)",
+        "Positive": "(0, 1, 3, 0)",
+        "Hardness Score": "5",
+        "Negative": "(3, 2, 1, 5)"
+    },
+    "38": {
+        "Triplet #": "38",
+        "Anchor": "(0, 2, 2, 5)",
+        "Positive": "(0, 2, 1, 3)",
+        "Hardness Score": "6",
+        "Negative": "(1, 2, 4, 2)"
+    },
+    "217": {
+        "Triplet #": "217",
+        "Anchor": "(3, 1, 1, 5)",
+        "Positive": "(3, 2, 5, 3)",
+        "Hardness Score": "7",
+        "Negative": "(0, 2, 1, 5)"
+    },
+    "342": {
+        "Triplet #": "342",
+        "Anchor": "(3, 0, 5, 5)",
+        "Positive": "(3, 0, 1, 3)",
+        "Hardness Score": "6",
+        "Negative": "(4, 1, 0, 1)"
+    },
+    "152": {
+        "Triplet #": "152",
+        "Anchor": "(0, 0, 4, 3)",
+        "Positive": "(0, 0, 3, 6)",
+        "Hardness Score": "4",
+        "Negative": "(3, 1, 2, 3)"
+    },
+    "308": {
+        "Triplet #": "308",
+        "Anchor": "(3, 0, 4, 3)",
+        "Positive": "(3, 0, 2, 1)",
+        "Hardness Score": "6",
+        "Negative": "(2, 1, 0, 4)"
+    },
+    "311": {
+        "Triplet #": "311",
+        "Anchor": "(5, 0, 2, 3)",
+        "Positive": "(5, 1, 3, 2)",
+        "Hardness Score": "7",
+        "Negative": "(3, 2, 5, 2)"
+    },
+    "273": {
+        "Triplet #": "273",
+        "Anchor": "(4, 0, 0, 0)",
+        "Positive": "(4, 2, 4, 4)",
+        "Hardness Score": "6",
+        "Negative": "(1, 0, 0, 6)"
+    },
+    "136": {
+        "Triplet #": "136",
+        "Anchor": "(0, 0, 1, 1)",
+        "Positive": "(0, 2, 2, 0)",
+        "Hardness Score": "5",
+        "Negative": "(5, 2, 3, 0)"
+    },
+    "449": {
+        "Triplet #": "449",
+        "Anchor": "(4, 0, 0, 4)",
+        "Positive": "(4, 0, 4, 4)",
+        "Hardness Score": "5",
+        "Negative": "(0, 1, 4, 3)"
+    },
+    "267": {
+        "Triplet #": "267",
+        "Anchor": "(2, 1, 2, 5)",
+        "Positive": "(2, 2, 2, 3)",
+        "Hardness Score": "6",
+        "Negative": "(3, 1, 2, 2)"
+    },
+    "374": {
+        "Triplet #": "374",
+        "Anchor": "(2, 0, 3, 3)",
+        "Positive": "(2, 1, 4, 3)",
+        "Hardness Score": "6",
+        "Negative": "(0, 0, 3, 6)"
+    },
+    "453": {
+        "Triplet #": "453",
+        "Anchor": "(1, 0, 6, 5)",
+        "Positive": "(1, 2, 2, 4)",
+        "Hardness Score": "8",
+        "Negative": "(0, 1, 5, 2)"
+    },
+    "256": {
+        "Triplet #": "256",
+        "Anchor": "(4, 0, 3, 5)",
+        "Positive": "(4, 2, 5, 6)",
+        "Hardness Score": "8",
+        "Negative": "(3, 0, 4, 1)"
+    },
+    "452": {
+        "Triplet #": "452",
+        "Anchor": "(2, 0, 6, 5)",
+        "Positive": "(2, 2, 3, 3)",
+        "Hardness Score": "8",
+        "Negative": "(3, 2, 0, 0)"
+    },
+    "423": {
+        "Triplet #": "423",
+        "Anchor": "(1, 1, 1, 1)",
+        "Positive": "(1, 1, 3, 5)",
+        "Hardness Score": "8",
+        "Negative": "(2, 2, 3, 3)"
+    },
+    "148": {
+        "Triplet #": "148",
+        "Anchor": "(5, 2, 2, 2)",
+        "Positive": "(5, 1, 1, 2)",
+        "Hardness Score": "6",
+        "Negative": "(3, 1, 4, 2)"
+    },
+    "383": {
+        "Triplet #": "383",
+        "Anchor": "(3, 1, 6, 0)",
+        "Positive": "(3, 0, 4, 5)",
+        "Hardness Score": "7",
+        "Negative": "(0, 0, 5, 4)"
+    },
+    "467": {
+        "Triplet #": "467",
+        "Anchor": "(3, 0, 3, 6)",
+        "Positive": "(3, 1, 6, 4)",
+        "Hardness Score": "8",
+        "Negative": "(4, 2, 4, 3)"
+    },
+    "19": {
+        "Triplet #": "19",
+        "Anchor": "(1, 2, 2, 2)",
+        "Positive": "(1, 1, 6, 3)",
+        "Hardness Score": "6",
+        "Negative": "(5, 1, 1, 2)"
+    },
+    "282": {
+        "Triplet #": "282",
+        "Anchor": "(1, 2, 0, 5)",
+        "Positive": "(1, 0, 4, 6)",
+        "Hardness Score": "8",
+        "Negative": "(2, 1, 2, 4)"
+    },
+    "43": {
+        "Triplet #": "43",
+        "Anchor": "(5, 0, 4, 0)",
+        "Positive": "(5, 1, 2, 5)",
+        "Hardness Score": "8",
+        "Negative": "(4, 1, 6, 3)"
+    },
+    "361": {
+        "Triplet #": "361",
+        "Anchor": "(2, 1, 2, 1)",
+        "Positive": "(2, 1, 6, 4)",
+        "Hardness Score": "7",
+        "Negative": "(1, 1, 4, 0)"
+    },
+    "288": {
+        "Triplet #": "288",
+        "Anchor": "(3, 2, 2, 4)",
+        "Positive": "(3, 0, 5, 3)",
+        "Hardness Score": "7",
+        "Negative": "(5, 2, 3, 2)"
+    },
+    "483": {
+        "Triplet #": "483",
+        "Anchor": "(1, 2, 2, 2)",
+        "Positive": "(1, 0, 3, 6)",
+        "Hardness Score": "8",
+        "Negative": "(2, 1, 6, 6)"
+    },
+    "94": {
+        "Triplet #": "94",
+        "Anchor": "(4, 1, 0, 6)",
+        "Positive": "(4, 0, 1, 1)",
+        "Hardness Score": "8",
+        "Negative": "(5, 0, 2, 4)"
+    },
+    "433": {
+        "Triplet #": "433",
+        "Anchor": "(0, 2, 5, 3)",
+        "Positive": "(0, 1, 3, 0)",
+        "Hardness Score": "5",
+        "Negative": "(4, 0, 2, 0)"
+    },
+    "113": {
+        "Triplet #": "113",
+        "Anchor": "(1, 1, 3, 3)",
+        "Positive": "(1, 2, 3, 5)",
+        "Hardness Score": "4",
+        "Negative": "(5, 2, 6, 6)"
+    },
+    "177": {
+        "Triplet #": "177",
+        "Anchor": "(0, 1, 2, 5)",
+        "Positive": "(0, 0, 0, 5)",
+        "Hardness Score": "3",
+        "Negative": "(4, 1, 4, 2)"
+    },
+    "371": {
+        "Triplet #": "371",
+        "Anchor": "(2, 2, 6, 4)",
+        "Positive": "(2, 2, 4, 1)",
+        "Hardness Score": "5",
+        "Negative": "(5, 2, 5, 0)"
+    },
+    "349": {
+        "Triplet #": "349",
+        "Anchor": "(1, 1, 3, 5)",
+        "Positive": "(1, 1, 1, 2)",
+        "Hardness Score": "4",
+        "Negative": "(5, 1, 3, 1)"
+    },
+    "244": {
+        "Triplet #": "244",
+        "Anchor": "(3, 0, 0, 6)",
+        "Positive": "(3, 0, 5, 1)",
+        "Hardness Score": "6",
+        "Negative": "(4, 0, 6, 4)"
+    },
+    "52": {
+        "Triplet #": "52",
+        "Anchor": "(0, 1, 5, 0)",
+        "Positive": "(0, 1, 3, 1)",
+        "Hardness Score": "5",
+        "Negative": "(3, 0, 4, 4)"
+    },
+    "394": {
+        "Triplet #": "394",
+        "Anchor": "(1, 2, 3, 6)",
+        "Positive": "(1, 1, 4, 2)",
+        "Hardness Score": "6",
+        "Negative": "(3, 0, 0, 5)"
+    },
+    "190": {
+        "Triplet #": "190",
+        "Anchor": "(4, 2, 3, 5)",
+        "Positive": "(4, 1, 6, 6)",
+        "Hardness Score": "5",
+        "Negative": "(0, 2, 3, 1)"
+    },
+    "275": {
+        "Triplet #": "275",
+        "Anchor": "(4, 0, 0, 2)",
+        "Positive": "(4, 2, 2, 5)",
+        "Hardness Score": "7",
+        "Negative": "(1, 0, 2, 4)"
+    },
+    "289": {
+        "Triplet #": "289",
+        "Anchor": "(5, 2, 4, 1)",
+        "Positive": "(5, 2, 5, 0)",
+        "Hardness Score": "3",
+        "Negative": "(0, 1, 6, 0)"
+    },
+    "485": {
+        "Triplet #": "485",
+        "Anchor": "(0, 2, 6, 1)",
+        "Positive": "(0, 0, 6, 0)",
+        "Hardness Score": "6",
+        "Negative": "(2, 2, 0, 0)"
+    },
+    "451": {
+        "Triplet #": "451",
+        "Anchor": "(0, 1, 0, 3)",
+        "Positive": "(0, 2, 2, 4)",
+        "Hardness Score": "6",
+        "Negative": "(4, 2, 6, 4)"
+    },
+    "305": {
+        "Triplet #": "305",
+        "Anchor": "(4, 0, 5, 4)",
+        "Positive": "(4, 0, 0, 6)",
+        "Hardness Score": "6",
+        "Negative": "(1, 1, 3, 6)"
+    },
+    "91": {
+        "Triplet #": "91",
+        "Anchor": "(4, 0, 0, 1)",
+        "Positive": "(4, 2, 3, 4)",
+        "Hardness Score": "6",
+        "Negative": "(0, 2, 4, 4)"
+    },
+    "246": {
+        "Triplet #": "246",
+        "Anchor": "(4, 0, 0, 5)",
+        "Positive": "(4, 2, 5, 0)",
+        "Hardness Score": "8",
+        "Negative": "(5, 1, 2, 4)"
+    },
+    "124": {
+        "Triplet #": "124",
+        "Anchor": "(5, 2, 1, 2)",
+        "Positive": "(5, 1, 6, 3)",
+        "Hardness Score": "5",
+        "Negative": "(0, 1, 0, 6)"
+    },
+    "41": {
+        "Triplet #": "41",
+        "Anchor": "(2, 2, 4, 6)",
+        "Positive": "(2, 2, 6, 6)",
+        "Hardness Score": "6",
+        "Negative": "(1, 0, 3, 5)"
+    },
+    "240": {
+        "Triplet #": "240",
+        "Anchor": "(3, 0, 0, 0)",
+        "Positive": "(3, 0, 6, 4)",
+        "Hardness Score": "7",
+        "Negative": "(1, 2, 0, 4)"
+    },
+    "292": {
+        "Triplet #": "292",
+        "Anchor": "(2, 0, 2, 1)",
+        "Positive": "(2, 2, 4, 4)",
+        "Hardness Score": "6",
+        "Negative": "(5, 2, 5, 2)"
+    },
+    "18": {
+        "Triplet #": "18",
+        "Anchor": "(3, 0, 2, 2)",
+        "Positive": "(3, 1, 1, 0)",
+        "Hardness Score": "5",
+        "Negative": "(0, 2, 5, 5)"
+    },
+    "279": {
+        "Triplet #": "279",
+        "Anchor": "(5, 2, 2, 2)",
+        "Positive": "(5, 0, 2, 1)",
+        "Hardness Score": "4",
+        "Negative": "(2, 2, 5, 5)"
+    },
+    "270": {
+        "Triplet #": "270",
+        "Anchor": "(1, 2, 4, 5)",
+        "Positive": "(1, 0, 3, 4)",
+        "Hardness Score": "8",
+        "Negative": "(0, 0, 6, 6)"
+    },
+    "35": {
+        "Triplet #": "35",
+        "Anchor": "(1, 1, 6, 3)",
+        "Positive": "(1, 1, 2, 5)",
+        "Hardness Score": "6",
+        "Negative": "(4, 0, 5, 5)"
+    },
+    "254": {
+        "Triplet #": "254",
+        "Anchor": "(2, 2, 0, 5)",
+        "Positive": "(2, 1, 6, 6)",
+        "Hardness Score": "9",
+        "Negative": "(3, 1, 4, 1)"
+    },
+    "387": {
+        "Triplet #": "387",
+        "Anchor": "(4, 2, 0, 2)",
+        "Positive": "(4, 0, 5, 3)",
+        "Hardness Score": "8",
+        "Negative": "(2, 0, 0, 0)"
+    },
+    "388": {
+        "Triplet #": "388",
+        "Anchor": "(5, 0, 0, 3)",
+        "Positive": "(5, 2, 5, 1)",
+        "Hardness Score": "7",
+        "Negative": "(3, 2, 6, 6)"
+    },
+    "355": {
+        "Triplet #": "355",
+        "Anchor": "(0, 0, 2, 6)",
+        "Positive": "(0, 1, 6, 2)",
+        "Hardness Score": "6",
+        "Negative": "(3, 2, 1, 4)"
+    },
+    "44": {
+        "Triplet #": "44",
+        "Anchor": "(4, 0, 6, 3)",
+        "Positive": "(4, 1, 4, 0)",
+        "Hardness Score": "6",
+        "Negative": "(1, 1, 1, 6)"
+    },
+    "131": {
+        "Triplet #": "131",
+        "Anchor": "(2, 1, 4, 4)",
+        "Positive": "(2, 0, 6, 6)",
+        "Hardness Score": "9",
+        "Negative": "(1, 2, 6, 0)"
+    },
+    "495": {
+        "Triplet #": "495",
+        "Anchor": "(4, 2, 0, 1)",
+        "Positive": "(4, 0, 2, 6)",
+        "Hardness Score": "6",
+        "Negative": "(2, 1, 4, 2)"
+    },
+    "261": {
+        "Triplet #": "261",
+        "Anchor": "(1, 0, 6, 6)",
+        "Positive": "(1, 1, 1, 4)",
+        "Hardness Score": "8",
+        "Negative": "(0, 2, 3, 3)"
+    },
+    "360": {
+        "Triplet #": "360",
+        "Anchor": "(3, 1, 5, 4)",
+        "Positive": "(3, 0, 1, 5)",
+        "Hardness Score": "11",
+        "Negative": "(2, 0, 1, 4)"
+    },
+    "468": {
+        "Triplet #": "468",
+        "Anchor": "(2, 1, 6, 6)",
+        "Positive": "(2, 2, 1, 4)",
+        "Hardness Score": "9",
+        "Negative": "(3, 2, 6, 0)"
+    },
+    "340": {
+        "Triplet #": "340",
+        "Anchor": "(1, 2, 6, 4)",
+        "Positive": "(1, 2, 4, 0)",
+        "Hardness Score": "6",
+        "Negative": "(2, 1, 1, 6)"
+    },
+    "30": {
+        "Triplet #": "30",
+        "Anchor": "(3, 0, 5, 3)",
+        "Positive": "(3, 0, 6, 0)",
+        "Hardness Score": "8",
+        "Negative": "(2, 2, 5, 0)"
+    },
+    "474": {
+        "Triplet #": "474",
+        "Anchor": "(1, 1, 5, 0)",
+        "Positive": "(1, 0, 2, 5)",
+        "Hardness Score": "7",
+        "Negative": "(5, 0, 5, 5)"
+    },
+    "346": {
+        "Triplet #": "346",
+        "Anchor": "(0, 0, 0, 2)",
+        "Positive": "(0, 0, 3, 2)",
+        "Hardness Score": "3",
+        "Negative": "(3, 1, 5, 4)"
+    },
+    "140": {
+        "Triplet #": "140",
+        "Anchor": "(2, 0, 1, 0)",
+        "Positive": "(2, 2, 1, 2)",
+        "Hardness Score": "6",
+        "Negative": "(4, 2, 6, 6)"
+    },
+    "130": {
+        "Triplet #": "130",
+        "Anchor": "(2, 2, 5, 4)",
+        "Positive": "(2, 0, 0, 1)",
+        "Hardness Score": "6",
+        "Negative": "(5, 2, 2, 6)"
+    },
+    "156": {
+        "Triplet #": "156",
+        "Anchor": "(3, 1, 3, 0)",
+        "Positive": "(3, 1, 5, 6)",
+        "Hardness Score": "6",
+        "Negative": "(2, 1, 0, 2)"
+    },
+    "84": {
+        "Triplet #": "84",
+        "Anchor": "(5, 2, 5, 0)",
+        "Positive": "(5, 1, 5, 3)",
+        "Hardness Score": "3",
+        "Negative": "(1, 2, 6, 2)"
+    },
+    "446": {
+        "Triplet #": "446",
+        "Anchor": "(1, 2, 1, 3)",
+        "Positive": "(1, 2, 1, 6)",
+        "Hardness Score": "5",
+        "Negative": "(2, 2, 6, 4)"
+    },
+    "212": {
+        "Triplet #": "212",
+        "Anchor": "(4, 1, 2, 0)",
+        "Positive": "(4, 2, 2, 1)",
+        "Hardness Score": "7",
+        "Negative": "(3, 2, 1, 5)"
+    },
+    "325": {
+        "Triplet #": "325",
+        "Anchor": "(0, 1, 1, 3)",
+        "Positive": "(0, 1, 6, 0)",
+        "Hardness Score": "3",
+        "Negative": "(5, 1, 3, 6)"
+    },
+    "105": {
+        "Triplet #": "105",
+        "Anchor": "(1, 0, 0, 6)",
+        "Positive": "(1, 1, 5, 0)",
+        "Hardness Score": "4",
+        "Negative": "(5, 0, 6, 5)"
+    },
+    "247": {
+        "Triplet #": "247",
+        "Anchor": "(0, 1, 2, 5)",
+        "Positive": "(0, 1, 5, 0)",
+        "Hardness Score": "3",
+        "Negative": "(5, 0, 4, 5)"
+    },
+    "476": {
+        "Triplet #": "476",
+        "Anchor": "(3, 1, 3, 1)",
+        "Positive": "(3, 2, 0, 2)",
+        "Hardness Score": "6",
+        "Negative": "(0, 1, 3, 1)"
+    },
+    "303": {
+        "Triplet #": "303",
+        "Anchor": "(4, 1, 5, 4)",
+        "Positive": "(4, 0, 4, 0)",
+        "Hardness Score": "7",
+        "Negative": "(5, 1, 2, 3)"
+    },
+    "486": {
+        "Triplet #": "486",
+        "Anchor": "(1, 1, 0, 3)",
+        "Positive": "(1, 0, 0, 0)",
+        "Hardness Score": "7",
+        "Negative": "(2, 0, 6, 6)"
+    },
+    "389": {
+        "Triplet #": "389",
+        "Anchor": "(1, 2, 0, 6)",
+        "Positive": "(1, 0, 4, 4)",
+        "Hardness Score": "9",
+        "Negative": "(4, 0, 4, 2)"
+    },
+    "375": {
+        "Triplet #": "375",
+        "Anchor": "(3, 2, 4, 6)",
+        "Positive": "(3, 1, 4, 0)",
+        "Hardness Score": "7",
+        "Negative": "(2, 2, 2, 0)"
+    },
+    "324": {
+        "Triplet #": "324",
+        "Anchor": "(5, 1, 1, 2)",
+        "Positive": "(5, 0, 4, 2)",
+        "Hardness Score": "4",
+        "Negative": "(2, 1, 6, 0)"
+    },
+    "5": {
+        "Triplet #": "5",
+        "Anchor": "(4, 2, 5, 1)",
+        "Positive": "(4, 0, 1, 2)",
+        "Hardness Score": "9",
+        "Negative": "(5, 0, 3, 6)"
+    },
+    "133": {
+        "Triplet #": "133",
+        "Anchor": "(3, 2, 1, 5)",
+        "Positive": "(3, 0, 6, 0)",
+        "Hardness Score": "10",
+        "Negative": "(4, 1, 6, 2)"
+    },
+    "28": {
+        "Triplet #": "28",
+        "Anchor": "(3, 0, 4, 4)",
+        "Positive": "(3, 2, 3, 6)",
+        "Hardness Score": "7",
+        "Negative": "(2, 1, 0, 0)"
+    },
+    "492": {
+        "Triplet #": "492",
+        "Anchor": "(0, 2, 2, 0)",
+        "Positive": "(0, 0, 5, 1)",
+        "Hardness Score": "7",
+        "Negative": "(2, 2, 3, 0)"
+    },
+    "268": {
+        "Triplet #": "268",
+        "Anchor": "(4, 2, 1, 1)",
+        "Positive": "(4, 0, 4, 2)",
+        "Hardness Score": "6",
+        "Negative": "(1, 1, 2, 0)"
+    },
+    "414": {
+        "Triplet #": "414",
+        "Anchor": "(5, 1, 6, 1)",
+        "Positive": "(5, 2, 4, 2)",
+        "Hardness Score": "4",
+        "Negative": "(1, 1, 3, 1)"
+    },
+    "71": {
+        "Triplet #": "71",
+        "Anchor": "(0, 2, 2, 2)",
+        "Positive": "(0, 0, 5, 6)",
+        "Hardness Score": "8",
+        "Negative": "(2, 0, 4, 0)"
+    },
+    "327": {
+        "Triplet #": "327",
+        "Anchor": "(5, 1, 3, 0)",
+        "Positive": "(5, 1, 6, 1)",
+        "Hardness Score": "4",
+        "Negative": "(1, 2, 1, 5)"
+    },
+    "231": {
+        "Triplet #": "231",
+        "Anchor": "(2, 1, 3, 0)",
+        "Positive": "(2, 2, 6, 2)",
+        "Hardness Score": "9",
+        "Negative": "(3, 0, 6, 3)"
+    },
+    "257": {
+        "Triplet #": "257",
+        "Anchor": "(0, 2, 1, 1)",
+        "Positive": "(0, 1, 6, 3)",
+        "Hardness Score": "7",
+        "Negative": "(3, 1, 0, 1)"
+    },
+    "216": {
+        "Triplet #": "216",
+        "Anchor": "(4, 1, 2, 0)",
+        "Positive": "(4, 0, 0, 2)",
+        "Hardness Score": "5",
+        "Negative": "(1, 2, 5, 0)"
+    },
+    "331": {
+        "Triplet #": "331",
+        "Anchor": "(0, 0, 3, 4)",
+        "Positive": "(0, 1, 3, 2)",
+        "Hardness Score": "5",
+        "Negative": "(2, 2, 0, 1)"
+    },
+    "245": {
+        "Triplet #": "245",
+        "Anchor": "(4, 1, 5, 5)",
+        "Positive": "(4, 1, 2, 5)",
+        "Hardness Score": "3",
+        "Negative": "(1, 0, 1, 3)"
+    },
+    "137": {
+        "Triplet #": "137",
+        "Anchor": "(1, 2, 0, 1)",
+        "Positive": "(1, 1, 4, 0)",
+        "Hardness Score": "6",
+        "Negative": "(5, 1, 3, 6)"
+    },
+    "78": {
+        "Triplet #": "78",
+        "Anchor": "(3, 1, 2, 2)",
+        "Positive": "(3, 1, 5, 2)",
+        "Hardness Score": "5",
+        "Negative": "(1, 2, 3, 1)"
+    },
+    "29": {
+        "Triplet #": "29",
+        "Anchor": "(4, 0, 5, 1)",
+        "Positive": "(4, 2, 1, 2)",
+        "Hardness Score": "8",
+        "Negative": "(1, 2, 6, 2)"
+    },
+    "398": {
+        "Triplet #": "398",
+        "Anchor": "(3, 2, 0, 3)",
+        "Positive": "(3, 1, 4, 2)",
+        "Hardness Score": "6",
+        "Negative": "(0, 0, 0, 1)"
+    },
+    "230": {
+        "Triplet #": "230",
+        "Anchor": "(1, 2, 4, 1)",
+        "Positive": "(1, 0, 1, 6)",
+        "Hardness Score": "8",
+        "Negative": "(0, 2, 5, 5)"
+    },
+    "227": {
+        "Triplet #": "227",
+        "Anchor": "(0, 1, 0, 2)",
+        "Positive": "(0, 1, 0, 2)",
+        "Hardness Score": "2",
+        "Negative": "(3, 1, 1, 2)"
+    },
+    "339": {
+        "Triplet #": "339",
+        "Anchor": "(3, 0, 1, 5)",
+        "Positive": "(3, 1, 1, 5)",
+        "Hardness Score": "4",
+        "Negative": "(1, 2, 1, 3)"
+    },
+    "472": {
+        "Triplet #": "472",
+        "Anchor": "(4, 0, 5, 2)",
+        "Positive": "(4, 0, 6, 6)",
+        "Hardness Score": "6",
+        "Negative": "(3, 2, 0, 3)"
+    },
+    "431": {
+        "Triplet #": "431",
+        "Anchor": "(0, 2, 5, 0)",
+        "Positive": "(0, 0, 3, 4)",
+        "Hardness Score": "8",
+        "Negative": "(1, 0, 0, 3)"
+    },
+    "211": {
+        "Triplet #": "211",
+        "Anchor": "(5, 0, 5, 2)",
+        "Positive": "(5, 2, 2, 6)",
+        "Hardness Score": "7",
+        "Negative": "(3, 0, 5, 1)"
+    },
+    "147": {
+        "Triplet #": "147",
+        "Anchor": "(5, 1, 4, 4)",
+        "Positive": "(5, 2, 1, 1)",
+        "Hardness Score": "9",
+        "Negative": "(4, 2, 2, 6)"
+    },
+    "296": {
+        "Triplet #": "296",
+        "Anchor": "(1, 0, 5, 1)",
+        "Positive": "(1, 2, 1, 1)",
+        "Hardness Score": "10",
+        "Negative": "(0, 2, 1, 5)"
+    },
+    "187": {
+        "Triplet #": "187",
+        "Anchor": "(3, 1, 5, 4)",
+        "Positive": "(3, 2, 6, 0)",
+        "Hardness Score": "6",
+        "Negative": "(0, 1, 5, 6)"
+    },
+    "169": {
+        "Triplet #": "169",
+        "Anchor": "(2, 0, 0, 3)",
+        "Positive": "(2, 0, 4, 4)",
+        "Hardness Score": "6",
+        "Negative": "(4, 2, 3, 0)"
+    },
+    "370": {
+        "Triplet #": "370",
+        "Anchor": "(5, 1, 0, 2)",
+        "Positive": "(5, 2, 2, 5)",
+        "Hardness Score": "4",
+        "Negative": "(0, 2, 5, 0)"
+    },
+    "219": {
+        "Triplet #": "219",
+        "Anchor": "(0, 2, 2, 2)",
+        "Positive": "(0, 2, 0, 0)",
+        "Hardness Score": "8",
+        "Negative": "(1, 0, 0, 4)"
+    },
+    "164": {
+        "Triplet #": "164",
+        "Anchor": "(5, 1, 5, 3)",
+        "Positive": "(5, 1, 3, 2)",
+        "Hardness Score": "3",
+        "Negative": "(1, 1, 1, 1)"
+    },
+    "32": {
+        "Triplet #": "32",
+        "Anchor": "(3, 0, 5, 4)",
+        "Positive": "(3, 1, 6, 6)",
+        "Hardness Score": "7",
+        "Negative": "(4, 0, 3, 5)"
+    },
+    "144": {
+        "Triplet #": "144",
+        "Anchor": "(4, 2, 6, 2)",
+        "Positive": "(4, 1, 5, 0)",
+        "Hardness Score": "8",
+        "Negative": "(3, 0, 4, 0)"
+    },
+    "17": {
+        "Triplet #": "17",
+        "Anchor": "(1, 0, 0, 4)",
+        "Positive": "(1, 1, 5, 2)",
+        "Hardness Score": "6",
+        "Negative": "(5, 1, 2, 6)"
+    },
+    "34": {
+        "Triplet #": "34",
+        "Anchor": "(5, 0, 4, 3)",
+        "Positive": "(5, 1, 4, 4)",
+        "Hardness Score": "2",
+        "Negative": "(0, 0, 6, 2)"
+    },
+    "225": {
+        "Triplet #": "225",
+        "Anchor": "(4, 1, 2, 2)",
+        "Positive": "(4, 0, 1, 4)",
+        "Hardness Score": "4",
+        "Negative": "(0, 0, 1, 2)"
+    },
+    "117": {
+        "Triplet #": "117",
+        "Anchor": "(3, 2, 5, 1)",
+        "Positive": "(3, 2, 2, 2)",
+        "Hardness Score": "7",
+        "Negative": "(4, 0, 4, 6)"
+    },
+    "302": {
+        "Triplet #": "302",
+        "Anchor": "(4, 0, 4, 0)",
+        "Positive": "(4, 2, 6, 5)",
+        "Hardness Score": "6",
+        "Negative": "(1, 2, 1, 3)"
+    },
+    "269": {
+        "Triplet #": "269",
+        "Anchor": "(3, 1, 4, 2)",
+        "Positive": "(3, 1, 6, 0)",
+        "Hardness Score": "6",
+        "Negative": "(5, 0, 3, 5)"
+    },
+    "403": {
+        "Triplet #": "403",
+        "Anchor": "(5, 2, 5, 2)",
+        "Positive": "(5, 2, 3, 0)",
+        "Hardness Score": "2",
+        "Negative": "(0, 1, 0, 3)"
+    },
+    "406": {
+        "Triplet #": "406",
+        "Anchor": "(4, 1, 6, 0)",
+        "Positive": "(4, 0, 0, 3)",
+        "Hardness Score": "8",
+        "Negative": "(2, 1, 3, 3)"
+    },
+    "448": {
+        "Triplet #": "448",
+        "Anchor": "(3, 0, 3, 5)",
+        "Positive": "(3, 1, 5, 5)",
+        "Hardness Score": "6",
+        "Negative": "(4, 0, 1, 1)"
+    },
+    "252": {
+        "Triplet #": "252",
+        "Anchor": "(0, 2, 0, 5)",
+        "Positive": "(0, 0, 2, 6)",
+        "Hardness Score": "7",
+        "Negative": "(2, 2, 0, 1)"
+    },
+    "150": {
+        "Triplet #": "150",
+        "Anchor": "(3, 2, 6, 3)",
+        "Positive": "(3, 1, 3, 4)",
+        "Hardness Score": "8",
+        "Negative": "(4, 0, 2, 4)"
+    },
+    "154": {
+        "Triplet #": "154",
+        "Anchor": "(2, 0, 3, 0)",
+        "Positive": "(2, 0, 5, 5)",
+        "Hardness Score": "7",
+        "Negative": "(3, 0, 2, 1)"
+    },
+    "271": {
+        "Triplet #": "271",
+        "Anchor": "(1, 0, 4, 5)",
+        "Positive": "(1, 1, 1, 3)",
+        "Hardness Score": "9",
+        "Negative": "(2, 1, 4, 6)"
+    },
+    "489": {
+        "Triplet #": "489",
+        "Anchor": "(1, 2, 5, 2)",
+        "Positive": "(1, 0, 6, 6)",
+        "Hardness Score": "5",
+        "Negative": "(5, 0, 1, 5)"
+    },
+    "455": {
+        "Triplet #": "455",
+        "Anchor": "(2, 2, 1, 6)",
+        "Positive": "(2, 1, 0, 0)",
+        "Hardness Score": "5",
+        "Negative": "(4, 0, 0, 4)"
+    },
+    "55": {
+        "Triplet #": "55",
+        "Anchor": "(2, 1, 1, 5)",
+        "Positive": "(2, 0, 0, 4)",
+        "Hardness Score": "6",
+        "Negative": "(0, 1, 4, 3)"
+    },
+    "429": {
+        "Triplet #": "429",
+        "Anchor": "(1, 2, 3, 0)",
+        "Positive": "(1, 2, 3, 3)",
+        "Hardness Score": "4",
+        "Negative": "(3, 0, 5, 6)"
+    },
+    "64": {
+        "Triplet #": "64",
+        "Anchor": "(3, 0, 2, 5)",
+        "Positive": "(3, 1, 4, 6)",
+        "Hardness Score": "7",
+        "Negative": "(2, 0, 5, 0)"
+    },
+    "39": {
+        "Triplet #": "39",
+        "Anchor": "(4, 0, 5, 4)",
+        "Positive": "(4, 1, 2, 5)",
+        "Hardness Score": "6",
+        "Negative": "(1, 0, 4, 6)"
+    },
+    "484": {
+        "Triplet #": "484",
+        "Anchor": "(1, 0, 1, 2)",
+        "Positive": "(1, 2, 4, 6)",
+        "Hardness Score": "8",
+        "Negative": "(0, 1, 0, 2)"
+    },
+    "237": {
+        "Triplet #": "237",
+        "Anchor": "(0, 2, 2, 4)",
+        "Positive": "(0, 0, 0, 4)",
+        "Hardness Score": "6",
+        "Negative": "(2, 0, 6, 6)"
     },
     "473": {
-        "Hardness Score": "9",
         "Triplet #": "473",
-        "Anchor": "(1, 0, 0, 1)",
-        "Positive": "(1, 2, 3, 4)",
-        "Negative": "(2, 2, 2, 3)"
+        "Anchor": "(2, 1, 0, 2)",
+        "Positive": "(2, 2, 1, 4)",
+        "Hardness Score": "8",
+        "Negative": "(3, 0, 0, 2)"
+    },
+    "181": {
+        "Triplet #": "181",
+        "Anchor": "(2, 1, 1, 6)",
+        "Positive": "(2, 2, 0, 2)",
+        "Hardness Score": "8",
+        "Negative": "(1, 1, 5, 2)"
+    },
+    "351": {
+        "Triplet #": "351",
+        "Anchor": "(1, 2, 5, 5)",
+        "Positive": "(1, 1, 4, 5)",
+        "Hardness Score": "5",
+        "Negative": "(3, 2, 1, 5)"
+    },
+    "471": {
+        "Triplet #": "471",
+        "Anchor": "(4, 2, 3, 4)",
+        "Positive": "(4, 2, 6, 2)",
+        "Hardness Score": "7",
+        "Negative": "(3, 2, 2, 5)"
+    },
+    "96": {
+        "Triplet #": "96",
+        "Anchor": "(4, 1, 1, 1)",
+        "Positive": "(4, 2, 6, 5)",
+        "Hardness Score": "6",
+        "Negative": "(0, 2, 0, 6)"
+    },
+    "122": {
+        "Triplet #": "122",
+        "Anchor": "(2, 1, 4, 2)",
+        "Positive": "(2, 2, 4, 3)",
+        "Hardness Score": "6",
+        "Negative": "(0, 2, 5, 1)"
+    },
+    "440": {
+        "Triplet #": "440",
+        "Anchor": "(2, 1, 4, 6)",
+        "Positive": "(2, 1, 4, 6)",
+        "Hardness Score": "4",
+        "Negative": "(1, 1, 6, 1)"
+    },
+    "295": {
+        "Triplet #": "295",
+        "Anchor": "(2, 0, 0, 1)",
+        "Positive": "(2, 0, 5, 4)",
+        "Hardness Score": "8",
+        "Negative": "(0, 0, 5, 1)"
+    },
+    "356": {
+        "Triplet #": "356",
+        "Anchor": "(2, 0, 0, 0)",
+        "Positive": "(2, 2, 6, 6)",
+        "Hardness Score": "7",
+        "Negative": "(4, 0, 0, 2)"
+    },
+    "24": {
+        "Triplet #": "24",
+        "Anchor": "(2, 2, 1, 3)",
+        "Positive": "(2, 2, 5, 3)",
+        "Hardness Score": "7",
+        "Negative": "(4, 0, 5, 4)"
     }
 }

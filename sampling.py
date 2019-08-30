@@ -65,16 +65,11 @@ def sampler(stiff__, scenes__, mass__, text__, k, pct_hard):
     sample_difficulty = []
 
     anchor_list = list(itertools.product(STIFFNESS, SCENES, MASS, TEXTURE))
-  #  print("anchor len: ", len(anchor_list))
     for anchor in tqdm(anchor_list):
-     #   print("anchor:", anchor)
         stiff = [anchor[0]]
-   #     print("stiff: ", stiff)
         pos_list = list(itertools.product(stiff, SCENES, MASS, TEXTURE))
-    #    print("pos len: ", len(pos_list))
         neg_stiff = list(set(STIFFNESS) - set([anchor[0]]))
         neg_list = list(itertools.product(neg_stiff, SCENES, MASS, TEXTURE))
-    #    print("neg len: ", len(neg_list))
         triplets = list(itertools.product(pos_list, neg_list))
 
         # sampling algorithm inspo by http://metadatascience.com/2014/02/27/
@@ -109,7 +104,6 @@ def sampler(stiff__, scenes__, mass__, text__, k, pct_hard):
             sample.append(chosen_triplet)
             sample_difficulty.append(hard_rating.total_rating(chosen_triplet))
 
-        #print("anchor_count: ", anchor_count)
         anchor_count += 1
 
     # in sampling equally from each anchor, we usually generate too many

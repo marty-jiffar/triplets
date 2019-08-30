@@ -26,8 +26,6 @@ def smpl_csv(sample, name):
         writer.writerow(['Triplet #', 'Anchor', 
                     'Positive', 'Negative', 'Hardness Score'])
     for i in range(len(sample)):
-        if(name == 'csv_files/chunk_0.csv' and i == 0):
-            print("sample[i][0]:", sample[i][0])
         with open(name, 'a') as sample_file:
             writer = csv.writer(sample_file)
             writer.writerow([i+1, 
