@@ -19,40 +19,19 @@ import hard_rating
 Takes random sample of triplets from all possible permutations
 
 Inputs:
-- stiff__ (int): stiffness of cloth
-- scenes__ (int): scene of video
-- mass__ (int)
-- text__ (int): texture of cloth
 - k (int): sample size
 - pct_hard (int): percentage of sample that is harder (1 - 100)
 
 Returns:
 - sample (list of triplets): triplet sample of size k
 '''
-def sampler(stiff__, scenes__, mass__, text__, k, pct_hard):
+def sampler(k, pct_hard):
 
-    STIFFNESS = []
-    SCENES = []
-    MASS = []
-    TEXTURE = []
-
-    i = 0
-    j = 0
-    l = 0
-    m = 0
-
-    while i < stiff__:
-        STIFFNESS.append(i)
-        i += 1
-    while j < scenes__:
-        SCENES.append(j)
-        j += 1
-    while l < mass__:
-        MASS.append(l)
-        l += 1
-    while m < text__:
-        TEXTURE.append(m)
-        m += 1
+    TEXTURE = ['Sha', 'Fleece', 'Bro', 'Sweater', 'FeltGreen',
+                'Cotton', 'Silk']
+    SCENES = [1, 2, 3]
+    STIFFNESS = [0.001, 0.01, 0.1, 1, 10, 100]
+    MASS = [0.1, 0.3, 0.5, 0.7, 1, 1.3, 1.7]
 
     anchor_num = len(STIFFNESS)*len(SCENES)*len(MASS)*len(TEXTURE)
     pos_num = len(SCENES)*len(MASS)*len(TEXTURE)
@@ -64,12 +43,12 @@ def sampler(stiff__, scenes__, mass__, text__, k, pct_hard):
 
     sample_difficulty = []
 
-    anchor_list = list(itertools.product(STIFFNESS, SCENES, MASS, TEXTURE))
+    anchor_list = list(itertools.product(TEXTURE, SCENES, STIFFNESS, MASS))
     for anchor in tqdm(anchor_list):
-        stiff = [anchor[0]]
-        pos_list = list(itertools.product(stiff, SCENES, MASS, TEXTURE))
-        neg_stiff = list(set(STIFFNESS) - set([anchor[0]]))
-        neg_list = list(itertools.product(neg_stiff, SCENES, MASS, TEXTURE))
+        stiff = [anchor[2]]
+        pos_list = list(itertools.product(TEXTURE, SCENES, stiff, MASS))
+        neg_stiff = list(set(STIFFNESS) - set([anchor[2]]))
+        neg_list = list(itertools.product(TEXTURE, SCENES, neg_stiff, MASS))
         triplets = list(itertools.product(pos_list, neg_list))
 
         # sampling algorithm inspo by http://metadatascience.com/2014/02/27/
@@ -136,8 +115,8 @@ def histogram(sample, pct_hard):
 
 
 def run():
-    sampler(6, 3, 7, 7, 5000, 20)
-    histogram(20)
+    sample = sampler(5000, 50)
+    histogram(sample, 50)
 
 
 if __name__ == "__main__":

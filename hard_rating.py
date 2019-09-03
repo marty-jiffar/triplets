@@ -14,17 +14,17 @@ def stiff_rating(triplet):
     points = 0
     anchor = triplet[0]
     negative = triplet[2]
-    stiff_diff = abs(anchor[0] - negative[0]) 
+    stiff_diff = anchor[2] / negative[2]
 
     # the larger the difference, the easier 
     # it is to pick out the negative
-    if stiff_diff == 4:
+    if stiff_diff == 100000 or stiff_diff == 0.00001:
         points += 1 
-    elif stiff_diff == 3:
+    elif stiff_diff == 10000 or stiff_diff == 0.0001:
         points += 2
-    elif stiff_diff == 2:
+    elif stiff_diff == 100 or stiff_diff == 0.001:
         points += 3
-    elif stiff_diff == 1:
+    elif stiff_diff == 10 or stiff_diff == 0.01:
         points += 4
     return points
 
@@ -49,10 +49,10 @@ def mass_rating(triplet):
     anchor = triplet[0]
     positive = triplet[1]
     negative = triplet[2]
-    diff_pos_neg = abs(positive[2] - negative[2])
-    diff_anch_neg = abs(anchor[2] - negative[2])
-    diff_pos_anch = abs(anchor[2] - positive[2])
-    if (anchor[2] != positive[2] != negative[2]):
+    diff_pos_neg = abs(positive[3] - negative[3])
+    diff_anch_neg = abs(anchor[3] - negative[3])
+    diff_pos_anch = abs(anchor[3] - positive[3])
+    if (anchor[3] != positive[3] != negative[3]):
         points += 1
         # greater difficulty if the anchor's mass is closer
         # to the negative's mass than the positive's
@@ -60,12 +60,12 @@ def mass_rating(triplet):
             points += 1
     # greater difficulty if the negative matches anchor/positive,
     # while the positive/anchor is a very different mass
-    elif (anchor[2] == negative[2] != positive[2]
+    elif (anchor[3] == negative[3] != positive[3]
         and diff_pos_neg >= 2):
         points += 3
         if diff_pos_neg >= 4:
             points += 1
-    elif (positive[2] == negative[2] != anchor[2]
+    elif (positive[3] == negative[3] != anchor[3]
         and diff_anch_neg >= 2):
         points += 3
         if diff_anch_neg >= 4:
@@ -78,12 +78,12 @@ def texture_rating(triplet):
     positive = triplet[1]
     negative = triplet[2]
     # medium difficulty when all textures are different
-    if (anchor[3] != positive[3] != negative[3]):
+    if (anchor[0] != positive[0] != negative[0]):
         points += 1
     # greater difficulty when negative matches
     # with anchor/positive
-    elif ((anchor[3] == negative[3] != positive[3]) or
-         (positive[3] == negative[3] != anchor[3])):
+    elif ((anchor[0] == negative[0] != positive[0]) or
+         (positive[0] == negative[0] != anchor[0])):
         points += 2
     return points
 

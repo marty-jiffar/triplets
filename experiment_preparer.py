@@ -28,9 +28,19 @@ def smpl_csv(sample, name):
     for i in range(len(sample)):
         with open(name, 'a') as sample_file:
             writer = csv.writer(sample_file)
+            anchor = sample[i][0]
+            positive = sample[i][1]
+            negative = sample[i][2]
+            anchor_file = (anchor[0] + '_wind' + str(anchor[1]) +
+                '_b' + str(anchor[2]) + '_m' + str(anchor[3]) + '_1.avi')
+            pos_file = (positive[0] + '_wind' + str(positive[1]) +
+                '_b' + str(positive[2]) + '_m' + str(positive[3]) + '_1.avi')
+            neg_file = (negative[0] + '_wind' + str(negative[1]) +
+                '_b' + str(negative[2]) + '_m' + str(negative[3]) + '_1.avi')
+
             writer.writerow([i+1, 
-                            sample[i][0], sample[i][1], 
-                            sample[i][2], 
+                            anchor_file, pos_file, 
+                            neg_file, 
                             hard_rating.total_rating(sample[i])])
 
 '''
@@ -59,15 +69,11 @@ to complete
 
 Inputs:
 - size (int): size of sample chunks
-- stiff
-- scenes
-- mass
-- texture
 - k
 - pct_hard
 '''
-def experiment(size, stiff, scenes, mass, texture, k, pct_hard):
-    sample = sampling.sampler(stiff, scenes, mass, texture, k, pct_hard)
+def experiment(size, k, pct_hard):
+    sample = sampling.sampler(k, pct_hard)
     chunk = []
     chunk_num = 0
     # many samples will not perfectly divide into chunks, so the remainder
@@ -93,4 +99,4 @@ def experiment(size, stiff, scenes, mass, texture, k, pct_hard):
 
 
 if __name__ == "__main__":
-    experiment(500, 6, 3, 7, 7, 5000, 50)
+    experiment(500, 5000, 50)
