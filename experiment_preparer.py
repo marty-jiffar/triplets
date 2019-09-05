@@ -23,7 +23,7 @@ def smpl_csv(sample, name):
     with open(name, 'w') as sample_file:
         writer = csv.writer(sample_file, delimiter=',',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        writer.writerow(['Triplet #', 'Anchor', 
+        writer.writerow(['Triplet_ID', 'Anchor', 
                     'Positive', 'Negative', 'Hardness Score'])
     for i in range(len(sample)):
         with open(name, 'a') as sample_file:
@@ -57,7 +57,7 @@ def json_conv(csv_name, json_name):
     with open(csv_file_path) as testcsv:
         csvreader = csv.DictReader(testcsv)
         for row in csvreader:
-            num = row['Triplet #']
+            num = row['Triplet_ID']
             data[num] = row
     with open(json_file_path, 'w') as testjson:
         testjson.write(json.dumps(data,indent=4))
