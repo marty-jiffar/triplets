@@ -90,8 +90,8 @@ def experiment(block_size, k, pct_hard):
             j = 1
         else:
             j = 0
-        csv_name = 'csv_files/block_' + str(block_num) + ".csv"
-        json_name = 'json_files/block_' + str(block_num) + ".json"
+        csv_name = 'web_display/csv_files/block_' + str(block_num) + ".csv"
+        json_name = 'web_display/json_files/block_' + str(block_num) + ".json"
         smpl_csv(block, csv_name)
         json_conv(csv_name, json_name)
         block_num += 1
