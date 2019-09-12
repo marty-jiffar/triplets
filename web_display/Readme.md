@@ -8,5 +8,6 @@ Responses are saved in javascripts/phpcode folder.
 
 
 Response has format *initials*\_block\_*blocknumber_month-day-year*\_result.json
+(ie. mj_block_1_09-12-2019_result.json)
 
 ## make sure that proper permissions are given to write in the javascripts/phpcode folder
