@@ -6,6 +6,7 @@ Once experiment is done. Thanks.html is called.
 
 Responses are saved in javascripts/phpcode folder. 
 
-Response has format <em>initials</em>_block_<em>blocknumber</em>_*month-day-year*_result.json
+
+Response has format *initials*\_block\_*blocknumber_month-day-year*\_result.json
 
 ## make sure that proper permissions are given to write in the javascripts/phpcode folder
