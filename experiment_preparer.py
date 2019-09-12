@@ -1,6 +1,6 @@
 '''
-Setting up experiment: drawing sample, dividing it into chunks,
-putting chunks into CSV files and converting them to JSON files
+Setting up experiment: drawing sample, dividing it into blocks,
+putting blocks into CSV files and converting them to JSON files
 to prepare for handling in JavaScript
 
 Marty Jiffar
@@ -64,38 +64,38 @@ def json_conv(csv_name, json_name):
 
 
 '''
-Draws sample and breaks it up into smaller chunks for each participant 
+Draws sample and breaks it up into smaller blocks for each participant 
 to complete
 
 Inputs:
-- size (int): size of sample chunks
+- block_size: size of sample blocks
 - k
 - pct_hard
 '''
-def experiment(size, k, pct_hard):
+def experiment(block_size, k, pct_hard):
     sample = sampling.sampler(k, pct_hard)
-    chunk = []
-    chunk_num = 0
-    # many samples will not perfectly divide into chunks, so the remainder
-    # will be distributed among the chunks
-    remainder = len(sample) % size
+    block = []
+    block_num = 0
+    # many samples will not perfectly divide into blocks, so the remainder
+    # will be distributed among the blocks
+    remainder = len(sample) % block_size
     j = 0
-    for i in range(math.floor(len(sample)/size)):
-        while j < size:
-            chunk.append(sample[i*size+j])
+    for i in range(math.floor(len(sample)/block_size)):
+        while j < block_size:
+            block.append(sample[i*block_size+j])
             j += 1
         if remainder > 0:
-            chunk.append(sample[(i+1)*size])
+            block.append(sample[(i+1)*block_size])
             remainder -= 1
             j = 1
         else:
             j = 0
-        csv_name = 'csv_files/chunk_' + str(chunk_num) + ".csv"
-        json_name = 'json_files/chunk_' + str(chunk_num) + ".json"
-        smpl_csv(chunk, csv_name)
+        csv_name = 'csv_files/block_' + str(block_num) + ".csv"
+        json_name = 'json_files/block_' + str(block_num) + ".json"
+        smpl_csv(block, csv_name)
         json_conv(csv_name, json_name)
-        chunk_num += 1
-        chunk = []
+        block_num += 1
+        block = []
 
 
 if __name__ == "__main__":
