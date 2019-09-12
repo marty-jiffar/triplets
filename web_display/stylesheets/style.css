@@ -1,0 +1,85 @@
+body {
+  background: url("http://s18.postimg.org/8utzpx2ux/unsplash.jpg") center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  font-family: 'Ubuntu', sans-serif;
+  line-height:25px;
+}
+
+form {
+  background: rgba(29, 31, 32, 0.95);
+  max-width:500px;
+  margin:40px auto;
+  color:white;
+  border-radius:10px;
+}
+
+#header{
+  text-align:center;
+}
+
+img{
+  width:180px;
+  height:180px;
+  margin-top:20px;
+}
+
+#genderDetail{
+  padding:15px 20px 5px 20px;
+}
+
+#raceDetail{
+  padding:0px 20px 20px 20px;
+}
+
+#startBtn{
+  text-align:center;
+ color:white;
+ }
+
+button{
+  width:200px;
+  height:50px;
+  margin:0px 10px 25px 0px;
+  border-radius:10px;
+  background-color:#616161;
+  border:none;
+  font-size:1.4em;
+}
+
+button:hover{
+  background-color:#E0E0E0;
+  color:black;
+  font-weight:bold;
+}
+
+#introName{
+  padding:0px 20px 15px 20px;
+}
+
+#introAge{
+  padding:0 20px 0 20px;
+}
+input[type="text"]{
+  width:400px;
+  background:transparent;
+  border-left:none;
+  border-top:none;
+  border-right:none;
+  color:white;
+  padding:5px;
+}
+
+input[type="text"]:hover{
+  border-color:#E65100;
+}
+
+label:hover{
+  background-color:#E65100;
+  padding:3px;
+  border-radius:5px;
+}

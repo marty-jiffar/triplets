@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+* {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+body {
+  // background-color: #161717;
+ background:url("http://www.psdgraphics.com/file/brown-textured-paper.jpg") fixed;
+ background-size:cover;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 4px;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+.fixed-nav-bar {
+  // background-color: #161717;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100px;
+  padding: 0 25px;
+  box-sizing: border-box;
+    background-color: #161717;
+  // background-color: rgba(255,255,255,0.02);
+  box-shadow: 0 0 15px 2px rgba(0,0,0,0.5);
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+}
+.fixed-nav-bar .logo {
+  
+  position: absolute;
+  left: 35%;
+   top: 50%;
+   text-align:center;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-transform: uppercase;
+  color: #ccc;
+  font-size: 28px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.fixed-nav-bar .logo span {
+  color: #e78533;
+  font-weight: 600;
+}
+
+.fixed-nav-bar.scrolled {
+  min-height: 60px;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 30px 3px rgba(0,0,0,0.6);
+}
+.fixed-nav-bar.scrolled .logo {
+  color: #000;
+}
+.fixed-nav-bar.scrolled .menu-button-label .white-bar {
+  background-color: #000;
+}
+
+//Drop menu
+.drop-down-container {
+  height: 15%;
+  width: 90%;
+  left: 160%;
+  margin-top: 5px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+ 
+
+.container{
+  //float:left;
+   max-width:1300px;
+   margin: 80px auto;
+  
+  
+}
+
+.videos{
+background-color: rgba(28,16,12,0.4);
+ width:1150px;
+ height:790px;
+ margin:100px auto;
+ color:white;
+ text-align:center;
+ font-weight:bold;
+}
+
+.videos p{
+  padding-top:20px;
+  padding-bottom:30px;
+}
+#materialA{
+  padding-right:130px;
+}
+
+#materialB{
+  padding-left:290px;
+}
+label{
+  color:white;
+  font-size:19px;
+  padding: 15px  25px 15px 30px  ;
+  font-family: "Raleway";
+  font-weight:bold;
+}
+
+.textLabel{
+  margin-left:40px;
+}
+
+ iframe{
+  width:490px;
+  height:470px;
+  padding:10px;
+  margin-left:5px;
+  // margin-top:30px;
+  border-radius:20px;
+} 
+
+button{
+ position: fixed;
+    bottom: 30px;
+    right: 30px; 
+   background-color: #161717;
+   border:none;
+   border-radius:50px;
+   width:100px;
+   height:100px;
+   
+}
+
+  
+/* Modal Header */
+
+#myModal{
+  text-align:center;
+  margin:100px auto;
+  width:750px;
+}
+.modal-header {
+     padding: 10px;
+    background-color: #195E19;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {
+  
+  padding: 30px;
+  
+  height:100px;
+  }
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+

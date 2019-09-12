@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Cache-control" content="no-cache">
+        <title>Trials</title>
+    
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+        <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="stylesheets/quiz_page.css">
+    </head>
+
+    <body>
+
+        <div class="fixed-nav-bar">
+            <div class="logo"><span>Cloth&#160;</span>Perception Experiment &#160;&#160;
+                <span id="questionNum">1 </span> <span>/3</span>
+            </div>
+        </div>
+        
+<!-- END OF NAVIGATION BAR -->
+
+        <div class="container">
+            <div class="videos">
+                <p></p>
+                <span id="materialA">Cloth Video A</span><span id= "materialC"> Anchor Video</span><span id="materialB">Cloth Video B</span> 
+                
+                <br>
+                <br>
+                
+                <span class="contentA"> </span>
+                <span class="content"> </span>
+                <span class ="contentB"> </span>
+      
+                <br>
+                <br>
+                <label class="textLabel">
+                    <input type="radio"  name="scale" value="1"/>
+                    Anchor and video A are similar
+                </label>
+
+                <label>
+                    <input type="radio"  name="scale" value="-1" id="radio3"  />
+                    Anchor and Video B are similar
+                </label>
+            </div>
+        </div>
+
+
+        <button id="next">
+            <i class="fa fa-arrow-circle-right" style="font-size:80px;color:#E5E5E5"></i>
+        </button>
+
+        <img id="loading_icon" src="images/loading_symbol.jpg" alt="loading" style="margin: 0 auto 0 auto; display:none">
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="javascripts/test_js.js"></script>
+    </body>
+</html>
