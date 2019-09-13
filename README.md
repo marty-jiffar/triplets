@@ -1,5 +1,6 @@
 # Cloth Perception Experiment
 
+<p align="center"><img width=50% src="visuals/cloths.png">
 
 The experimental design is as follows:
 
