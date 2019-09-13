@@ -129,7 +129,7 @@ $(document).ready(function() {
             // When the 'next' button is clicked, storeValues will execute
             storeValues();
             // checking question number
-            if ($questionNumber.text() <= trials) {
+            if ($questionNumber.text() <= perblock) {
                 $questionNumber.text(+$questionNumber.text() + 1);
                 data.trialnumber.push($questionNumber.text());
 
@@ -147,7 +147,7 @@ $(document).ready(function() {
             }
 
             // When the videos reach the end, the user is moved to the "thank you" page
-            if ($questionNumber.text() == trials+1) {
+            if ($questionNumber.text() == perblock+1) {
                 $(".videos").hide(); //HIDE THE VIDEOS
                 $("#next").hide(); //HIDE NEXT BUTTON 
                 $.ajax({
@@ -159,7 +159,9 @@ $(document).ready(function() {
                     success: function (data) {alert(data); },
                     failure: function() {alert("Error!");}
                 });
-                window.open("thanks.html");
+                if (blocknumber == trials / perblock) {
+                    window.open("thanks.html");
+                }
             }
             else {
                 showRandomVideos($questionNumber.text());
