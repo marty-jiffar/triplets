@@ -67,30 +67,33 @@ body {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
+
 .container {
-  max-width: 1300px;
-  margin: 80px auto;
+  max-width: 100%;
+  margin: 5%;
 }
+
 .videos {
   background-color: rgba(28,16,12,0.4);
-  width: 1050px;
-  height: 770px;
-  margin: 100px auto;
+  width: 100%;
+  height: 100%;
+  margin: 5%;
   color: #fff;
   text-align: center;
   font-weight: bold;
 }
+
 .videos p {
-  padding-bottom: 20px;
+  padding-bottom: 2%;
 }
 #materialA {
-  padding-right: 70px;
+  padding-right: 2%;
 }
 #materialB {
-  padding-left: 290px;
+  padding-left: 8%;
 }
 label {
-  color: #fff;
+  color: #E5E5E5;
   font-size: 19px;
   padding: 15px 25px 15px 50px;
   font-family: "Raleway";

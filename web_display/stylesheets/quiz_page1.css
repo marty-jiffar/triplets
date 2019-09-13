@@ -88,10 +88,10 @@ padding-top: 10%;
 }
 
 #materialA{
-  padding-right:30%;
+  padding-right:20%;
 }
 #materialB{
-   padding-left:30%;
+   padding-left:20%;
 }
 #materialC{
   text-align:center;
@@ -100,7 +100,7 @@ padding-top: 10%;
 label{
   color:black;
   font-size:19px;
-  padding: 1% 10% 5% 10%;
+  padding: 1% 5% 5% 5%;
   /*padding:1%;*/
   font-family: "Raleway";
   font-weight:bold;
@@ -196,6 +196,3 @@ button{
     text-decoration: none;
     cursor: pointer;
 }
-
-
-

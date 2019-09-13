@@ -89,13 +89,12 @@ $(document).ready(function() {
   
     }//END OF SHOW RANDOM VIDEOS FUNCTION
     
-    // https://stackoverflow.com/questions/35140426/html-video-resize-to-always-fit
     function resize() {
         var w = window.innerWidth;
         var h = window.innerHeight;
         
-        var ideal_height = h * 5 / 12;
-        var ideal_width = ideal_height * 4 / 3;
+        var ideal_height = h * 4 / 12;
+        var ideal_width = ideal_height * 16 / 9;
         var info = [ideal_height, ideal_width];
         console.log([h, w])
         console.log(info);
@@ -131,7 +130,6 @@ $(document).ready(function() {
             // checking question number
             if ($questionNumber.text() <= perblock) {
                 $questionNumber.text(+$questionNumber.text() + 1);
-                data.trialnumber.push($questionNumber.text());
 
                 //RESET RADIO BUTTON:
                 $('input:radio[name="scale"]').attr('checked', false);
@@ -164,6 +162,7 @@ $(document).ready(function() {
                 }
             }
             else {
+                data.trialnumber.push($questionNumber.text());
                 showRandomVideos($questionNumber.text());
             }
     });
