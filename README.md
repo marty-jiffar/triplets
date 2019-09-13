@@ -10,7 +10,7 @@ We will show the participant 3 videos per trial: an anchor video, a positive vid
 
 <div class="DemoImage">
 <!--     <p align="center"> Experimental Interface </strong></p> -->
-    <p align="center"><img src="visuals/demo.gif"></p>
+    <p align="center"><img src="visuals/demo_2.gif"></p>
 </div>
 
 ## Sampling Method
