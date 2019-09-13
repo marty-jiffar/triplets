@@ -32,11 +32,11 @@ def smpl_csv(sample, name):
             positive = sample[i][1]
             negative = sample[i][2]
             anchor_file = (anchor[0] + '_wind' + str(anchor[1]) +
-                '_b' + str(anchor[2]) + '_m' + str(anchor[3]) + '_1.avi')
+                '_b' + str(anchor[2]) + '_m' + str(anchor[3]) + '_1.mp4')
             pos_file = (positive[0] + '_wind' + str(positive[1]) +
-                '_b' + str(positive[2]) + '_m' + str(positive[3]) + '_1.avi')
+                '_b' + str(positive[2]) + '_m' + str(positive[3]) + '_1.mp4')
             neg_file = (negative[0] + '_wind' + str(negative[1]) +
-                '_b' + str(negative[2]) + '_m' + str(negative[3]) + '_1.avi')
+                '_b' + str(negative[2]) + '_m' + str(negative[3]) + '_1.mp4')
 
             writer.writerow([i+1, 
                             anchor_file, pos_file, 
@@ -75,7 +75,7 @@ Inputs:
 def experiment(block_size, k, pct_hard):
     sample = sampling.sampler(k, pct_hard)
     block = []
-    block_num = 0
+    block_num = 1
     # many samples will not perfectly divide into blocks, so the remainder
     # will be distributed among the blocks
     remainder = len(sample) % block_size
@@ -99,4 +99,4 @@ def experiment(block_size, k, pct_hard):
 
 
 if __name__ == "__main__":
-    experiment(500, 5000, 50)
+    experiment(50, 500, 50)
