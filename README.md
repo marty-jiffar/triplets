@@ -8,10 +8,10 @@ Using the parameters of stiffness (6 levels), mass (7 levels), texture (7 levels
 
 We will show the participant 3 videos per trial: an anchor video, a positive video with the same stiffness as the anchor, and a negative video with a different stiffness. Their task is to identify the negative.
 
-<video width="640" height="480" controls>
-  <source src="visuals/demo.mov" type="video/mov">
-Your browser does not support the video tag.
-</video>
+<div class="DemoImage">
+<!--     <p align="center"> Experimental Interface </strong></p> -->
+    <p align="center"><img src="visuals/demo.gif"></p>
+</div>
 
 ## Sampling Method
 From all the possible triplets, sampling.py takes a random sample of size *k* (500 trials for preliminary testing, later 3000-5000 trials).
