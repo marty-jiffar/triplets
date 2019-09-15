@@ -30,6 +30,6 @@ experiment_preparer.py runs sampling.py, breaks up the output into blocks (to sa
 The web_display folder has the HTML, JavaScript, and CSS files that create an interface for the participant to actually complete the experiment, as well as a PHP file that stores their data.
 
 ### Folders
-    * [json_files](json_files/): JSON files containing video file names and hardness scores for each block of data.
-    * [visuals](visuals/): Images to demonstrate how the experiment works.
-    * [web_display](web_display/): Contains JavaScript, HTML, PHP, and CSS code for displaying the website and saving the participant's data.
+1. [json_files](json_files/): JSON files containing video file names and hardness scores for each block of data.
+2. [visuals](visuals/): Images to demonstrate how the experiment works.
+3. [web_display](web_display/): Contains JavaScript, HTML, PHP, and CSS code for displaying the website and saving the participant's data.
