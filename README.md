@@ -2,7 +2,7 @@
 
 <p align="center"><img width=100% src="visuals/cloths.png">
 
-The experimental design is as follows:
+## Experimental Design
 
 Using the parameters of stiffness (6 levels), mass (7 levels), texture (7 levels), and scene/wind (3 types), we generated 882 videos -- using all possible permutations of the parameters.
 
@@ -28,3 +28,8 @@ Thus, each randomly sampled triplet at index ```i``` is compared to the triplet 
 experiment_preparer.py runs sampling.py, breaks up the output into blocks (to save data periodically; current block size is 50 trials), and saves those blocks as individual CSV and JSON files. Each line in the CSV/JSON files contains the triplet index, the three file names for the anchor, positive, and negative, and the triplet's hardness score.
 
 The web_display folder has the HTML, JavaScript, and CSS files that create an interface for the participant to actually complete the experiment, as well as a PHP file that stores their data.
+
+### Folders
+    * [json_files](json_files/): JSON files containing video file names and hardness scores for each block of data.
+    * [visuals](visuals/): Images to demonstrate how the experiment works.
+    * [web_display](web_display/): Contains JavaScript, HTML, PHP, and CSS code for displaying the website and saving the participant's data.
