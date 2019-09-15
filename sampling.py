@@ -46,7 +46,7 @@ def sampler(k, pct_hard):
     anchor_list = list(itertools.product(TEXTURE, SCENES, STIFFNESS, MASS))
     for anchor in tqdm(anchor_list):
         stiff = [anchor[2]]
-        pos_list = list(itertools.product(TEXTURE, SCENES, stiff, MASS))
+        pos_list = list(set(itertools.product(TEXTURE, SCENES, stiff, MASS)) - set(anchor))
         neg_stiff = list(set(STIFFNESS) - set([anchor[2]]))
         neg_list = list(itertools.product(TEXTURE, SCENES, neg_stiff, MASS))
         triplets = list(itertools.product(pos_list, neg_list))
@@ -99,24 +99,23 @@ def histogram(sample, pct_hard):
     for i in range(len(sample)):
         sample_difficulty.append(hard_rating.total_rating(sample[i]))
     # plots histogram of difficulty scores
-    samply = np.array(sample_difficulty)
-    mean = round(np.mean(samply), 3)
-    stdev = round(np.std(samply), 3)
-    plt.hist(samply, bins = 23)
+    samply1 = np.array(sample_difficulty)
+    mean1 = round(np.mean(samply1), 3)
+    stdev1 = round(np.std(samply1), 3)
+    plt.hist(samply1, bins='auto', color='blue', label='10%')
+    plt.legend(loc='upper right')
     plt.ylabel('Frequency')
     plt.xlabel('Hardness Score')
     plt.title('Distribution of Hardness for Sample'
         ' with Hard Bias of ' + str(pct_hard) + '%')
-    plt.text(9, 900, r'$\mu =$')
-    plt.text(10, 900, str(mean))
-    plt.text(9, 850, 'sd =')
-    plt.text(10, 850, str(stdev))
+    plt.text(0, 850, r'10% $\mu =$ ' + str(mean1))
+    plt.text(0, 800, '10% ' + 'sd = ' + str(stdev1))
     plt.show()
 
 
 def run():
-    sample = sampler(5000, 50)
-    histogram(sample, 50)
+    sample = sampler(5000, 10)
+    histogram(sample, 10)
 
 
 if __name__ == "__main__":
