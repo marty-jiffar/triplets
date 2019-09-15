@@ -20,7 +20,7 @@ The program also accepts another parameter ```pct_hard``` which is an integer fr
 Thus, each randomly sampled triplet at index ```i``` is compared to the triplet at index ```i + 1```. Between the two of them, one is easier (lower score) and the other is harder (higher score). The program will sample the harder one ```pct_hard```% of the time, resulting in a Gaussian distribution of hardness scores within the sample that is skewed left/right to varying extent depending on ```pct_hard```.
 
 <div class="Histograms">
-    <p align="center"><img width=33% src="visuals/Hard_Bias_10.png"><img width=33% src="visuals/Hard_Bias_10_vs_80.png"><img width=33% src="visuals/Hard_Bias_10_vs_50_vs_80.png">
+    <p align="center"><img width=33% src="visuals/10.png"><img width=33% src="visuals/10_vs_80.png"><img width=33% src="visuals/10_vs_50_vs_80.png">
     </p>
 </div>
 
