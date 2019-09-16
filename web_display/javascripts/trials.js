@@ -11,11 +11,10 @@ $(document).ready(function() {
     var blocknumber=1;
     var count=1;
     var res=null;
-    var trials = 500;
-    var perblock = 50;
+    var trials = 9;
+    var perblock = 3;
     var display_trials = '/ '.concat(perblock.toString());
     $('.totaltrials').html(display_trials);
-    var perblock = 50;
     var vid_dimension = resize();
 
     //QUESTION NUMBER TO TRACK THE NUMBER OF THE QUESTIONS IN THE TRIAL 
@@ -34,7 +33,7 @@ $(document).ready(function() {
         subject = prompt("Please enter your initials.");
         data.subject=subject;
         var bn = getQueryVariable("blocknumber");
-        blocknumber = bn ? bn : 1;
+        data.blocknumber = bn ? bn : 1;
     });
     
     function getQueryVariable(variable) {
@@ -110,23 +109,25 @@ $(document).ready(function() {
             capturedResult.push(radio_value);   //Push val to global array (capturedResult) 
             res= radio_value;
         }
+        else {
+            res = null;
+        }
     }
     //return capturedResult;  //return the value of the array 
     showRandomVideos(count);
     
     // Next button functionality
     $("#next").click(function(e) {
-        /*
+        // When the 'next' button is clicked, storeValues will execute
+        storeValues();
+        
         //If user forgets to label a video, prompt them to enter one.
         if (res==null)
         {
-            console.log(':(');
-            storeValues();
+            alert('Please select an option.')
+            showRandomVideos($questionNumber.text())
         }
         else {
-    */
-            // When the 'next' button is clicked, storeValues will execute
-            storeValues();
             // checking question number
             if ($questionNumber.text() <= perblock) {
                 $questionNumber.text(+$questionNumber.text() + 1);
@@ -144,8 +145,9 @@ $(document).ready(function() {
                 res=null;
             }
 
-            // When the videos reach the end, the user is moved to the "thank you" page
+            // When the videos reach the end of the block, data is saved
             if ($questionNumber.text() == perblock+1) {
+                console.log('block over, data saving...');
                 $(".videos").hide(); //HIDE THE VIDEOS
                 $("#next").hide(); //HIDE NEXT BUTTON 
                 $.ajax({
@@ -157,6 +159,8 @@ $(document).ready(function() {
                     success: function (data) {alert(data); },
                     failure: function() {alert("Error!");}
                 });
+                console.log('data saved probably')
+                // When the last block is over, user is moved to 'thank you' page
                 if (blocknumber == trials / perblock) {
                     window.open("thanks.html");
                 }
@@ -165,5 +169,6 @@ $(document).ready(function() {
                 data.trialnumber.push($questionNumber.text());
                 showRandomVideos($questionNumber.text());
             }
+        }
     });
 });
