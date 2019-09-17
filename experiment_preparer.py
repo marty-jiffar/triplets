@@ -99,4 +99,4 @@ def experiment(block_size, k, pct_hard):
 
 
 if __name__ == "__main__":
-    experiment(50, 500, 50)
+    experiment(50, 500, 30)

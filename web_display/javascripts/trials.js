@@ -10,8 +10,8 @@ $(document).ready(function() {
     var blocknumber=getQueryVariable("blocknumber");
     var count=1;
     var res=null;
-    var trials = 9;
-    var perblock = 3;
+    var trials = 500;
+    var perblock = 50;
     var display_trials = '/ '.concat(perblock.toString());
     $('.totaltrials').html(display_trials);
     $('.trialtype').html("");
