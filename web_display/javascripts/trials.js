@@ -1,9 +1,8 @@
 $(document).ready(function() {
-  
+    
     //Global Variables :
     var capturedResult = []; //This array stores all the captured radio button values, 
     var videoIDs = []; //This array to store all the video ids of the trials
-  
                           
     var videoFileGeneral = './json_files/block_';
 
@@ -11,12 +10,14 @@ $(document).ready(function() {
     var blocknumber=getQueryVariable("blocknumber");
     var count=1;
     var res=null;
-    var trials = 500;
-    var perblock = 50;
+    var trials = 9;
+    var perblock = 3;
     var display_trials = '/ '.concat(perblock.toString());
     $('.totaltrials').html(display_trials);
     $('.trialtype').html("");
     var vid_dimension = resize();
+    var start_time;
+    var end_time;
 
     //QUESTION NUMBER TO TRACK THE NUMBER OF THE QUESTIONS IN THE TRIAL 
     var $questionNumber = $("#questionNum");
@@ -25,7 +26,8 @@ $(document).ready(function() {
         subject: subject,
         trialnumber:["1"],
         response:[],
-        correct_answer:[]
+        correct_answer:[],
+        time_per_trial:[]
         };
 
     //SHOW THE VIDEO CONTENT DIV TO START THE TRIAL 
@@ -34,6 +36,7 @@ $(document).ready(function() {
         data.subject=subject;
     });
     $(".videoContent").show();
+    
     
     function getQueryVariable(variable) {
         var query = window.location.search.substring(1);
@@ -82,6 +85,8 @@ $(document).ready(function() {
             //SHOW THE RANDOMIZE VIDEO IN THE DIV
           
             $('.content').html(anchor);
+            
+            start_time = new Date().getTime(); // time when videos have been loaded
         });
   
     }//END OF SHOW RANDOM VIDEOS FUNCTION
@@ -127,6 +132,10 @@ $(document).ready(function() {
         }
         else {
             // checking question number
+            end_time = new Date().getTime(); // time when user submits their selection
+            console.log("start time: ", start_time);
+            console.log("end time: ", end_time);
+            data.time_per_trial.push(end_time - start_time);
             console.log("res not null...");
             if ($questionNumber.text() <= perblock) {
                 $questionNumber.text(+$questionNumber.text() + 1);

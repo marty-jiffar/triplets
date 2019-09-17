@@ -51,13 +51,13 @@ def sampler(k, pct_hard):
         neg_list = list(itertools.product(TEXTURE, SCENES, neg_stiff, MASS))
         triplets = list(itertools.product(pos_list, neg_list))
 
-        # sampling algorithm inspo by http://metadatascience.com/2014/02/27/
-        # random-sampling-from-very-large-files/
+        # sampling algorithm inspo by http://metadatascience.com
+        # /2014/02/27/random-sampling-from-very-large-files/
         smpl_from_each = math.ceil(k / anchor_num)
         random_set = sorted(random.sample(range(len(pos_list)*
                                                 len(neg_list)), 
                                                 smpl_from_each))
-        # preferentially sample harder triplets
+        # preferentially sample easier triplets
         for i in range(smpl_from_each):
             # compare each randomly sampled triplet to its neighbor
             current_triplet = (anchor,) + triplets[random_set[i]]
