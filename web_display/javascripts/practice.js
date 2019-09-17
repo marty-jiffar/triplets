@@ -8,14 +8,14 @@ $(document).ready(function() {
     var videoFileGeneral = './json_files/block_';
 
     var subject ="random user";
-    var blocknumber=getQueryVariable("blocknumber");
+    var blocknumber=1;
     var count=1;
     var res=null;
-    var trials = 500;
-    var perblock = 50;
+    var trials = 3;
+    var perblock = 3;
     var display_trials = '/ '.concat(perblock.toString());
     $('.totaltrials').html(display_trials);
-    $('.trialtype').html("");
+    $('.trialtype').html("Practice");
     var vid_dimension = resize();
 
     //QUESTION NUMBER TO TRACK THE NUMBER OF THE QUESTIONS IN THE TRIAL 
@@ -29,27 +29,15 @@ $(document).ready(function() {
         };
 
     //SHOW THE VIDEO CONTENT DIV TO START THE TRIAL 
+    $(".videoContent").show();
     $(function() {
         subject = prompt("Please enter your initials.");
         data.subject=subject;
     });
-    $(".videoContent").show();
-    
-    function getQueryVariable(variable) {
-        var query = window.location.search.substring(1);
-        var vars = query.split("&");
-        for (var i = 0; i < vars.length; i ++){
-            var pair = vars[i].split("=");
-            if (pair[0] == variable){
-                return pair[1];
-            }
-        }
-        return false;
-    }
 
     function showRandomVideos (counter){
         //retrieve data from JSON file 
-        var videosCurrent = videoFileGeneral.concat(data.blocknumber, '.json');
+        var videosCurrent = videoFileGeneral.concat(blocknumber.toString(), '.json');
         console.log(videosCurrent);
         $.getJSON(videosCurrent, function(videos) { 
             var rand_num= Math.floor(Math.random()*2);
@@ -70,13 +58,13 @@ $(document).ready(function() {
             {
                 $('.contentA').html(positive);
                 $('.contentB').html(negative);
-                data.correct_answer.push("-1")
+                data.correct_answer.push("1")
             }
             else
             {
                 $('.contentA').html(negative);
                 $('.contentB').html(positive);
-                data.correct_answer.push("1")
+                data.correct_answer.push("-1")
             }
      
             //SHOW THE RANDOMIZE VIDEO IN THE DIV
@@ -111,7 +99,7 @@ $(document).ready(function() {
             res = null;
         }
     }
-    
+    //return capturedResult;  //return the value of the array 
     showRandomVideos(count);
     
     // Next button functionality
@@ -127,7 +115,6 @@ $(document).ready(function() {
         }
         else {
             // checking question number
-            console.log("res not null...");
             if ($questionNumber.text() <= perblock) {
                 $questionNumber.text(+$questionNumber.text() + 1);
 
@@ -144,30 +131,12 @@ $(document).ready(function() {
                 res=null;
             }
 
-            // When the videos reach the end of the block, data is saved
+            // When the videos reach the end of the practice block, user is moved to the real trials
             if ($questionNumber.text() == perblock+1) {
-                console.log('block over, data saving...');
+                console.log('block over, moving...');
                 $(".videos").hide(); //HIDE THE VIDEOS
                 $("#next").hide(); //HIDE NEXT BUTTON 
-                $.ajax({
-                    type: "POST",
-                    dataType : 'json',
-                    async: false,
-                    url: 'javascripts/phpcode/saveresults.php',
-                    data: {data: JSON.stringify(data) },
-                    success: function (data) {alert(data); },
-                    failure: function() {alert("Error!");}
-                });
-                console.log('data saved');
-                // When the last block is over, user is moved to 'thank you' page
-                if (data.blocknumber == trials / perblock) {
-                    window.open("thanks.html");
-                }
-                else {
-                    next_block = (parseInt(data.blocknumber) + 1).toString();
-                    next_window = "quiz_cloth_1.html?blocknumber=".concat(next_block);
-                    window.open(next_window);
-                }
+                window.open("quiz_cloth_1.html?blocknumber=1");
             }
             else {
                 console.log("block not over, next videos...");
