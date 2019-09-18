@@ -31,7 +31,6 @@ def smpl_csv(sample, name):
             writer = csv.writer(sample_file)
             anchor = sample[i][0]
             positive = sample[i][1]
-            print(str(i) + ' ' + sample[i])
             negative = sample[i][2]
             anchor_file = (anchor[0] + '_wind' + str(anchor[1]) +
                 '_b' + str(anchor[2]) + '_m' + str(anchor[3]) + '_1.mp4')

@@ -92,8 +92,16 @@ def sampler(k, pct_hard):
         sample.pop()
         
     # other half of sample comes from triplets with all the same mass
-    random_set2 = random.sample(range(len(anchor_list)), int(k / 2))
+    
+    #generating (sample size / 2) random numbers from 0 to number of anchor videos
+    random_set2 = random.sample(range(anchor_num), int(k / 2))
+    
+    # number of pos and neg videos for each anchor with the same mass
+    pos_num2 = len(SCENES)*len(TEXTURE)
+    neg_num2 = (len(STIFFNESS)-1)*len(SCENES)*len(TEXTURE)
+
     for anchor in enumerate(tqdm(anchor_list)):
+        # only sampling from the 250 randomly generated indices
         if (anchor[0] not in random_set2):
             continue
         else:
@@ -102,16 +110,21 @@ def sampler(k, pct_hard):
             pos_list = list(set(itertools.product(TEXTURE, SCENES, stiff, mass)) - set(anchor[1]))
             neg_stiff = list(set(STIFFNESS) - set([anchor[1][2]]))
             neg_list = list(itertools.product(TEXTURE, SCENES, neg_stiff, mass))
-            random_set = sorted(random.sample(range(len(pos_list)*
-                                                len(neg_list)), 
-                                                smpl_from_each))
             triplets = list(itertools.product(pos_list, neg_list))
+                                
+            # random index of which triplet to sample
+            random_index = random.sample(range(pos_num2 * neg_num2),
+                                                smpl_from_each)[0]
+                                
+            # have to make sure not to sample any triplet that's already in the first half
             for i in range(len(triplets)):
-                if (triplets[random_set[0] - i] not in sample):
-                    shift = i
+                current_triplet = (anchor[1],) + triplets[random_index + i]
+                # if triplet isn't already in sample, append it. if it is, keep searching
+                if (current_triplet not in sample):
                     break
-            sample.append(triplets[random_set[0] - shift])
-
+            sample.append(current_triplet)
+            
+    random.shuffle(sample)
     return sample
 
 def histogram(sample, pct_hard):
