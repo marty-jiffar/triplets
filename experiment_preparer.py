@@ -10,6 +10,7 @@ import csv
 import json
 import math
 import sampling
+import sampling2
 import hard_rating
 
 '''
@@ -30,6 +31,7 @@ def smpl_csv(sample, name):
             writer = csv.writer(sample_file)
             anchor = sample[i][0]
             positive = sample[i][1]
+            print(str(i) + ' ' + sample[i])
             negative = sample[i][2]
             anchor_file = (anchor[0] + '_wind' + str(anchor[1]) +
                 '_b' + str(anchor[2]) + '_m' + str(anchor[3]) + '_1.mp4')
@@ -73,7 +75,7 @@ Inputs:
 - pct_hard
 '''
 def experiment(block_size, k, pct_hard):
-    sample = sampling.sampler(k, pct_hard)
+    sample = sampling2.sampler(k, pct_hard)
     block = []
     block_num = 1
     # many samples will not perfectly divide into blocks, so the remainder

@@ -88,24 +88,29 @@ def sampler(k, pct_hard):
     # in sampling equally from each anchor, we usually generate too many
     # samples, so this removes indices randomly
     random.shuffle(sample)
-    for i in range(len(sample) - k + (k / 2)): # half of sample comes from this method
+    for i in range(len(sample) - k + int(k / 2)): # half of sample comes from this method
         sample.pop()
         
     # other half of sample comes from triplets with all the same mass
-    random_set2 = random.sample(range(len(anchor_list)), k / 2)
+    random_set2 = random.sample(range(len(anchor_list)), int(k / 2))
     for anchor in enumerate(tqdm(anchor_list)):
         if (anchor[0] not in random_set2):
             continue
-        else
-        stiff = [anchor[1][2]]
-        mass = [anchor[1][3]]
-        pos_list = list(set(itertools.product(TEXTURE, SCENES, stiff, mass)) - set(anchor[1]))
-        neg_stiff = list(set(STIFFNESS) - set([anchor[1][2]]))
-        neg_list = list(itertools.product(TEXTURE, SCENES, neg_stiff, mass))
-        triplets = list(itertools.product(pos_list, neg_list))
-        
-        for i in range(k / 2):
-
+        else:
+            stiff = [anchor[1][2]]
+            mass = [anchor[1][3]]
+            pos_list = list(set(itertools.product(TEXTURE, SCENES, stiff, mass)) - set(anchor[1]))
+            neg_stiff = list(set(STIFFNESS) - set([anchor[1][2]]))
+            neg_list = list(itertools.product(TEXTURE, SCENES, neg_stiff, mass))
+            random_set = sorted(random.sample(range(len(pos_list)*
+                                                len(neg_list)), 
+                                                smpl_from_each))
+            triplets = list(itertools.product(pos_list, neg_list))
+            for i in range(len(triplets)):
+                if (triplets[random_set[0] - i] not in sample):
+                    shift = i
+                    break
+            sample.append(triplets[random_set[0] - shift])
 
     return sample
 
