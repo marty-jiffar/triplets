@@ -98,6 +98,8 @@ def experiment(block_size, k, pct_hard):
         block_num += 1
         block = []
 
+    return sample
+
 
 if __name__ == "__main__":
     experiment(50, 500, 30)
