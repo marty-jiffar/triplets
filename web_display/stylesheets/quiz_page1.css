@@ -14,6 +14,7 @@ body {
   font-family: "Raleway";
   font-weight: 400;
 }
+
 .fixed-nav-bar {
   // background-color: #161717;
   position: fixed;
@@ -32,6 +33,7 @@ body {
   -webkit-transition: 0.35s ease;
   transition: 0.35s ease;
 }
+
 .fixed-nav-bar .logo {
   
   position: absolute;
