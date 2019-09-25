@@ -27,7 +27,8 @@ $(document).ready(function() {
         trialnumber:["1"],
         response:[],
         correct_answer:[],
-        time_per_trial:[]
+        time_per_trial:[],
+        videoIDs: videoIDs
         };
 
     //SHOW THE VIDEO CONTENT DIV TO START THE TRIAL 
@@ -61,7 +62,7 @@ $(document).ready(function() {
             var neg_src = './Final_Dataset_6sec_mp4/'.concat(videos[counter].Negative);
             var vid_general = '<video width={{W}} height={{H}} controls autoplay loop><source src="{{SRC}}" type="video/mp4"></video>';
             
-            videoIDs.push([anchr_src, pos_src, neg_src]);
+            data.videoIDs.push([anchr_src, pos_src, neg_src]);
             vid_general = vid_general.replace('{{W}}', vid_dimension[1]);
             vid_general = vid_general.replace('{{H}}', vid_dimension[0]);
 

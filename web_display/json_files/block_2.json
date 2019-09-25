@@ -1,0 +1,352 @@
+{
+    "1": {
+        "Triplet #": "1",
+        "Anchor": "Cotton_wind2_b0.001_m1_1.mp4",
+        "Positive": "Silk_wind2_b0.001_m1.3_1.mp4",
+        "Negative": "Sha_wind2_b100_m0.7_1.mp4",
+        "Hardness Score": "3"
+    },
+    "2": {
+        "Triplet #": "2",
+        "Anchor": "Sweater_wind3_b0.01_m0.5_1.mp4",
+        "Positive": "FeltGreen_wind2_b0.01_m1.3_1.mp4",
+        "Negative": "Bro_wind1_b1_m1_1.mp4",
+        "Hardness Score": "8"
+    },
+    "3": {
+        "Triplet #": "3",
+        "Anchor": "Silk_wind2_b0.01_m1_1.mp4",
+        "Positive": "Sweater_wind2_b0.01_m0.1_1.mp4",
+        "Negative": "Cotton_wind3_b100_m0.1_1.mp4",
+        "Hardness Score": "3"
+    },
+    "4": {
+        "Triplet #": "4",
+        "Anchor": "Fleece_wind3_b0.001_m1.7_1.mp4",
+        "Positive": "Sha_wind1_b0.001_m1.3_1.mp4",
+        "Negative": "Sha_wind2_b1_m1_1.mp4",
+        "Hardness Score": "7"
+    },
+    "5": {
+        "Triplet #": "5",
+        "Anchor": "Fleece_wind1_b0.001_m1.7_1.mp4",
+        "Positive": "Bro_wind1_b0.001_m1.7_1.mp4",
+        "Negative": "FeltGreen_wind3_b10_m1.7_1.mp4",
+        "Hardness Score": "3"
+    },
+    "6": {
+        "Triplet #": "6",
+        "Anchor": "Sweater_wind1_b10_m1.3_1.mp4",
+        "Positive": "Fleece_wind2_b10_m1.3_1.mp4",
+        "Negative": "Fleece_wind2_b0.1_m1.3_1.mp4",
+        "Hardness Score": "7"
+    },
+    "7": {
+        "Triplet #": "7",
+        "Anchor": "Silk_wind1_b0.001_m0.1_1.mp4",
+        "Positive": "Sweater_wind3_b0.001_m0.7_1.mp4",
+        "Negative": "Bro_wind3_b100_m0.1_1.mp4",
+        "Hardness Score": "6"
+    },
+    "8": {
+        "Triplet #": "8",
+        "Anchor": "Silk_wind1_b1_m0.7_1.mp4",
+        "Positive": "Sha_wind1_b1_m0.7_1.mp4",
+        "Negative": "FeltGreen_wind1_b100_m0.7_1.mp4",
+        "Hardness Score": "5"
+    },
+    "9": {
+        "Triplet #": "9",
+        "Anchor": "Fleece_wind1_b100_m0.1_1.mp4",
+        "Positive": "Bro_wind3_b100_m0.1_1.mp4",
+        "Negative": "Sha_wind3_b1_m0.3_1.mp4",
+        "Hardness Score": "6"
+    },
+    "10": {
+        "Triplet #": "10",
+        "Anchor": "FeltGreen_wind3_b100_m0.3_1.mp4",
+        "Positive": "Silk_wind2_b100_m1.7_1.mp4",
+        "Negative": "Cotton_wind2_b1_m1_1.mp4",
+        "Hardness Score": "8"
+    },
+    "11": {
+        "Triplet #": "11",
+        "Anchor": "Bro_wind3_b100_m0.1_1.mp4",
+        "Positive": "Silk_wind3_b100_m0.1_1.mp4",
+        "Negative": "Sha_wind3_b0.01_m0.7_1.mp4",
+        "Hardness Score": "3"
+    },
+    "12": {
+        "Triplet #": "12",
+        "Anchor": "Bro_wind1_b1_m0.5_1.mp4",
+        "Positive": "Silk_wind2_b1_m0.5_1.mp4",
+        "Negative": "Sweater_wind1_b0.001_m1.7_1.mp4",
+        "Hardness Score": "2"
+    },
+    "13": {
+        "Triplet #": "13",
+        "Anchor": "Cotton_wind1_b0.1_m0.3_1.mp4",
+        "Positive": "Cotton_wind3_b0.1_m1_1.mp4",
+        "Negative": "FeltGreen_wind3_b0.001_m1_1.mp4",
+        "Hardness Score": "5"
+    },
+    "14": {
+        "Triplet #": "14",
+        "Anchor": "Silk_wind3_b0.001_m0.7_1.mp4",
+        "Positive": "Sweater_wind2_b0.001_m0.7_1.mp4",
+        "Negative": "Cotton_wind3_b100_m0.7_1.mp4",
+        "Hardness Score": "3"
+    },
+    "15": {
+        "Triplet #": "15",
+        "Anchor": "Silk_wind1_b10_m0.3_1.mp4",
+        "Positive": "Silk_wind2_b10_m1.3_1.mp4",
+        "Negative": "Sweater_wind2_b0.001_m1_1.mp4",
+        "Hardness Score": "6"
+    },
+    "16": {
+        "Triplet #": "16",
+        "Anchor": "Sweater_wind1_b0.01_m0.7_1.mp4",
+        "Positive": "Cotton_wind1_b0.01_m1_1.mp4",
+        "Negative": "Fleece_wind3_b100_m0.7_1.mp4",
+        "Hardness Score": "5"
+    },
+    "17": {
+        "Triplet #": "17",
+        "Anchor": "Bro_wind3_b10_m1.3_1.mp4",
+        "Positive": "Cotton_wind2_b10_m1_1.mp4",
+        "Negative": "Sha_wind3_b0.001_m0.3_1.mp4",
+        "Hardness Score": "5"
+    },
+    "18": {
+        "Triplet #": "18",
+        "Anchor": "Bro_wind2_b1_m1_1.mp4",
+        "Positive": "Bro_wind3_b1_m0.5_1.mp4",
+        "Negative": "Cotton_wind3_b10_m0.7_1.mp4",
+        "Hardness Score": "4"
+    },
+    "19": {
+        "Triplet #": "19",
+        "Anchor": "Sweater_wind3_b0.1_m0.1_1.mp4",
+        "Positive": "Sweater_wind1_b0.1_m0.1_1.mp4",
+        "Negative": "Fleece_wind3_b100_m0.1_1.mp4",
+        "Hardness Score": "4"
+    },
+    "20": {
+        "Triplet #": "20",
+        "Anchor": "Fleece_wind3_b1_m0.7_1.mp4",
+        "Positive": "Cotton_wind1_b1_m0.3_1.mp4",
+        "Negative": "Sweater_wind2_b0.1_m0.1_1.mp4",
+        "Hardness Score": "7"
+    },
+    "21": {
+        "Triplet #": "21",
+        "Anchor": "FeltGreen_wind2_b1_m0.5_1.mp4",
+        "Positive": "Sha_wind2_b1_m0.5_1.mp4",
+        "Negative": "Silk_wind1_b0.1_m0.5_1.mp4",
+        "Hardness Score": "5"
+    },
+    "22": {
+        "Triplet #": "22",
+        "Anchor": "Bro_wind1_b0.001_m0.7_1.mp4",
+        "Positive": "Fleece_wind3_b0.001_m1.7_1.mp4",
+        "Negative": "Sweater_wind3_b100_m0.1_1.mp4",
+        "Hardness Score": "6"
+    },
+    "23": {
+        "Triplet #": "23",
+        "Anchor": "Sha_wind3_b0.01_m1.7_1.mp4",
+        "Positive": "Silk_wind2_b0.01_m1.7_1.mp4",
+        "Negative": "Fleece_wind1_b100_m1.7_1.mp4",
+        "Hardness Score": "4"
+    },
+    "24": {
+        "Triplet #": "24",
+        "Anchor": "Sweater_wind3_b10_m0.1_1.mp4",
+        "Positive": "Sweater_wind1_b10_m0.1_1.mp4",
+        "Negative": "Fleece_wind2_b100_m0.1_1.mp4",
+        "Hardness Score": "1"
+    },
+    "25": {
+        "Triplet #": "25",
+        "Anchor": "Silk_wind2_b0.01_m0.5_1.mp4",
+        "Positive": "FeltGreen_wind1_b0.01_m1_1.mp4",
+        "Negative": "Silk_wind3_b10_m1_1.mp4",
+        "Hardness Score": "5"
+    },
+    "26": {
+        "Triplet #": "26",
+        "Anchor": "Sweater_wind2_b10_m1.7_1.mp4",
+        "Positive": "Cotton_wind3_b10_m0.1_1.mp4",
+        "Negative": "Sha_wind3_b0.001_m1.7_1.mp4",
+        "Hardness Score": "7"
+    },
+    "27": {
+        "Triplet #": "27",
+        "Anchor": "Silk_wind2_b100_m0.1_1.mp4",
+        "Positive": "Silk_wind1_b100_m1.7_1.mp4",
+        "Negative": "FeltGreen_wind3_b1_m1.3_1.mp4",
+        "Hardness Score": "6"
+    },
+    "28": {
+        "Triplet #": "28",
+        "Anchor": "Fleece_wind3_b0.01_m1.3_1.mp4",
+        "Positive": "Silk_wind2_b0.01_m1.3_1.mp4",
+        "Negative": "FeltGreen_wind2_b10_m1.3_1.mp4",
+        "Hardness Score": "6"
+    },
+    "29": {
+        "Triplet #": "29",
+        "Anchor": "Silk_wind3_b0.1_m0.7_1.mp4",
+        "Positive": "Fleece_wind1_b0.1_m0.7_1.mp4",
+        "Negative": "Fleece_wind1_b1_m0.7_1.mp4",
+        "Hardness Score": "4"
+    },
+    "30": {
+        "Triplet #": "30",
+        "Anchor": "Bro_wind2_b100_m0.1_1.mp4",
+        "Positive": "FeltGreen_wind3_b100_m1.3_1.mp4",
+        "Negative": "Sweater_wind2_b0.1_m1.3_1.mp4",
+        "Hardness Score": "2"
+    },
+    "31": {
+        "Triplet #": "31",
+        "Anchor": "Silk_wind2_b1_m1.7_1.mp4",
+        "Positive": "Silk_wind2_b1_m0.7_1.mp4",
+        "Negative": "Cotton_wind1_b100_m1.7_1.mp4",
+        "Hardness Score": "6"
+    },
+    "32": {
+        "Triplet #": "32",
+        "Anchor": "FeltGreen_wind2_b100_m0.3_1.mp4",
+        "Positive": "Cotton_wind2_b100_m1.7_1.mp4",
+        "Negative": "Fleece_wind2_b0.1_m0.5_1.mp4",
+        "Hardness Score": "3"
+    },
+    "33": {
+        "Triplet #": "33",
+        "Anchor": "Fleece_wind1_b10_m1.3_1.mp4",
+        "Positive": "Silk_wind3_b10_m1.3_1.mp4",
+        "Negative": "Sha_wind3_b0.01_m1.3_1.mp4",
+        "Hardness Score": "3"
+    },
+    "34": {
+        "Triplet #": "34",
+        "Anchor": "Fleece_wind1_b0.01_m0.1_1.mp4",
+        "Positive": "FeltGreen_wind3_b0.01_m0.1_1.mp4",
+        "Negative": "Sweater_wind2_b0.1_m0.1_1.mp4",
+        "Hardness Score": "2"
+    },
+    "35": {
+        "Triplet #": "35",
+        "Anchor": "Cotton_wind2_b10_m1.7_1.mp4",
+        "Positive": "Cotton_wind2_b10_m1.7_1.mp4",
+        "Negative": "Cotton_wind1_b0.001_m1.7_1.mp4",
+        "Hardness Score": "2"
+    },
+    "36": {
+        "Triplet #": "36",
+        "Anchor": "Fleece_wind2_b100_m1_1.mp4",
+        "Positive": "Cotton_wind3_b100_m0.7_1.mp4",
+        "Negative": "Sha_wind2_b0.1_m1.7_1.mp4",
+        "Hardness Score": "3"
+    },
+    "37": {
+        "Triplet #": "37",
+        "Anchor": "Sweater_wind1_b100_m1_1.mp4",
+        "Positive": "Fleece_wind2_b100_m1_1.mp4",
+        "Negative": "Silk_wind1_b0.01_m1_1.mp4",
+        "Hardness Score": "4"
+    },
+    "38": {
+        "Triplet #": "38",
+        "Anchor": "Bro_wind3_b0.1_m0.5_1.mp4",
+        "Positive": "Sha_wind2_b0.1_m1.7_1.mp4",
+        "Negative": "Bro_wind2_b1_m1_1.mp4",
+        "Hardness Score": "5"
+    },
+    "39": {
+        "Triplet #": "39",
+        "Anchor": "Fleece_wind3_b0.01_m1.7_1.mp4",
+        "Positive": "Silk_wind1_b0.01_m0.3_1.mp4",
+        "Negative": "Bro_wind2_b0.001_m1.3_1.mp4",
+        "Hardness Score": "8"
+    },
+    "40": {
+        "Triplet #": "40",
+        "Anchor": "Sha_wind3_b0.1_m0.1_1.mp4",
+        "Positive": "Bro_wind1_b0.1_m0.5_1.mp4",
+        "Negative": "Sweater_wind2_b1_m0.7_1.mp4",
+        "Hardness Score": "3"
+    },
+    "41": {
+        "Triplet #": "41",
+        "Anchor": "Silk_wind2_b10_m1.7_1.mp4",
+        "Positive": "Sweater_wind2_b10_m1.7_1.mp4",
+        "Negative": "Fleece_wind1_b0.001_m1.7_1.mp4",
+        "Hardness Score": "3"
+    },
+    "42": {
+        "Triplet #": "42",
+        "Anchor": "Cotton_wind1_b1_m0.5_1.mp4",
+        "Positive": "FeltGreen_wind2_b1_m0.5_1.mp4",
+        "Negative": "FeltGreen_wind2_b0.01_m0.5_1.mp4",
+        "Hardness Score": "7"
+    },
+    "43": {
+        "Triplet #": "43",
+        "Anchor": "Sweater_wind2_b0.1_m0.3_1.mp4",
+        "Positive": "FeltGreen_wind1_b0.1_m0.5_1.mp4",
+        "Negative": "Fleece_wind3_b0.01_m0.5_1.mp4",
+        "Hardness Score": "6"
+    },
+    "44": {
+        "Triplet #": "44",
+        "Anchor": "Sha_wind2_b0.001_m1_1.mp4",
+        "Positive": "Sweater_wind3_b0.001_m1_1.mp4",
+        "Negative": "Bro_wind1_b0.1_m0.3_1.mp4",
+        "Hardness Score": "6"
+    },
+    "45": {
+        "Triplet #": "45",
+        "Anchor": "Sha_wind2_b0.1_m0.5_1.mp4",
+        "Positive": "Fleece_wind3_b0.1_m0.5_1.mp4",
+        "Negative": "Sweater_wind2_b0.001_m0.7_1.mp4",
+        "Hardness Score": "5"
+    },
+    "46": {
+        "Triplet #": "46",
+        "Anchor": "Bro_wind2_b0.1_m0.7_1.mp4",
+        "Positive": "Fleece_wind3_b0.1_m1.3_1.mp4",
+        "Negative": "Bro_wind3_b10_m0.5_1.mp4",
+        "Hardness Score": "9"
+    },
+    "47": {
+        "Triplet #": "47",
+        "Anchor": "Sweater_wind2_b0.001_m0.7_1.mp4",
+        "Positive": "Bro_wind1_b0.001_m0.1_1.mp4",
+        "Negative": "Sweater_wind1_b10_m1_1.mp4",
+        "Hardness Score": "7"
+    },
+    "48": {
+        "Triplet #": "48",
+        "Anchor": "Bro_wind2_b0.01_m1.7_1.mp4",
+        "Positive": "Bro_wind3_b0.01_m1.3_1.mp4",
+        "Negative": "FeltGreen_wind1_b0.1_m1.3_1.mp4",
+        "Hardness Score": "1"
+    },
+    "49": {
+        "Triplet #": "49",
+        "Anchor": "Bro_wind2_b0.001_m1.3_1.mp4",
+        "Positive": "Sweater_wind1_b0.001_m1.3_1.mp4",
+        "Negative": "Sweater_wind2_b0.1_m1.3_1.mp4",
+        "Hardness Score": "7"
+    },
+    "50": {
+        "Triplet #": "50",
+        "Anchor": "Bro_wind1_b0.1_m1.3_1.mp4",
+        "Positive": "FeltGreen_wind1_b0.1_m1_1.mp4",
+        "Negative": "Silk_wind3_b100_m1_1.mp4",
+        "Hardness Score": "4"
+    }
+}
