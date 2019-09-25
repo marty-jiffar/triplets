@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cloth perception Experiment </title>
+    
+        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+        <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto'>
+        <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Oswald:400,700'>
+        <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Ubuntu'>
+        <link rel="stylesheet" href="stylesheets/intro.css">
+    </head>
+
+    <title>Cloth perception Experiment</title>
+                                                                                      
+    <body>
+  
+
+    <div id="header">
+        <h2>Cloth Perception Experiment</h2>
+        <img src="images/cover.jpg"> 
+    </div>
+    
+<!-- NAME AND AGE      -->
+    <div class="instructions">
+   
+        <h4> This experiment is studying human perception of cloth stiffness. In this experiment you will be shown triplets of small length videos one by one. The videos are 5-6 second in length.</h4>
+
+        <h4> There are 10 blocks in the entire experiment. There are 50 trials for each block. In each trial, you are shown 3 videos. The middle video is the anchor video. The left video is cloth A, the right video is cloth B. You have to decide whether cloth A or cloth B has a <b>different</b> stiffness than the anchor. In other words, find the odd one out in stiffness.</h4>
+        
+        <h4>Use the Next button to see the next triplet of videos.</h4>
+
+        <h4>At the start of each block, you will be prompted to enter your initials. Please enter them the same way evey time. At the end of each block, a new tab will open automatically and prompt you for your initials. When the experiment is over, a new tab will open telling you experiment is finished.</h4>
+
+        <h4>The entire experiment takes around 60 minutes.</h4>
+        
+
+    </div>
+
+   
+    <div id="startButton">
+        <button value="submit">Start Experiment</button>
+    </div>
+        
+<!-- END OF BTN     -->
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+                                              
+    <script>
+        $(document).ready(function(){
+            $("#startButton").click(function(e){
+                window.open("practice.html");
+            });
+        });                                                                        
+    </script>
+
+  </body>
+</html>
