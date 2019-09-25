@@ -418,9 +418,9 @@ def time_vs_hardness(video_paths, data_paths):
     plt.show()
 
 if __name__ == '__main__':
-    path1 = 'web_display/javascripts/phpcode/01_Data/'
-    path2 = 'web_display/javascripts/phpcode/02_Data/'
-    path3 = 'web_display/javascripts/phpcode/03_Data/'
+    path1 = '../web_display/javascripts/phpcode/01_Data/'
+    path2 = '../web_display/javascripts/phpcode/02_Data/'
+    path3 = '../web_display/javascripts/phpcode/03_Data/'
     
     result_paths = [path1 + 'Result_JSON_files/MP_block_1_09-17-2019_result.json',
              path1 + 'Result_JSON_files/MP_block_2_09-17-2019_result.json', 
