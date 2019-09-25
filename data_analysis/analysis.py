@@ -31,7 +31,7 @@ def avg_trial_time(json_paths, video_paths, mass_variety):
             data_dict = json.load(f)
         if mass_variety == 'mixed' or i < 10:
             avg = sum(data_dict["time_per_trial"]) / len(data_dict["time_per_trial"])
-            variety_label = ' (50% same mass, 50% different mass)'
+            variety_label = ' (all data)'
         else:
             time_sum = 0
             vid_path = video_paths[i]
@@ -80,7 +80,7 @@ def correct_vs_wrong(json_paths, video_paths, mass_variety):
         
         if mass_variety == 'mixed':
             group = range(1, len(data_dict["trialnumber"]))
-            variety_label = ' (50% same mass, 50% different)'
+            variety_label = ' (all data)'
         elif mass_variety == 'same':
             same_mass_dict = same_mass(vid_path)
             group = same_mass_dict.keys()
@@ -128,7 +128,7 @@ def stacked_correctpct_vs_hard(json_paths, video_paths, mass_variety):
         
         if mass_variety == 'mixed':
             group = range(1, len(data_dict["trialnumber"]) + 1)
-            variety_label = ' (50% same mass, 50% different mass)'
+            variety_label = ' (all data)'
             
         elif mass_variety == 'same':
             same_mass_dict = same_mass(video_paths[i])
@@ -234,7 +234,7 @@ def stacked_correctpct_vs_block(json_paths, video_paths, mass_variety):
         
         if mass_variety == 'mixed':
             group = range(1, len(data_dict["trialnumber"]) + 1)
-            variety_label = ' (50% same mass, 50% different mass)'
+            variety_label = ' (all data)'
             
         elif mass_variety == 'same':
             same_mass_dict = same_mass(video_paths[i])
@@ -418,114 +418,47 @@ def time_vs_hardness(video_paths, data_paths):
     plt.show()
 
 if __name__ == '__main__':
-    path1 = '../web_display/javascripts/phpcode/01_Data/'
-    path2 = '../web_display/javascripts/phpcode/02_Data/'
-    path3 = '../web_display/javascripts/phpcode/03_Data/'
+    path_start = '../web_display/javascripts/phpcode/'
+    folders = ['01_Data/', '02_Data/', '03_Data/', '04_Data/', '05_Data/']
+    res_string = 'Result_JSON_files/'
     
-    result_paths = [path1 + 'Result_JSON_files/MP_block_1_09-17-2019_result.json',
-             path1 + 'Result_JSON_files/MP_block_2_09-17-2019_result.json', 
-             path1 + 'Result_JSON_files/MP_block_3_09-17-2019_result.json', 
-             path1 + 'Result_JSON_files/MP_block_4_09-17-2019_result.json', 
-             path1 + 'Result_JSON_files/MP_block_5_09-17-2019_result.json', 
-             path1 + 'Result_JSON_files/MP_block_6_09-17-2019_result.json', 
-             path1 + 'Result_JSON_files/MP_block_7_09-17-2019_result.json', 
-             path1 + 'Result_JSON_files/MP_block_8_09-17-2019_result.json', 
-             path1 + 'Result_JSON_files/MP_block_9_09-17-2019_result.json', 
-             path1 + 'Result_JSON_files/MP_block_10_09-17-2019_result.json',
-             path2 + 'Result_JSON_files/TM_block_1_09-19-2019_result.json',
-             path2 + 'Result_JSON_files/TM_block_2_09-19-2019_result.json', 
-             path2 + 'Result_JSON_files/TM_block_3_09-19-2019_result.json', 
-             path2 + 'Result_JSON_files/TM_block_4_09-19-2019_result.json', 
-             path2 + 'Result_JSON_files/TM_block_5_09-19-2019_result.json', 
-             path2 + 'Result_JSON_files/TM_block_6_09-19-2019_result.json', 
-             path2 + 'Result_JSON_files/TM_block_7_09-19-2019_result.json', 
-             path2 + 'Result_JSON_files/TM_block_8_09-19-2019_result.json', 
-             path2 + 'Result_JSON_files/TM_block_9_09-19-2019_result.json', 
-             path2 + 'Result_JSON_files/TM_block_10_09-19-2019_result.json',
-             path3 + 'Result_JSON_files/OF_block_1_09-19-2019_result.json',
-             path3 + 'Result_JSON_files/OF_block_2_09-19-2019_result.json', 
-             path3 + 'Result_JSON_files/OF_block_3_09-19-2019_result.json', 
-             path3 + 'Result_JSON_files/OF_block_4_09-19-2019_result.json', 
-             path3 + 'Result_JSON_files/OF_block_5_09-19-2019_result.json', 
-             path3 + 'Result_JSON_files/OF_block_6_09-19-2019_result.json', 
-             path3 + 'Result_JSON_files/OF_block_7_09-19-2019_result.json', 
-             path3 + 'Result_JSON_files/OF_block_8_09-19-2019_result.json', 
-             path3 + 'Result_JSON_files/OF_block_9_09-19-2019_result.json', 
-             path3 + 'Result_JSON_files/OF_block_10_09-19-2019_result.json']
+    initials = ['MP', 'TM', 'OF', 'or', 'FR']
+    blocks = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+    dates = ['09-17-2019', '09-19-2019', '09-24-2019']
     
-    block1path = 'Video_JSON_files/block_1.json'
-    block2path = 'Video_JSON_files/block_2.json'
-    block3path = 'Video_JSON_files/block_3.json'
-    block4path = 'Video_JSON_files/block_4.json'
-    block5path = 'Video_JSON_files/block_5.json'
-    block6path = 'Video_JSON_files/block_6.json'
-    block7path = 'Video_JSON_files/block_7.json'
-    block8path = 'Video_JSON_files/block_8.json'
-    block9path = 'Video_JSON_files/block_9.json'
-    block10path = 'Video_JSON_files/block_10.json'
+    result_paths = []
     
-    video_paths = [path1 + block1path,
-             path1 + block2path, 
-             path1 + block3path, 
-             path1 + block4path, 
-             path1 + block5path, 
-             path1 + block6path, 
-             path1 + block7path, 
-             path1 + block8path, 
-             path1 + block9path, 
-             path1 + block10path,
-             path2 + block1path,
-             path2 + block2path, 
-             path2 + block3path, 
-             path2 + block4path, 
-             path2 + block5path, 
-             path2 + block6path, 
-             path2 + block7path, 
-             path2 + block8path, 
-             path2 + block9path, 
-             path2 + block10path,
-             path3 + block1path,
-             path3 + block2path, 
-             path3 + block3path, 
-             path3 + block4path, 
-             path3 + block5path, 
-             path3 + block6path, 
-             path3 + block7path, 
-             path3 + block8path, 
-             path3 + block9path, 
-             path3 + block10path]
+    for i in range(len(folders)):
+        if i == 0:
+            date = dates[0]
+        elif i < 3:
+            date = dates[1]
+        else:
+            date = dates[2]
+        for block_num in blocks:
+            current_path = (path_start + folders[i] + res_string + initials[i] + '_block_' + block_num
+                + '_' + date + '_result.json')
+            result_paths.append(current_path)
+            print(current_path)
+            print('\n')
+            
+    vid_path = 'Video_JSON_files/block_'
+    video_paths = []
     
-    #time_plot(result_paths)
+    for i in range(len(folders)):
+        for block_num in blocks:
+            current_path = (path_start + folders[i] + vid_path + block_num + '.json')
+            video_paths.append(current_path)
+            print(current_path)
+            print('\n')
+            
+    mass_varieties = ['mixed', 'same', 'different']
+    
+    for mass_setting in mass_varieties:
+        correct_vs_wrong(result_paths, video_paths, mass_setting)
+        avg_trial_time(result_paths, video_paths, mass_setting)
+        stacked_correctpct_vs_block(result_paths, video_paths, mass_setting)
+        stacked_correctpct_vs_hard(result_paths, video_paths, mass_setting)
     
     #time_vs_hardness(video_paths, result_paths)
-
-    #correct_vs_wrong(result_paths, video_paths, 'mixed')
-    
-    #correct_vs_wrong(result_paths, video_paths, 'same')
-    
-   # correct_vs_wrong(result_paths, video_paths, 'different')
-    
-    #stacked_correctpct_vs_hard(result_paths)
-    
-    avg_trial_time(result_paths, video_paths, 'mixed')
-    
-    avg_trial_time(result_paths, video_paths, 'same')
-    
-    avg_trial_time(result_paths, video_paths, 'different')
-    
-    stacked_correctpct_vs_block(result_paths, video_paths, 'mixed')
-                          
-    stacked_correctpct_vs_block(result_paths, video_paths, 'same')
-    
-    stacked_correctpct_vs_block(result_paths, video_paths, 'different')
-    
-    stacked_correctpct_vs_hard(result_paths, video_paths, 'mixed')
-    
-    stacked_correctpct_vs_hard(result_paths, video_paths, 'same')
-    
-    stacked_correctpct_vs_hard(result_paths, video_paths, 'different')
-    
-    #same_dict = same_mass(video_paths[11])
-    
-    #print(same_dict.items())
     
