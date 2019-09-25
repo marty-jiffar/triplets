@@ -89,7 +89,7 @@ $(document).ready(function() {
     //STORE THE VALUES OF THE RADIO BUTTONS
     function storeValues(){
     //Capture the value of the input [type = radio] 
-        var radio_value = $('input[type="radio"]:checked').val();
+        var radio_value = $('input[name="clothchoice"]:checked').val();
         if (radio_value != null){
             data.response.push(radio_value);
             capturedResult.push(radio_value);   //Push val to global array (capturedResult) 

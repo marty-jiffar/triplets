@@ -21,29 +21,73 @@
         
 <!-- END OF NAVIGATION BAR -->
     <div class= "restofpage">
-            <div class="videos">
-                <p></p>
-                <span id="materialA">Cloth A</span><span id= "materialC"> Anchor</span><span id="materialB">Cloth B</span> 
-                
-                <br>
-                <br>
-                
-                <span class="contentA"> </span>
-                <span class="content"> </span>
-                <span class ="contentB"> </span>
-      
-                <br>
-                <br>
-                <label class="textLabel">
-                    <input type="radio"  name="scale" value="1"/>
-                    Cloth A has a different stiffness than the anchor
-                </label>
+        <div class="videos">
+            <p></p>
+            <span id="materialA">Cloth A</span><span id= "materialC"> Anchor</span><span id="materialB">Cloth B</span> 
 
-                <label>
-                    <input type="radio"  name="scale" value="-1" id="radio3"  />
-                    Cloth B has a different stiffness than the anchor
-                </label>
+            <br>
+            <br>
+
+            <span class="contentA"> </span>
+            <span class="content"> </span>
+            <span class ="contentB"> </span>
+
+            <br>
+            <br>
+            <label class="textLabel">
+                <input type="radio"  name="clothchoice" value="1"/>
+                Cloth A has a different stiffness than the anchor
+            </label>
+
+            <label>
+                <input type="radio"  name="clothchoice" value="-1"/>
+                Cloth B has a different stiffness than the anchor
+            </label>
+        </div>
+
+        <div id="difficultyrating">
+            <p>Difficulty of Decision:</p>
+            <div class="difficulty">
+                <label for="easy1">1</label>
+                <input type="radio" name="hardness_score" id="easy1" />
             </div>
+            <div class="difficulty">
+                <label for="easy2">2</label>
+                <input type="radio" name="hardness_score" id="easy2" />
+            </div>
+            <div class="difficulty">
+                <label for="easy3">3</label>
+                <input type="radio" name="hardness_score" id="easy3" />
+            </div>
+            <div class="difficulty">
+                <label for="medium1">4</label>
+                <input type="radio" name="hardness_score" id="medium1" />
+            </div>
+            <div class="difficulty">
+                <label for="medium2">5</label>
+                <input type="radio" name="hardness_score" id="medium2" />
+            </div>
+            <div class="difficulty">
+                <label for="medium3">6</label>
+                <input type="radio" name="hardness_score" id="medium3" />
+            </div>
+            <div class="difficulty">
+                <label for="medium4">7</label>
+                <input type="radio" name="hardness_score" id="medium4" />
+            </div>
+            <div class="difficulty">
+                <label for="hard1">8</label>
+                <input type="radio" name="hardness_score" id="hard1" />
+            </div>
+            <div class="difficulty">
+                <label for="hard2">9</label>
+                <input type="radio" name="hardness_score" id="hard2" />
+            </div>
+            <div class="difficulty">
+                <label for="hard3">10</label>
+                <input type="radio" name="hardness_score" id="hard3" />
+            </div>
+        </div>
 
 
         <button id="next">

@@ -106,11 +106,12 @@ $(document).ready(function() {
     
     //STORE THE VALUES OF THE RADIO BUTTONS
     function storeValues(){
-    //Capture the value of the input [type = radio] 
-        var radio_value = $('input[type="radio"]:checked').val();
-        if (radio_value != null){
-            data.response.push(radio_value);
-            capturedResult.push(radio_value);   //Push val to global array (capturedResult) 
+    //Capture the value of the input [name = clothchoice] 
+        var cloth_choice = $('input[name="clothchoice"]:checked').val();
+        var hardness_score = $('input[name="hardness_score"]:checked').val();
+        if (cloth_choice != null && hardness_score != null){
+            data.response.push(cloth_choice);
+            capturedResult.push(cloth_choice);   //Push val to global array (capturedResult) 
             res= radio_value;
         }
         else {
@@ -128,7 +129,7 @@ $(document).ready(function() {
         //If user forgets to label a video, prompt them to enter one.
         if (res==null)
         {
-            alert('Please select an option.')
+            alert('Please select an option for both questions.')
             showRandomVideos($questionNumber.text())
         }
         else {
