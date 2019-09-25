@@ -88,10 +88,43 @@ def sampler(k, pct_hard):
     # in sampling equally from each anchor, we usually generate too many
     # samples, so this removes indices randomly
     random.shuffle(sample)
-    for i in range(len(sample) - k):
+    for i in range(len(sample) - k + int(k / 2)): # half of sample comes from this method
         sample.pop()
+        
+    # other half of sample comes from triplets with all the same mass
+    
+    #generating (sample size / 2) random numbers from 0 to number of anchor videos
+    random_set2 = random.sample(range(anchor_num), int(k / 2))
+    
+    # number of pos and neg videos for each anchor with the same mass
+    pos_num2 = len(SCENES)*len(TEXTURE)
+    neg_num2 = (len(STIFFNESS)-1)*len(SCENES)*len(TEXTURE)
 
-
+    for anchor in enumerate(tqdm(anchor_list)):
+        # only sampling from the 250 randomly generated indices
+        if (anchor[0] not in random_set2):
+            continue
+        else:
+            stiff = [anchor[1][2]]
+            mass = [anchor[1][3]]
+            pos_list = list(set(itertools.product(TEXTURE, SCENES, stiff, mass)) - set(anchor[1]))
+            neg_stiff = list(set(STIFFNESS) - set([anchor[1][2]]))
+            neg_list = list(itertools.product(TEXTURE, SCENES, neg_stiff, mass))
+            triplets = list(itertools.product(pos_list, neg_list))
+                                
+            # random index of which triplet to sample
+            random_index = random.sample(range(pos_num2 * neg_num2),
+                                                smpl_from_each)[0]
+                                
+            # have to make sure not to sample any triplet that's already in the first half
+            for i in range(len(triplets)):
+                current_triplet = (anchor[1],) + triplets[random_index + i]
+                # if triplet isn't already in sample, append it. if it is, keep searching
+                if (current_triplet not in sample):
+                    break
+            sample.append(current_triplet)
+            
+    random.shuffle(sample)
     return sample
 
 def histogram(sample, pct_hard):

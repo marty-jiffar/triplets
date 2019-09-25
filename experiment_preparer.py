@@ -10,7 +10,6 @@ import csv
 import json
 import math
 import sampling
-import sampling2
 import hard_rating
 
 '''
@@ -74,7 +73,7 @@ Inputs:
 - pct_hard
 '''
 def experiment(block_size, k, pct_hard):
-    sample = sampling2.sampler(k, pct_hard)
+    sample = sampling.sampler(k, pct_hard)
     block = []
     block_num = 1
     # many samples will not perfectly divide into blocks, so the remainder
