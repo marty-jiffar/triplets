@@ -11,11 +11,11 @@ import json
 import numpy as np
 from numpy.polynomial.polynomial import polyfit
 
-def time_plot(json_paths):
+def time_plot(json_paths, video_paths):
     for json_path in json_paths:
         with open(json_path, 'r') as f:
             data_dict = json.load(f)
-
+            
         plt.scatter(data_dict["trialnumber"], data_dict["time_per_trial"])
 
     plt.ylabel('Time (milliseconds)')
@@ -25,20 +25,46 @@ def time_plot(json_paths):
     plt.xticks([0, 4, 9, 14, 19, 24, 29, 34, 39, 44, 49])
     plt.show()
     
-def avg_trial_time(json_paths):
+def avg_trial_time(json_paths, video_paths, mass_variety):
     for i, json_path in enumerate(json_paths):
         with open(json_path, 'r') as f:
             data_dict = json.load(f)
+        if mass_variety == 'mixed' or i < 10:
+            avg = sum(data_dict["time_per_trial"]) / len(data_dict["time_per_trial"])
+            variety_label = ' (50% same mass, 50% different mass)'
+        else:
+            time_sum = 0
+            vid_path = video_paths[i]
+            if mass_variety == 'same':
+                same_mass_dict = same_mass(vid_path)
+                group = same_mass_dict.keys()
+                length = len(group)
+                variety_label = ' (100% same mass)'
+            else:
+                diff_mass_dict = diff_mass(vid_path)
+                group = diff_mass_dict.keys()
+                length = len(group)
+                variety_label = ' (100% different mass)'
+            
+            for trial in data_dict["trialnumber"]:
+                if trial not in group:
+                    continue
+                else:
+                    trial = int(trial) - 1
+                    time_sum += data_dict["time_per_trial"][trial]
+            
+            avg = time_sum/length
+        i = i % 10
+        plt.scatter(i+1, avg, c='blue')
         
-        avg = sum(data_dict["time_per_trial"]) / len(data_dict["time_per_trial"])
         
-        plt.scatter(i+1, avg)
     plt.ylabel('Time (milliseconds)')
     plt.xlabel('Block #')
-    plt.title('Avg. Time per Trial vs. Block')
+    plt.xticks([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    plt.title('Avg. Time per Trial vs. Block' + variety_label)
     plt.show()
 
-def correct_vs_wrong(json_paths):
+def correct_vs_wrong(json_paths, video_paths, mass_variety):
     right_v_wrong = [0, 0]
     objects = ('Correct', 'Incorrect')
     y_pos = np.arange(len(objects))
@@ -47,9 +73,24 @@ def correct_vs_wrong(json_paths):
         with open(path, 'r') as f:
             data_dict = json.load(f)
         
+        vid_path = video_paths[i]
         
+        with open(vid_path, 'r') as f:
+            vid_dict = json.load(f)
         
-        for i in range(len(data_dict["trialnumber"])):
+        if mass_variety == 'mixed':
+            group = range(1, len(data_dict["trialnumber"]))
+            variety_label = ' (50% same mass, 50% different)'
+        elif mass_variety == 'same':
+            same_mass_dict = same_mass(vid_path)
+            group = same_mass_dict.keys()
+            variety_label = ' (100% same mass)'
+        else:
+            diff_mass_dict = diff_mass(video_paths[i])
+            group = diff_mass_dict.keys()
+            variety_label = ' (100% different mass)'
+        for i in group:
+            i = int(i) - 1
             if data_dict["response"][i] == data_dict["correct_answer"][i]:
                 right_v_wrong[0] += 1
             else:
@@ -58,45 +99,55 @@ def correct_vs_wrong(json_paths):
     plt.bar(y_pos, right_v_wrong, align='center', alpha=0.5)
     plt.xticks(y_pos, objects)
     plt.ylabel('# of Trials')
-    plt.title('Correct vs. Incorrect')
+    plt.title('Correct vs. Incorrect' + variety_label)
     print('bar graph 1: ')
     print(right_v_wrong[0] + right_v_wrong[1])
     print('num correct: ' + str(right_v_wrong[0]))
     print('num incorrect: ' + str(right_v_wrong[1]))
-    
-   
-    plt.text(300, 300, str(round(right_v_wrong[1]/
-                                (right_v_wrong[0] + right_v_wrong[1])* 100, 1)))
+
     
     plt.show()
     
-def stacked_correctpct_vs_hard(json_paths):
+def stacked_correctpct_vs_hard(json_paths, video_paths, mass_variety):
     n = 11
     ind = np.arange(n)
     correct = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     incorrect = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    block = None
+                
     for i, path in enumerate(json_paths):
-        vid_path = path[0:40]
         if ((i + 1) % 10 == 0):
             block = 10
         else: 
-            block = int(path[67])
-        full_vid_path = vid_path + 'Video_JSON_files/block_' + str(block) + '.json'
+            block = (i + 1) % 10
         
         with open(path, 'r') as f:
             data_dict = json.load(f)
             
-        with open(full_vid_path, 'r') as f:
+        with open(video_paths[i], 'r') as f:
             vid_dict = json.load(f)
         
-        for i in range(len(data_dict["trialnumber"])):
+        if mass_variety == 'mixed':
+            group = range(1, len(data_dict["trialnumber"]) + 1)
+            variety_label = ' (50% same mass, 50% different mass)'
+            
+        elif mass_variety == 'same':
+            same_mass_dict = same_mass(video_paths[i])
+            group = same_mass_dict.keys()
+            variety_label = ' (100% same mass)'
+        
+        else:
+            diff_mass_dict = diff_mass(video_paths[i])
+            group = diff_mass_dict.keys()
+            variety_label = ' (100% different mass)'
+                          
+        for i in group:
+            i = int(i) - 1
             hard_score = int(vid_dict[str(i+1)]["Hardness Score"])
             if data_dict["response"][i] == data_dict["correct_answer"][i]:
                 correct[hard_score] += 1
             else:
                 incorrect[hard_score] += 1
-                
+    '''
     p1 = plt.bar(ind, correct)
     p2 = plt.bar(ind, incorrect, bottom=correct)
     
@@ -105,10 +156,20 @@ def stacked_correctpct_vs_hard(json_paths):
     print('num correct: ' + str(sum(correct)))
     print('num incorrect: ' + str(sum(incorrect)))
     
-    plt.ylabel('Correct vs. Incorrect')
-    plt.title('% Correct Trials by Hardness Score')
-    plt.yticks(np.arange(0, 321, 20))
+    plt.ylabel('Correct vs. Incorrect (# of Trials)')
+    plt.title('Correct vs Incorrect Trials by Hardness' + variety_label)
     plt.legend((p1[0], p2[0]), ('Correct', 'Incorrect'))
+    plt.xlabel('Hardness Score')
+    '''
+    if mass_variety == 'mixed':
+       # plt.yticks(np.arange(0, 321, 20))
+        y = [20, 80, 150, 220, 250, 245, 270, 210, 120, 45, 10]
+    elif mass_variety == 'same':
+      #  plt.yticks(np.arange(0, 121, 10))
+        y = [10, 50, 65, 80, 86, 100, 86, 61, 10, 5, 5]
+    else:
+      #  plt.yticks(np.arange(0, 201, 20))
+        y = [5, 25, 80, 140, 160, 145, 187, 147, 110, 37, 5]
     
     sums = [correct[0] + incorrect[0],
            correct[1] + incorrect[1],
@@ -122,46 +183,77 @@ def stacked_correctpct_vs_hard(json_paths):
            correct[9] + incorrect[9],
            correct[10] + incorrect[10]]
     
-    plt.text(-0.25, 20, str(round(correct[0]/sums[0] * 100, 1)))
-    plt.text(0.5, 80, str(round(correct[1]/sums[1] * 100, 1)))
-    plt.text(1.5, 150, str(round(correct[2]/sums[2] * 100, 1)))
-    plt.text(2.5, 220, str(round(correct[3]/sums[3] * 100, 1)))
-    plt.text(3.5, 250, str(round(correct[4]/sums[4] * 100, 1)))
-    plt.text(4.5, 245, str(round(correct[5]/sums[5] * 100, 1)))
-    plt.text(5.5, 280, str(round(correct[6]/sums[6] * 100, 1)))
-    plt.text(6.5, 210, str(round(correct[7]/sums[7] * 100, 1)))
-    plt.text(7.5, 120, str(round(correct[8]/sums[8] * 100, 1)))
-    plt.text(8.5, 45, str(round(correct[9]/sums[9] * 100, 1)))
-    plt.text(9.5, 10, str(round(correct[10]/sums[10] * 100, 1)))
+    print(sums)
+    '''
+    plt.plot([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 
+         [correct[0], correct[1], correct[2], correct[3],
+         correct[4], correct[5], correct[6], correct[7],
+         correct[8], correct[9], correct[10]], marker='o', color = 'b')
+    '''
+    xpos = -.45
+    pct_correct = []
+    for i, val in enumerate(sums):
+        if sums[i] > 0:
+           # plt.text(xpos, y[i], str(round(correct[i] / sums[i] * 100, 1)) + '%')
+            pct_correct.append(round(correct[i] / sums[i] * 100, 1))
+        else:
+            pct_correct.append(0)
+            
+        xpos += 1
+    
+  #  plt.show()
+    
+    
+    plt.plot([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], pct_correct, marker='o', color = 'b')
+    plt.ylabel('Correct vs. Incorrect (% of Trials)')
+    plt.yticks(np.arange(0, 101, 10))
+    plt.xlabel('Hardness Score')
+    plt.xticks([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    plt.title('% Correct Trials by Hardness' + variety_label)
+    plt.show()
     
     plt.show()
     
-def stacked_correctpct_vs_block(json_paths):
+def stacked_correctpct_vs_block(json_paths, video_paths, mass_variety):
     n = 10
-    ind = np.arange(n)
+    ind = np.arange(1, n+1)
     correct = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     incorrect = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    block = None
+    
     for i, path in enumerate(json_paths):
-        vid_path = path[0:40]
         if ((i + 1) % 10 == 0):
             block = 10
         else: 
-            block = int(path[67])
-        full_vid_path = vid_path + 'Video_JSON_files/block_' + str(block) + '.json'
+            block = (i + 1) % 10
         
         with open(path, 'r') as f:
             data_dict = json.load(f)
             
-        with open(full_vid_path, 'r') as f:
+        with open(video_paths[i], 'r') as f:
             vid_dict = json.load(f)
         
-        for i in range(len(data_dict["trialnumber"])):
+        if mass_variety == 'mixed':
+            group = range(1, len(data_dict["trialnumber"]) + 1)
+            variety_label = ' (50% same mass, 50% different mass)'
+            
+        elif mass_variety == 'same':
+            same_mass_dict = same_mass(video_paths[i])
+            group = same_mass_dict.keys()
+            variety_label = ' (100% same mass)'
+        
+        else:
+            diff_mass_dict = diff_mass(video_paths[i])
+            group = diff_mass_dict.keys()
+            variety_label = ' (100% different mass)'
+                          
+        for i in group:
+            i = int(i) - 1
             if data_dict["response"][i] == data_dict["correct_answer"][i]:
                 correct[block-1] += 1
             else:
                 incorrect[block-1] += 1
-                
+    
+    '''
     p1 = plt.bar(ind, correct, label='Correct')
     p2 = plt.bar(ind, incorrect, bottom=correct, label='Incorrect')
     
@@ -170,12 +262,23 @@ def stacked_correctpct_vs_block(json_paths):
     print('num correct: ' + str(sum(correct)))
     print('num incorrect: ' + str(sum(incorrect)))
     
-    plt.ylabel('Correct vs. Incorrect')
+    plt.ylabel('Correct vs. Incorrect (# of Trials)')
     plt.xlabel('Block #')
-    plt.title('% Correct Trials by Block')
-    plt.yticks(np.arange(0, 181, 20))
-    plt.legend((p1[0], p2[0]), ('Correct', 'Incorrect'))
-    plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+    plt.xticks([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    plt.title('Correct vs Incorrect Trials by Block' + variety_label)
+    '''
+    if mass_variety == 'same':
+        plt.yticks(np.arange(0, 71, 10))
+        y = 15
+    elif mass_variety == 'different':
+        plt.yticks(np.arange(0, 131, 10))
+        y = 30
+    else:
+        plt.yticks(np.arange(0, 181, 20))
+        y = 60 
+        
+   # plt.legend((p1[0], p2[0]), ('Correct', 'Incorrect'))
+   # plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
     
     sums = [correct[0] + incorrect[0],
            correct[1] + incorrect[1],
@@ -187,53 +290,99 @@ def stacked_correctpct_vs_block(json_paths):
            correct[7] + incorrect[7],
            correct[8] + incorrect[8],
            correct[9] + incorrect[9]]
+    '''
+    plt.plot([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 
+             [correct[0], correct[1], correct[2], correct[3],
+             correct[4], correct[5], correct[6], correct[7],
+             correct[8], correct[9]], marker='o', color = 'b')
+    '''
+    xpos = 0.65
+    pct_correct = []
+    for i, val in enumerate(sums):
+        if sums[i] > 0:
+         #   plt.text(xpos, y, str(round(correct[i] / sums[i] * 100, 1)) + '%', fontsize = 7.5)
+            pct_correct.append(round(correct[i] / sums[i] * 100, 1))
+        else:
+            pct_correct.append(0)
+        
+        xpos += 1
     
-    plt.text(-0.25, 155, str(round(correct[0]/sums[0] * 100, 1)))
-    plt.text(0.75, 155, str(round(correct[1]/sums[1] * 100, 1)))
-    plt.text(1.75, 155, str(round(correct[2]/sums[2] * 100, 1)))
-    plt.text(2.75, 155, str(round(correct[3]/sums[3] * 100, 1)))
-    plt.text(3.75, 155, str(round(correct[4]/sums[4] * 100, 1)))
-    plt.text(4.75, 155, str(round(correct[5]/sums[5] * 100, 1)))
-    plt.text(5.75, 155, str(round(correct[6]/sums[6] * 100, 1)))
-    plt.text(6.75, 155, str(round(correct[7]/sums[7] * 100, 1)))
-    plt.text(7.75, 155, str(round(correct[8]/sums[8] * 100, 1)))
-    plt.text(8.75, 155, str(round(correct[9]/sums[9] * 100, 1)))
+   # plt.show()
+
     
+    plt.plot([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], pct_correct, marker='o', color = 'b')
+    plt.ylabel('Correct vs. Incorrect (% of Trials)')
+    plt.yticks(np.arange(30, 81, 10))
+    plt.xlabel('Block #')
+    plt.xticks([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    plt.title('% Correct Trials by Block' + variety_label)
     plt.show()
     
-def same_mass(json_paths):
-    for path in json_paths:
-        with open(json_path, 'r') as f:
-            data_dict = json.load(f)
+def same_mass(json_path):
+    with open(json_path, 'r') as f:
+        data_dict = json.load(f)
 
-        same_mass_dict = {}
+    same_mass_dict = {}
 
-        for i in range(len(data_dict.items())):
-            print(i)
-            anchor_mass_ind = data_dict[str(i+1)]["Anchor"].find("_m")
-            pos_mass_ind = data_dict[str(i+1)]["Positive"].find("_m")
-            neg_mass_ind = data_dict[str(i+1)]["Negative"].find("_m")
+    for i in range(len(data_dict.items())):
+        anchor_mass_ind = data_dict[str(i+1)]["Anchor"].find("_m")
+        pos_mass_ind = data_dict[str(i+1)]["Positive"].find("_m")
+        neg_mass_ind = data_dict[str(i+1)]["Negative"].find("_m")
 
-            if (data_dict[str(i+1)]["Anchor"][anchor_mass_ind + 3] == '_'):
-                anchor_mass = '1'
-            else:
-                anchor_mass = data_dict[str(i+1)]["Anchor"][anchor_mass_ind + 2:
-                                                         anchor_mass_ind + 5]
-            if (data_dict[str(i+1)]["Positive"][pos_mass_ind + 3] == '_'):
-                pos_mass = '1'
-            else:
-                pos_mass = data_dict[str(i+1)]["Positive"][pos_mass_ind + 2:
-                                                         pos_mass_ind + 5]
-            if (data_dict[str(i+1)]["Negative"][neg_mass_ind + 3] == '_'):
-                neg_mass = '1'
-            else:
-                neg_mass = data_dict[str(i+1)]["Negative"][neg_mass_ind + 2:
-                                                         neg_mass_ind + 5]
+        if (data_dict[str(i+1)]["Anchor"][anchor_mass_ind + 3] == '_'):
+            anchor_mass = '1'
+        else:
+            anchor_mass = data_dict[str(i+1)]["Anchor"][anchor_mass_ind + 2:
+                                                     anchor_mass_ind + 5]
+        if (data_dict[str(i+1)]["Positive"][pos_mass_ind + 3] == '_'):
+            pos_mass = '1'
+        else:
+            pos_mass = data_dict[str(i+1)]["Positive"][pos_mass_ind + 2:
+                                                     pos_mass_ind + 5]
+        if (data_dict[str(i+1)]["Negative"][neg_mass_ind + 3] == '_'):
+            neg_mass = '1'
+        else:
+            neg_mass = data_dict[str(i+1)]["Negative"][neg_mass_ind + 2:
+                                                     neg_mass_ind + 5]
 
-            if anchor_mass == pos_mass == neg_mass:
-                same_mass_dict[str(i+1)] = data_dict[str(i+1)]
+        if anchor_mass == pos_mass == neg_mass:
+            same_mass_dict[str(i+1)] = data_dict[str(i+1)]
         
     return same_mass_dict
+
+def diff_mass(json_path):
+    with open(json_path, 'r') as f:
+        data_dict = json.load(f)
+
+    diff_mass_dict = {}
+
+    for i in range(len(data_dict.items())):
+        anchor_mass_ind = data_dict[str(i+1)]["Anchor"].find("_m")
+        pos_mass_ind = data_dict[str(i+1)]["Positive"].find("_m")
+        neg_mass_ind = data_dict[str(i+1)]["Negative"].find("_m")
+
+        if (data_dict[str(i+1)]["Anchor"][anchor_mass_ind + 3] == '_'):
+            anchor_mass = '1'
+        else:
+            anchor_mass = data_dict[str(i+1)]["Anchor"][anchor_mass_ind + 2:
+                                                     anchor_mass_ind + 5]
+        if (data_dict[str(i+1)]["Positive"][pos_mass_ind + 3] == '_'):
+            pos_mass = '1'
+        else:
+            pos_mass = data_dict[str(i+1)]["Positive"][pos_mass_ind + 2:
+                                                     pos_mass_ind + 5]
+        if (data_dict[str(i+1)]["Negative"][neg_mass_ind + 3] == '_'):
+            neg_mass = '1'
+        else:
+            neg_mass = data_dict[str(i+1)]["Negative"][neg_mass_ind + 2:
+                                                     neg_mass_ind + 5]
+
+        if (anchor_mass != pos_mass or 
+            anchor_mass != neg_mass or 
+            pos_mass != neg_mass):
+            diff_mass_dict[str(i+1)] = data_dict[str(i+1)]
+        
+    return diff_mass_dict
     
 def time_vs_hardness(video_paths, data_paths):
     
@@ -346,13 +495,37 @@ if __name__ == '__main__':
              path3 + block9path, 
              path3 + block10path]
     
-    time_plot(result_paths)
+    #time_plot(result_paths)
     
-    time_vs_hardness(video_paths, result_paths)
+    #time_vs_hardness(video_paths, result_paths)
 
-    correct_vs_wrong(result_paths)
+    #correct_vs_wrong(result_paths, video_paths, 'mixed')
     
-    stacked_correctpct_vs_hard(result_paths)
+    #correct_vs_wrong(result_paths, video_paths, 'same')
     
-    stacked_correctpct_vs_block(result_paths)
+   # correct_vs_wrong(result_paths, video_paths, 'different')
+    
+    #stacked_correctpct_vs_hard(result_paths)
+    
+    avg_trial_time(result_paths, video_paths, 'mixed')
+    
+    avg_trial_time(result_paths, video_paths, 'same')
+    
+    avg_trial_time(result_paths, video_paths, 'different')
+    
+    stacked_correctpct_vs_block(result_paths, video_paths, 'mixed')
+                          
+    stacked_correctpct_vs_block(result_paths, video_paths, 'same')
+    
+    stacked_correctpct_vs_block(result_paths, video_paths, 'different')
+    
+    stacked_correctpct_vs_hard(result_paths, video_paths, 'mixed')
+    
+    stacked_correctpct_vs_hard(result_paths, video_paths, 'same')
+    
+    stacked_correctpct_vs_hard(result_paths, video_paths, 'different')
+    
+    #same_dict = same_mass(video_paths[11])
+    
+    #print(same_dict.items())
     
