@@ -25,7 +25,8 @@ $(document).ready(function() {
         blocknumber:blocknumber,
         subject: subject,
         trialnumber:["1"],
-        response:[],
+        cloth_choice:[],
+        hardness_score:[],
         correct_answer:[],
         time_per_trial:[],
         videoIDs: videoIDs
@@ -48,7 +49,7 @@ $(document).ready(function() {
                 return pair[1];
             }
         }
-        return false;
+        return 1;
     }
 
     function showRandomVideos (counter){
@@ -74,13 +75,13 @@ $(document).ready(function() {
             {
                 $('.contentA').html(positive);
                 $('.contentB').html(negative);
-                data.correct_answer.push("-1")
+                data.correct_answer.push("-1");
             }
             else
             {
                 $('.contentA').html(negative);
                 $('.contentB').html(positive);
-                data.correct_answer.push("1")
+                data.correct_answer.push("1");
             }
      
             //SHOW THE RANDOMIZE VIDEO IN THE DIV
@@ -110,9 +111,10 @@ $(document).ready(function() {
         var cloth_choice = $('input[name="clothchoice"]:checked').val();
         var hardness_score = $('input[name="hardness_score"]:checked').val();
         if (cloth_choice != null && hardness_score != null){
-            data.response.push(cloth_choice);
+            data.cloth_choice.push(cloth_choice);
+            data.hardness_score.push(hardness_score);
             capturedResult.push(cloth_choice);   //Push val to global array (capturedResult) 
-            res= radio_value;
+            res= cloth_choice;
         }
         else {
             res = null;
@@ -142,15 +144,16 @@ $(document).ready(function() {
             if ($questionNumber.text() <= perblock) {
                 $questionNumber.text(+$questionNumber.text() + 1);
 
-                //RESET RADIO BUTTON:
-                $('input:radio[name="scale"]').attr('checked', false);
+                //RESET RADIO BUTTONS:
+                $('input:radio[name="clothchoice"]').attr('checked', false);
+                $('input:radio[name="hardness_score"]').attr('checked', false);
 
                 //Show the array of the data (debugging)
                 console.log("Video Ids:");
                 console.log(videoIDs);
-                console.log("user answers");
-                console.log(data.response);
-                console.log(res);
+                console.log("user answers:");
+                console.log(data.cloth_choice);
+                console.log(data.hardness_score);
                 console.log($questionNumber.text())
                 res=null;
             }
