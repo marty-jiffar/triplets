@@ -136,6 +136,11 @@ $(document).ready(function() {
                 console.log('block over, moving...');
                 $(".videos").hide(); //HIDE THE VIDEOS
                 $("#next").hide(); //HIDE NEXT BUTTON 
+                
+                //RESET RADIO BUTTONS:
+                $('input:radio[name="clothchoice"]').attr('checked', false);
+                $('input:radio[name="hardness_score"]').attr('checked', false);
+                
                 window.open("quiz_cloth_1.html?blocknumber=1");
             }
             else {
