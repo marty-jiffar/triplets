@@ -118,8 +118,9 @@ $(document).ready(function() {
             if ($questionNumber.text() <= perblock) {
                 $questionNumber.text(+$questionNumber.text() + 1);
 
-                //RESET RADIO BUTTON:
-                $('input:radio[name="scale"]').attr('checked', false);
+                //RESET RADIO BUTTONS:
+                $('input:radio[name="clothchoice"]').attr('checked', false);
+                $('input:radio[name="hardness_score"]').attr('checked', false);
 
                 //Show the array of the data (debugging)
                 console.log("Video Ids:");
@@ -136,10 +137,6 @@ $(document).ready(function() {
                 console.log('block over, moving...');
                 $(".videos").hide(); //HIDE THE VIDEOS
                 $("#next").hide(); //HIDE NEXT BUTTON 
-                
-                //RESET RADIO BUTTONS:
-                $('input:radio[name="clothchoice"]').attr('checked', false);
-                $('input:radio[name="hardness_score"]').attr('checked', false);
                 
                 window.open("quiz_cloth_1.html?blocknumber=1");
             }
