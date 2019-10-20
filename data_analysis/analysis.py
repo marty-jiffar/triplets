@@ -5,11 +5,17 @@ Preliminary data analysis
 Marty Jiffar
 '''
 
+
 import matplotlib.pyplot as plt
 import math
 import json
 import numpy as np
 from numpy.polynomial.polynomial import polyfit
+import sklearn
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+
+
 
 def time_plot(json_paths, video_paths):
     for json_path in json_paths:
@@ -394,6 +400,8 @@ def time_vs_hardness(video_paths, data_paths):
         
         with open(data_path, 'r') as f:
             data_dict = json.load(f)
+        
+        data_dict = data_paths[i]
 
         hardness_score_list = []
 
@@ -416,31 +424,173 @@ def time_vs_hardness(video_paths, data_paths):
     plt.title('Length of Time to Choose Video for Each Hardness Score')
 
     plt.show()
+    
+def hist_correct(same_500_data, NN_results):
+    pct_correct = []
+            
+    num_of_people = len(same_500_data) // 10
+    print("number of ppl: " + str(num_of_people))
+    data_paths = []
+    data_dicts = []
+    
+    print('data dicts:')
+    
+    for data_path in same_500_data:
+        with open(data_path, 'r') as f:
+            data_dicts.append(json.load(f))
+            print(data_dicts[-1])
+    
+    with open(NN_results, 'r') as f:
+        NN_dict = json.load(f)
+    
+    print(NN_dict)
+    
+    pcts = ('0%', '25%', '50%', '75%', '100%')
+    y_pos = np.arange(len(pcts))
+    pct_freq = [0, 0, 0, 0, 0]
+    computer = [0, 0, 0, 0, 0]
+    
+    total_correct = 0
+    total_NN_correct = 0
+    
+    for block in range(10):
+        for trial in range(50):
+            correct_sum = 0
+            for i in range(num_of_people):
+                if (data_dicts[block + 10 * i]["response"][trial] == 
+                    data_dicts[block + 10 * i]["correct_answer"][trial]):
+                    correct_sum += 1
+                    total_correct += 1
+            pct_correct = correct_sum / 4
+            
+            computer_correct = (NN_dict[str(block+1)]["response"][trial] == 
+                                int(NN_dict[str(block+1)]["correct_answer"][trial]))
+            
+            if (computer_correct):
+                total_NN_correct += 1
+                
+            if (pct_correct == 0.0):
+                pct_freq[0] += 1
+                if (computer_correct):
+                    computer[0] += 1
+            elif (pct_correct == 0.25):
+                pct_freq[1] += 1
+                if (computer_correct):
+                    computer[1] += 1
+            elif (pct_correct == 0.50):
+                pct_freq[2] += 1
+                if (computer_correct):
+                    computer[2] += 1
+            elif (pct_correct == 0.75):
+                pct_freq[3] += 1
+                if (computer_correct):
+                    computer[3] += 1
+            elif (pct_correct == 1.00):
+                pct_freq[4] += 1
+                if (computer_correct):
+                    computer[4] += 1
+            print('------ NEW TRIAL ------')
+            
+    correct_total_pct = total_correct / 2000
+    NN_total_pct = total_NN_correct / 500
+    
+    print("total correct %: " + str(correct_total_pct))
+    print("NN correct %: " + str(NN_total_pct))
+            
+    print("computer % in each bar: ") 
+    print("0%: " + str(computer[0] / pct_freq[0]))
+    print("25%: " + str(computer[1] / pct_freq[1]))
+    print("50%: " + str(computer[2] / pct_freq[2]))
+    print("75%: " + str(computer[3] / pct_freq[3]))
+    print("100%: " + str(computer[4] / pct_freq[4]))
+        
+    plot_humans = plt.bar(y_pos, pct_freq, align = 'center', alpha = 0.5, color = '#FF0000')
+    plot_computer = plt.bar(y_pos, computer, align = 'center', alpha = 0.5, color = '#00FF00')
+    plt.xticks(y_pos, pcts)
+    plt.ylabel('Trials')
+    plt.title('Percentage of Correct Responses per trial')
+    plt.show()
+    
+def plot_confusion_matrix(same_500_data, NN_results):
+    #pct_correct = []
+            
+    num_of_people = len(same_500_data) // 10
+    data_paths = []
+    data_dicts = []
+    
+    for data_path in same_500_data:
+        with open(data_path, 'r') as f:
+            data_dicts.append(json.load(f))
+    
+    with open(NN_results, 'r') as f:
+        NN_dict = json.load(f)
+        
+    human_response_data = [[], [], [], []]
+    ground_truth = []
+    NN_response_data = []
+    
+    for block in range(10):
+        for i in range(num_of_people):
+            human_response_data[i] += data_dicts[block + 10 * i]["response"]
+        ground_truth += data_dicts[block]["correct_answer"]
+        NN_response_data += NN_dict[str(block + 1)]["response"]
+            
+    print(str(len(human_response_data)))
+    print(str(len(human_response_data[0])))
+    print(len(ground_truth))
+    print(len(NN_response_data))
+    
+    
+    for i in range(num_of_people):
+        matrix = confusion_matrix(ground_truth, human_response_data[i], ["-1", "1"])
+        sns.heatmap(matrix, annot = True, fmt="d", xticklabels = True, 
+                yticklabels = True, cmap="YlGnBu")
+        plt.ylabel('True Label')
+        plt.xlabel('Predicted Label')
+        plt.title('Participant ' + str(i + 1))
+        plt.show()
 
+    
+    nn_cm = confusion_matrix(ground_truth, NN_response_data, ["-1", "1"])
+    
+    sns.heatmap(nn_cm, annot = True, fmt="d", xticklabels = True, 
+                yticklabels = True, cmap="YlGnBu")
+    
+    plt.ylabel('True Label')
+    plt.xlabel('Predicted Label')
+    plt.title('Neural Network')
+    plt.show()
+    
+    
+
+    
 if __name__ == '__main__':
     path_start = '../web_display/javascripts/phpcode/'
-    folders = ['01_Data/', '02_Data/', '03_Data/', '04_Data/', '05_Data/']
+    folders = ['01_Data/', '02_Data/', '03_Data/', '04_Data/', '05_Data/', '06_Data/']
     res_string = 'Result_JSON_files/'
     
-    initials = ['MP', 'TM', 'OF', 'or', 'FR']
+    initials = ['MP', 'TM', 'OF', 'or', 'FR', 'MY']
     blocks = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
-    dates = ['09-17-2019', '09-19-2019', '09-24-2019']
+    dates = ['09-17-2019', '09-19-2019', '09-24-2019', '09-27-2019']
     
     result_paths = []
+    same_500_results = []
     
     for i in range(len(folders)):
         if i == 0:
             date = dates[0]
         elif i < 3:
             date = dates[1]
-        else:
+        elif i < 5:
             date = dates[2]
+        else:
+            date = dates[3]
         for block_num in blocks:
             current_path = (path_start + folders[i] + res_string + initials[i] + '_block_' + block_num
                 + '_' + date + '_result.json')
             result_paths.append(current_path)
-            print(current_path)
-            print('\n')
+            if (i == 1 or i == 3 or i == 4 or i == 5):
+                same_500_results.append(current_path) # results that came from the same 500 videos
             
     vid_path = 'Video_JSON_files/block_'
     video_paths = []
@@ -449,16 +599,25 @@ if __name__ == '__main__':
         for block_num in blocks:
             current_path = (path_start + folders[i] + vid_path + block_num + '.json')
             video_paths.append(current_path)
-            print(current_path)
-            print('\n')
             
     mass_varieties = ['mixed', 'same', 'different']
-    
+    '''
     for mass_setting in mass_varieties:
         correct_vs_wrong(result_paths, video_paths, mass_setting)
         avg_trial_time(result_paths, video_paths, mass_setting)
         stacked_correctpct_vs_block(result_paths, video_paths, mass_setting)
         stacked_correctpct_vs_hard(result_paths, video_paths, mass_setting)
+    '''
+    
+    same_video_paths = video_paths[10:19] + video_paths[30:59]
+    
+    NN_results = path_start + 'NN_Data/NN_10_18_2019_result.json'
+    
+    #hist_correct(same_video_paths, same_500_results, NN_results)
+    
+    print("len same results: " + str(len(same_500_results)))
+    
+    plot_confusion_matrix(same_500_results, NN_results)
     
     #time_vs_hardness(video_paths, result_paths)
     
