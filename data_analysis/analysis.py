@@ -10,10 +10,13 @@ import matplotlib.pyplot as plt
 import math
 import json
 import numpy as np
+import pandas as pd
 from numpy.polynomial.polynomial import polyfit
 import sklearn
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
+import statistics as st
+import os
 
 
 
@@ -540,21 +543,22 @@ def plot_confusion_matrix(same_500_data, NN_results):
     print(len(ground_truth))
     print(len(NN_response_data))
     
-    
     for i in range(num_of_people):
         matrix = confusion_matrix(ground_truth, human_response_data[i], ["-1", "1"])
-        sns.heatmap(matrix, annot = True, fmt="d", xticklabels = True, 
-                yticklabels = True, cmap="YlGnBu")
+        sns.heatmap(matrix, vmin = 100, vmax = 160, annot = True, fmt="d", xticklabels = ["-1", "1"], 
+                yticklabels = ["-1", "1"], cmap="Greys")
         plt.ylabel('True Label')
         plt.xlabel('Predicted Label')
         plt.title('Participant ' + str(i + 1))
         plt.show()
-
     
+
     nn_cm = confusion_matrix(ground_truth, NN_response_data, ["-1", "1"])
     
-    sns.heatmap(nn_cm, annot = True, fmt="d", xticklabels = True, 
-                yticklabels = True, cmap="YlGnBu")
+  #  pal = sns.dark_palette("white", as_cmap=True)
+    
+    sns.heatmap(nn_cm, vmin = 100, vmax = 160, annot = True, fmt="d", xticklabels = ["-1", "1"], 
+                yticklabels = ["-1", "1"], cmap="Greys")
     
     plt.ylabel('True Label')
     plt.xlabel('Predicted Label')
@@ -562,7 +566,89 @@ def plot_confusion_matrix(same_500_data, NN_results):
     plt.show()
     
     
-
+def right_conf_matrices(same_videos, result_paths):
+    
+    # add all video names to list
+    directory = os.fsencode("../web_display/Final_Dataset_6sec_mp4")
+    all_videos = []
+    data = {}
+    
+    for file in os.listdir(directory):
+        filename = os.fsdecode(file)
+        all_videos.append(filename) # all video filenames, 882 of them
+        data[filename] = 882 * [-999] # initializing empty columns of dataframe
+    '''
+    cols = all_videos
+    data = np.zeros((882, 882))
+    data[new_array == 0] = -999
+    '''
+    
+    results = []
+    
+    for result in result_paths:
+        with open(result, 'r') as f:
+            results.append(json.load(f)) # participant results, rn results is TM block 1 to 10
+        
+    vid_dicts = [] 
+    
+    for video in same_videos:
+        with open(video, 'r') as f:
+            vid_dicts.append(json.load(f)) # videos loaded properly
+        
+    df = pd.DataFrame(data, index = all_videos) # 882 by 882 dataframe, labeled with video names,
+                                                # diagonal is where row video = column video
+    
+    for block in range(10):
+        for trial in range(50): # iterating thru each triplet
+            anchor = vid_dicts[block][str(trial + 1)]["Anchor"]
+            pos = vid_dicts[block][str(trial + 1)]["Positive"]
+            neg = vid_dicts[block][str(trial + 1)]["Negative"]
+            
+            print('df.loc[anchor, pos]: ' + str(df.loc[anchor, pos]))
+            
+            anch_pos_grouped = int(results[block]["response"][trial] 
+                                == results[block]["correct_answer"][trial]) # anchor grouped w pos if user was correct
+            anch_neg_grouped = int(not (anch_pos_grouped)) # otherwise, anchor grouped w neg
+            
+            if df.loc[anchor, pos] == -999:
+                df.loc[anchor, pos] = [anch_pos_grouped]
+            else:
+                df.loc[anchor, pos].append(anch_pos_grouped) # creates list of groupings (1 or 0, grouped or not)
+                
+            if df.loc[anchor, neg] == -999:
+                df[anchor][neg] = [anch_neg_grouped]
+            else:
+                df.loc[anchor, neg].append(anch_neg_grouped)
+                
+                
+    for row in all_videos:
+        for col in all_videos:
+            if col == row:
+                df.loc[row, col] = 1.0 # set pairwise similarity on diag to be 1.0
+            else:
+                if (df.loc[row, col] == -999) and (df.loc[col, row] == -999): # if the pair has no occurrences, skip
+                    continue
+                elif (df.loc[row, col] == -999 and df.loc[col, row] != -999): # current space null, diag not null
+                    df.loc[row, col] = df.loc[col, row]
+                elif (df.loc[row, col] != -999 and df.loc[col, row] == -999): # current space not null, diag null
+                    df.loc[col, row] = df.loc[row, col]
+                else: # both current space and diag are lists of legitimate numbers
+                    print('[row, col]: ' + str(df.loc[row, col]))
+                    print('[col, row]: ' + str((df.loc[col, row])))
+                    mean = st.mean(df.loc[row, col] + df.loc[col, row])
+                    df.loc[row, col] = mean
+                    df.loc[col, row] = mean
+    
+    sns.heatmap(df, annot = True, fmt="d", cmap="Blues")
+    
+    plt.ylabel('Video Names')
+    plt.xlabel('Video Names')
+    plt.title('Pairwise Similarity')
+    plt.show()
+    
+    
+    
+            
     
 if __name__ == '__main__':
     path_start = '../web_display/javascripts/phpcode/'
@@ -609,15 +695,17 @@ if __name__ == '__main__':
         stacked_correctpct_vs_hard(result_paths, video_paths, mass_setting)
     '''
     
-    same_video_paths = video_paths[10:19] + video_paths[30:59]
+    same_video_paths = video_paths[10:20]
     
     NN_results = path_start + 'NN_Data/NN_10_18_2019_result.json'
     
     #hist_correct(same_video_paths, same_500_results, NN_results)
     
-    print("len same results: " + str(len(same_500_results)))
+    #print("len same results: " + str(len(same_500_results)))
     
     plot_confusion_matrix(same_500_results, NN_results)
     
     #time_vs_hardness(video_paths, result_paths)
+    
+    #right_conf_matrices(same_video_paths, same_500_results[0:10])
     
