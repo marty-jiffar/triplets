@@ -566,6 +566,95 @@ def plot_confusion_matrix(same_500_data, NN_results):
     plt.show()
     
     
+# sparse confusion matrix, 882 x 882 stimuli
+def conf_matrices(videos, result_paths, partic):
+    print('len result paths: ' + str(len(result_paths)))
+    
+    ## load in data ##
+    results = []
+    
+    for result in result_paths:
+        with open(result, 'r') as f:
+            results.append(json.load(f)) # participant results, rn results is TM block 1 to 10
+        
+    vid_dicts = [] 
+    
+    for video in videos:
+        with open(video, 'r') as f:
+            vid_dicts.append(json.load(f)) # videos loaded properly
+            
+    # load in video names
+    directory = os.fsencode("../web_display/Final_Dataset_6sec_mp4")
+    all_videos = []
+    
+    for file in os.listdir(directory):
+        filename = os.fsdecode(file)
+        all_videos.append(filename) # all video filenames, 882 of them
+        
+    w, h = 882, 882;
+    df_array = [[np.nan for x in range(w)] for y in range(h)]  # initializing array with 'null' values
+    print('df_array len: ' + str(len(df_array[0])))
+    
+    cmp_dict = {}
+    
+    # iterate thru blocks/trials
+    for block in range(10):
+        for trial in range(50):
+            anchor = vid_dicts[block][str(trial + 1)]["Anchor"]
+            pos = vid_dicts[block][str(trial + 1)]["Positive"]
+            neg = vid_dicts[block][str(trial + 1)]["Negative"]
+            
+            anch_pos_grouped = int(results[block]["response"][trial] 
+                                == results[block]["correct_answer"][trial]) # anchor grouped w pos if user was correct
+            anch_neg_grouped = int(not (anch_pos_grouped)) # otherwise, anchor grouped w neg
+            
+            if (anchor, pos) and (pos, anchor) not in cmp_dict.keys(): # if grouping not already in compare dict
+                cmp_dict[(anchor,pos)] = [anch_pos_grouped]
+                cmp_dict[(pos,anchor)] = [anch_pos_grouped]
+            else:
+                cmp_dict[(anchor,pos)].append(anch_pos_grouped)
+                cmp_dict[(pos,anchor)].append(anch_pos_grouped)
+            
+            # same thing for anchor and neg grouping
+            if (anchor, neg) and (neg, anchor) not in cmp_dict.keys():
+                cmp_dict[(anchor,neg)] = [anch_neg_grouped]
+                cmp_dict[(neg,anchor)] = [anch_neg_grouped]
+            else:
+                cmp_dict[(anchor,neg)].append(anch_neg_grouped)
+                cmp_dict[(neg,anchor)].append(anch_neg_grouped)
+    
+    
+    for row in range(882):
+        for col in range(882):
+            vid_row = all_videos[row]
+            vid_col = all_videos[col]
+            
+            if row == col:
+                df_array[row][col] = 1.0
+            elif (vid_row, vid_col) not in cmp_dict.keys():
+                continue
+            else:
+                mean = st.mean(cmp_dict[(vid_row, vid_col)])
+                df_array[row][col] = mean
+                df_array[col][row] = mean
+
+    df_pd = pd.DataFrame(data = df_array, index = all_videos, columns = all_videos)
+    print('df created!!!')
+    
+    cmap = sns.color_palette("Blues")
+    
+    sns.heatmap(df_pd, cmap=cmap, vmin = 0, vmax = 1, mask = df_pd.isnull(), xticklabels = False, yticklabels = False)
+    print('sns called')
+    
+    plt.ylabel('Video Names')
+    plt.xlabel('Video Names')
+    plt.title('Pairwise Similarity (882 x 882 stimuli) Paricipant ' + str(partic + 1))
+    plt.show()
+    
+    return 'yay'
+    
+    
+    '''
 def right_conf_matrices(same_videos, result_paths):
     
     # add all video names to list
@@ -577,11 +666,11 @@ def right_conf_matrices(same_videos, result_paths):
         filename = os.fsdecode(file)
         all_videos.append(filename) # all video filenames, 882 of them
         data[filename] = 882 * [-999] # initializing empty columns of dataframe
-    '''
+    
     cols = all_videos
     data = np.zeros((882, 882))
     data[new_array == 0] = -999
-    '''
+    
     
     results = []
     
@@ -645,7 +734,7 @@ def right_conf_matrices(same_videos, result_paths):
     plt.xlabel('Video Names')
     plt.title('Pairwise Similarity')
     plt.show()
-    
+ '''  
     
     
             
@@ -703,9 +792,10 @@ if __name__ == '__main__':
     
     #print("len same results: " + str(len(same_500_results)))
     
-    plot_confusion_matrix(same_500_results, NN_results)
+    #plot_confusion_matrix(same_500_results, NN_results)
     
     #time_vs_hardness(video_paths, result_paths)
     
-    #right_conf_matrices(same_video_paths, same_500_results[0:10])
+    for i in range(4):
+        conf_matrices(same_video_paths, same_500_results[10*i:10*(i + 1)], i)
     
