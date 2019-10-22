@@ -572,6 +572,8 @@ def conf_matrices(videos, result_paths, partic):
     ## load in data ##
     results = []
     
+    print('result paths: ' + str(result_paths))
+    
     for result in result_paths:
         with open(result, 'r') as f:
             results.append(json.load(f)) # participant results, rn results is TM block 1 to 10
@@ -638,13 +640,14 @@ def conf_matrices(videos, result_paths, partic):
 
     df_pd = pd.DataFrame(data = df_array, index = all_videos, columns = all_videos)
     
-    cmap = sns.color_palette("Blues")
+    cmap = sns.cubehelix_palette(start=2.8, rot=.1, as_cmap = True)
     
-    sns.heatmap(df_pd, cmap=cmap, vmin = 0, vmax = 1, mask = df_pd.isnull(), xticklabels = False, yticklabels = False)
+    sns.heatmap(df_pd, cmap=cmap, vmin = 0, vmax = 1, mask = df_pd.isnull(), 
+                xticklabels = False, yticklabels = False, square = True)
     
     plt.ylabel('Video Names')
     plt.xlabel('Video Names')
-    plt.title('Pairwise Similarity (882 x 882 stimuli) Participant ' + str(partic + 1))
+    plt.title('Pairwise Similarity (882 x 882 stimuli) Participant ' + str(partic))
     plt.show()
       
     
@@ -706,5 +709,7 @@ if __name__ == '__main__':
     #time_vs_hardness(video_paths, result_paths)
     
     for i in range(4):
-        conf_matrices(same_video_paths, same_500_results[10*i:10*(i + 1)], i)
+        conf_matrices(same_video_paths, same_500_results[10*i:10*(i + 1)], i + 1)
+    
+    #conf_matrices(same_video_paths, NN_results, 'nn') # still working on this
     
