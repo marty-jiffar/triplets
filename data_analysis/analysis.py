@@ -568,7 +568,6 @@ def plot_confusion_matrix(same_500_data, NN_results):
     
 # sparse confusion matrix, 882 x 882 stimuli
 def conf_matrices(videos, result_paths, partic):
-    print('len result paths: ' + str(len(result_paths)))
     
     ## load in data ##
     results = []
@@ -593,7 +592,6 @@ def conf_matrices(videos, result_paths, partic):
         
     w, h = 882, 882;
     df_array = [[np.nan for x in range(w)] for y in range(h)]  # initializing array with 'null' values
-    print('df_array len: ' + str(len(df_array[0])))
     
     cmp_dict = {}
     
@@ -639,105 +637,16 @@ def conf_matrices(videos, result_paths, partic):
                 df_array[col][row] = mean
 
     df_pd = pd.DataFrame(data = df_array, index = all_videos, columns = all_videos)
-    print('df created!!!')
     
     cmap = sns.color_palette("Blues")
     
     sns.heatmap(df_pd, cmap=cmap, vmin = 0, vmax = 1, mask = df_pd.isnull(), xticklabels = False, yticklabels = False)
-    print('sns called')
     
     plt.ylabel('Video Names')
     plt.xlabel('Video Names')
-    plt.title('Pairwise Similarity (882 x 882 stimuli) Paricipant ' + str(partic + 1))
+    plt.title('Pairwise Similarity (882 x 882 stimuli) Participant ' + str(partic + 1))
     plt.show()
-    
-    return 'yay'
-    
-    
-    '''
-def right_conf_matrices(same_videos, result_paths):
-    
-    # add all video names to list
-    directory = os.fsencode("../web_display/Final_Dataset_6sec_mp4")
-    all_videos = []
-    data = {}
-    
-    for file in os.listdir(directory):
-        filename = os.fsdecode(file)
-        all_videos.append(filename) # all video filenames, 882 of them
-        data[filename] = 882 * [-999] # initializing empty columns of dataframe
-    
-    cols = all_videos
-    data = np.zeros((882, 882))
-    data[new_array == 0] = -999
-    
-    
-    results = []
-    
-    for result in result_paths:
-        with open(result, 'r') as f:
-            results.append(json.load(f)) # participant results, rn results is TM block 1 to 10
-        
-    vid_dicts = [] 
-    
-    for video in same_videos:
-        with open(video, 'r') as f:
-            vid_dicts.append(json.load(f)) # videos loaded properly
-        
-    df = pd.DataFrame(data, index = all_videos) # 882 by 882 dataframe, labeled with video names,
-                                                # diagonal is where row video = column video
-    
-    for block in range(10):
-        for trial in range(50): # iterating thru each triplet
-            anchor = vid_dicts[block][str(trial + 1)]["Anchor"]
-            pos = vid_dicts[block][str(trial + 1)]["Positive"]
-            neg = vid_dicts[block][str(trial + 1)]["Negative"]
-            
-            print('df.loc[anchor, pos]: ' + str(df.loc[anchor, pos]))
-            
-            anch_pos_grouped = int(results[block]["response"][trial] 
-                                == results[block]["correct_answer"][trial]) # anchor grouped w pos if user was correct
-            anch_neg_grouped = int(not (anch_pos_grouped)) # otherwise, anchor grouped w neg
-            
-            if df.loc[anchor, pos] == -999:
-                df.loc[anchor, pos] = [anch_pos_grouped]
-            else:
-                df.loc[anchor, pos].append(anch_pos_grouped) # creates list of groupings (1 or 0, grouped or not)
-                
-            if df.loc[anchor, neg] == -999:
-                df[anchor][neg] = [anch_neg_grouped]
-            else:
-                df.loc[anchor, neg].append(anch_neg_grouped)
-                
-                
-    for row in all_videos:
-        for col in all_videos:
-            if col == row:
-                df.loc[row, col] = 1.0 # set pairwise similarity on diag to be 1.0
-            else:
-                if (df.loc[row, col] == -999) and (df.loc[col, row] == -999): # if the pair has no occurrences, skip
-                    continue
-                elif (df.loc[row, col] == -999 and df.loc[col, row] != -999): # current space null, diag not null
-                    df.loc[row, col] = df.loc[col, row]
-                elif (df.loc[row, col] != -999 and df.loc[col, row] == -999): # current space not null, diag null
-                    df.loc[col, row] = df.loc[row, col]
-                else: # both current space and diag are lists of legitimate numbers
-                    print('[row, col]: ' + str(df.loc[row, col]))
-                    print('[col, row]: ' + str((df.loc[col, row])))
-                    mean = st.mean(df.loc[row, col] + df.loc[col, row])
-                    df.loc[row, col] = mean
-                    df.loc[col, row] = mean
-    
-    sns.heatmap(df, annot = True, fmt="d", cmap="Blues")
-    
-    plt.ylabel('Video Names')
-    plt.xlabel('Video Names')
-    plt.title('Pairwise Similarity')
-    plt.show()
- '''  
-    
-    
-            
+      
     
 if __name__ == '__main__':
     path_start = '../web_display/javascripts/phpcode/'
