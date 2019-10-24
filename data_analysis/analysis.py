@@ -19,6 +19,24 @@ import statistics as st
 import os
 
 
+def read_json_files(results = [], videos = [], NN_results = {}):
+    data_dicts = []
+    
+    for data_path in results:
+        with open(data_path, 'r') as f:
+            data_dicts.append(json.load(f))
+            
+    vid_dicts = []
+    
+    for video in videos:
+        with open(video, 'r') as f:
+            vid_dicts.append(json.load(f)) # videos loaded properly
+            
+    with open(NN_results, 'r') as f:
+        NN_dict = json.load(f)
+    
+    return data_dicts, vid_dicts, NN_dict
+
 
 def time_plot(json_paths, video_paths):
     for json_path in json_paths:
@@ -428,50 +446,44 @@ def time_vs_hardness(video_paths, data_paths):
 
     plt.show()
     
-def hist_correct(same_500_data, NN_results):
+def hist_correct(vid_dicts, data_dicts, NN_dict, hard_score):
     pct_correct = []
-            
-    num_of_people = len(same_500_data) // 10
-    print("number of ppl: " + str(num_of_people))
-    data_paths = []
-    data_dicts = []
     
-    print('data dicts:')
-    
-    for data_path in same_500_data:
-        with open(data_path, 'r') as f:
-            data_dicts.append(json.load(f))
-            print(data_dicts[-1])
-    
-    with open(NN_results, 'r') as f:
-        NN_dict = json.load(f)
-    
-    print(NN_dict)
+    num_of_people = len(data_dicts) // 10
     
     pcts = ('0%', '25%', '50%', '75%', '100%')
     y_pos = np.arange(len(pcts))
     pct_freq = [0, 0, 0, 0, 0]
     computer = [0, 0, 0, 0, 0]
     
-    total_correct = 0
+    human_total_correct = 0
     total_NN_correct = 0
+    total_trials_rep = 0 # repeated for each person
     
     for block in range(10):
         for trial in range(50):
+            #if vid_dicts[block][str(trial + 1)]["Hardness Score"] != hard_score:
+                #continue
+           # else:    
+               # print('current video: ' + str(vid_dicts[block][str(trial+1)]))
+              #  print('current hardness: ' + str(vid_dicts[block][str(trial+1)]["Hardness Score"]))
             correct_sum = 0
+            total_trials_rep += 4
             for i in range(num_of_people):
                 if (data_dicts[block + 10 * i]["response"][trial] == 
                     data_dicts[block + 10 * i]["correct_answer"][trial]):
+                    #print(i)
                     correct_sum += 1
-                    total_correct += 1
+                    human_total_correct += 1
+                   # print('-----')
             pct_correct = correct_sum / 4
-            
+
             computer_correct = (NN_dict[str(block+1)]["response"][trial] == 
-                                int(NN_dict[str(block+1)]["correct_answer"][trial]))
-            
+                                NN_dict[str(block+1)]["correct_answer"][trial])
+
             if (computer_correct):
                 total_NN_correct += 1
-                
+
             if (pct_correct == 0.0):
                 pct_freq[0] += 1
                 if (computer_correct):
@@ -494,24 +506,28 @@ def hist_correct(same_500_data, NN_results):
                     computer[4] += 1
             print('------ NEW TRIAL ------')
             
-    correct_total_pct = total_correct / 2000
-    NN_total_pct = total_NN_correct / 500
+    print('human total correct: ' + str(human_total_correct))
+    print('total trials: ' + str(total_trials_rep))
+            
+    correct_total_pct = human_total_correct / total_trials_rep
+    print('total nn correct: ' + str(total_NN_correct))
+    NN_total_pct = total_NN_correct / (total_trials_rep / 4)
     
     print("total correct %: " + str(correct_total_pct))
     print("NN correct %: " + str(NN_total_pct))
             
     print("computer % in each bar: ") 
-    print("0%: " + str(computer[0] / pct_freq[0]))
-    print("25%: " + str(computer[1] / pct_freq[1]))
-    print("50%: " + str(computer[2] / pct_freq[2]))
-    print("75%: " + str(computer[3] / pct_freq[3]))
-    print("100%: " + str(computer[4] / pct_freq[4]))
+    print("0%: " + (str(computer[0] / pct_freq[0]) if pct_freq[0] > 0 else '0'))
+    print("25%: " + (str(computer[1] / pct_freq[1]) if pct_freq[1] > 0 else '0'))
+    print("50%: " + (str(computer[2] / pct_freq[2]) if pct_freq[2] > 0 else '0'))
+    print("75%: " + (str(computer[3] / pct_freq[3]) if pct_freq[3] > 0 else '0'))
+    print("100%: " + (str(computer[4] / pct_freq[4]) if pct_freq[4] > 0 else '0'))
         
     plot_humans = plt.bar(y_pos, pct_freq, align = 'center', alpha = 0.5, color = '#FF0000')
     plot_computer = plt.bar(y_pos, computer, align = 'center', alpha = 0.5, color = '#00FF00')
     plt.xticks(y_pos, pcts)
     plt.ylabel('Trials')
-    plt.title('Percentage of Correct Responses per trial')
+    plt.title('Percentage of Correct Responses per trial, All 500 Trials')
     plt.show()
     
 def plot_confusion_matrix(same_500_data, NN_results):
@@ -572,8 +588,6 @@ def conf_matrices(videos, result_paths, partic):
     ## load in data ##
     results = []
     
-    print('result paths: ' + str(result_paths))
-    
     for result in result_paths:
         with open(result, 'r') as f:
             results.append(json.load(f)) # participant results, rn results is TM block 1 to 10
@@ -591,6 +605,8 @@ def conf_matrices(videos, result_paths, partic):
     for file in os.listdir(directory):
         filename = os.fsdecode(file)
         all_videos.append(filename) # all video filenames, 882 of them
+        
+    print('all_videos: ' + str(all_videos))
         
     w, h = 882, 882;
     df_array = [[np.nan for x in range(w)] for y in range(h)]  # initializing array with 'null' values
@@ -710,6 +726,13 @@ if __name__ == '__main__':
     
     for i in range(4):
         conf_matrices(same_video_paths, same_500_results[10*i:10*(i + 1)], i + 1)
+        break
+        
+    same_500_dicts, same_video_dicts, NN_dict = read_json_files(same_500_results, 
+                                                       same_video_paths, NN_results)
+    
+    #for hard_score in ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']:
+        #hist_correct(same_video_dicts, same_500_dicts, NN_dict, hard_score)
     
     #conf_matrices(same_video_paths, NN_results, 'nn') # still working on this
     

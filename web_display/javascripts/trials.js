@@ -25,7 +25,7 @@ $(document).ready(function() {
         blocknumber:blocknumber,
         subject: subject,
         trialnumber:["1"],
-        cloth_choice:[],
+        response:[],
         hardness_score:[],
         correct_answer:[],
         time_per_trial:[],
@@ -108,13 +108,13 @@ $(document).ready(function() {
     //STORE THE VALUES OF THE RADIO BUTTONS
     function storeValues(){
     //Capture the value of the input [name = clothchoice] 
-        var cloth_choice = $('input[name="clothchoice"]:checked').val();
+        var response = $('input[name="clothchoice"]:checked').val();
         var hardness_score = $('input[name="hardness_score"]:checked').val();
-        if (cloth_choice != null && hardness_score != null){
-            data.cloth_choice.push(cloth_choice);
+        if (response != null && hardness_score != null){
+            data.response.push(response);
             data.hardness_score.push(hardness_score);
-            capturedResult.push(cloth_choice);   //Push val to global array (capturedResult) 
-            res= cloth_choice;
+            capturedResult.push(response);   //Push val to global array (capturedResult) 
+            res= response;
         }
         else {
             res = null;
