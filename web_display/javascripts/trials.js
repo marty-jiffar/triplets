@@ -57,6 +57,9 @@ $(document).ready(function() {
         var videosCurrent = videoFileGeneral.concat(data.blocknumber, '.json');
         console.log(videosCurrent);
         $.getJSON(videosCurrent, function(videos) { 
+            console.log('inside getJSON...');
+            console.log(counter);
+            console.log(videos[counter].Anchor);
             var rand_num= Math.floor(Math.random()*2);
             var anchr_src = './Final_Dataset_6sec_mp4/'.concat(videos[counter].Anchor);
             var pos_src = './Final_Dataset_6sec_mp4/'.concat(videos[counter].Positive);
