@@ -22,6 +22,8 @@ import os
 def read_json_files(results = [], videos = [], NN_results = {}):
     data_dicts = []
     
+    print('results before: ' + str(results))
+    
     for data_path in results:
         with open(data_path, 'r') as f:
             data_dicts.append(json.load(f))
@@ -34,6 +36,8 @@ def read_json_files(results = [], videos = [], NN_results = {}):
             
     with open(NN_results, 'r') as f:
         NN_dict = json.load(f)
+        
+    
     
     return data_dicts, vid_dicts, NN_dict
 
@@ -446,7 +450,7 @@ def time_vs_hardness(video_paths, data_paths):
 
     plt.show()
     
-def hist_correct(vid_dicts, data_dicts, NN_dict, hard_score):
+def hist_correct(vid_dicts, data_dicts, NN_dict):
     pct_correct = []
     
     num_of_people = len(data_dicts) // 10
@@ -460,13 +464,26 @@ def hist_correct(vid_dicts, data_dicts, NN_dict, hard_score):
     total_NN_correct = 0
     total_trials_rep = 0 # repeated for each person
     
+    # examples of each %
+    zero_pct_exmpls = []
+    twentyfive_pct_exmpls = []
+    fifty_pct_exmpls = []
+    seventyfive_pct_exmpls = []
+    hundred_pct_exmpls = []
+    
+    # trials each participant is correct
+    indiv_correct = [0, 0, 0, 0]
+    
+    print('data dicts: ' + str(data_dicts))
+    
+    
     for block in range(10):
         for trial in range(50):
             #if vid_dicts[block][str(trial + 1)]["Hardness Score"] != hard_score:
                 #continue
-           # else:    
-               # print('current video: ' + str(vid_dicts[block][str(trial+1)]))
-              #  print('current hardness: ' + str(vid_dicts[block][str(trial+1)]["Hardness Score"]))
+            #else:    
+            print('current video: ' + str(vid_dicts[block][str(trial+1)]))
+            print('current hardness: ' + str(vid_dicts[block][str(trial+1)]["Hardness Score"]))
             correct_sum = 0
             total_trials_rep += 4
             for i in range(num_of_people):
@@ -476,6 +493,15 @@ def hist_correct(vid_dicts, data_dicts, NN_dict, hard_score):
                     correct_sum += 1
                     human_total_correct += 1
                    # print('-----')
+                    if i == 0:
+                        indiv_correct[0] += 1
+                    elif i == 1:
+                        indiv_correct[1] += 1
+                    elif i == 2:
+                        indiv_correct[2] += 1
+                    elif i == 3:
+                        indiv_correct[3] += 1
+                        
             pct_correct = correct_sum / 4
 
             computer_correct = (NN_dict[str(block+1)]["response"][trial] == 
@@ -484,27 +510,41 @@ def hist_correct(vid_dicts, data_dicts, NN_dict, hard_score):
             if (computer_correct):
                 total_NN_correct += 1
 
+            current_vid = (vid_dicts[block][str(trial + 1)], 'block ' + str(block + 1))
             if (pct_correct == 0.0):
                 pct_freq[0] += 1
                 if (computer_correct):
                     computer[0] += 1
+                if pct_freq[0] < 6:
+                    zero_pct_exmpls.append(current_vid)
             elif (pct_correct == 0.25):
                 pct_freq[1] += 1
                 if (computer_correct):
                     computer[1] += 1
+                if pct_freq[1] < 6:
+                    twentyfive_pct_exmpls.append(current_vid)
             elif (pct_correct == 0.50):
                 pct_freq[2] += 1
                 if (computer_correct):
                     computer[2] += 1
+                if pct_freq[2] < 6:
+                    fifty_pct_exmpls.append(current_vid)
             elif (pct_correct == 0.75):
                 pct_freq[3] += 1
                 if (computer_correct):
                     computer[3] += 1
+                if pct_freq[3] < 6:
+                    seventyfive_pct_exmpls.append(current_vid)
             elif (pct_correct == 1.00):
                 pct_freq[4] += 1
                 if (computer_correct):
                     computer[4] += 1
+                if pct_freq[4] < 6:
+                    hundred_pct_exmpls.append(current_vid)
             print('------ NEW TRIAL ------')
+            
+    for i in range(len(indiv_correct)):
+        indiv_correct[i] = indiv_correct[i] / 500
             
     print('human total correct: ' + str(human_total_correct))
     print('total trials: ' + str(total_trials_rep))
@@ -522,12 +562,35 @@ def hist_correct(vid_dicts, data_dicts, NN_dict, hard_score):
     print("50%: " + (str(computer[2] / pct_freq[2]) if pct_freq[2] > 0 else '0'))
     print("75%: " + (str(computer[3] / pct_freq[3]) if pct_freq[3] > 0 else '0'))
     print("100%: " + (str(computer[4] / pct_freq[4]) if pct_freq[4] > 0 else '0'))
-        
-    plot_humans = plt.bar(y_pos, pct_freq, align = 'center', alpha = 0.5, color = '#FF0000')
-    plot_computer = plt.bar(y_pos, computer, align = 'center', alpha = 0.5, color = '#00FF00')
+    
+    
+    # examples output
+    print('0 pct correct examples: ' + str(zero_pct_exmpls))
+    print("\n")
+    print('25 pct correct examples: ' + str(twentyfive_pct_exmpls))
+    print("\n")
+    print('50 pct correct examples: ' + str(fifty_pct_exmpls))
+    print("\n")
+    print('75 pct correct examples: ' + str(seventyfive_pct_exmpls))
+    print("\n")
+    print('100 pct correct examples: ' + str(hundred_pct_exmpls))
+    
+    
+    # individual correct %
+    print("Indivdual Correct %'s: " + str(indiv_correct))
+    
+    # plot
+    ax = plt.figure()
+    axes = ax.add_axes([0.1, 0.1, 0.8, 0.8])
+    axes.bar(y_pos, pct_freq, align = 'center', 
+            alpha = 0.5, color = '#FF0000', label = 'NN incorrect')
+    axes.bar(y_pos, computer, align = 'center', 
+            alpha = 0.5, color = '#00FF00', label = 'NN correct')
     plt.xticks(y_pos, pcts)
-    plt.ylabel('Trials')
+    plt.ylabel('# of Trials')
+    plt.xlabel('% of Subjects who were Correct')
     plt.title('Percentage of Correct Responses per trial, All 500 Trials')
+    axes.legend(loc='upper center', bbox_to_anchor=(1.45, 0.8), shadow=True, ncol=1)
     plt.show()
     
 def plot_confusion_matrix(same_500_data, NN_results):
@@ -716,7 +779,6 @@ if __name__ == '__main__':
     
     NN_results = path_start + 'NN_Data/NN_10_18_2019_result.json'
     
-    #hist_correct(same_video_paths, same_500_results, NN_results)
     
     #print("len same results: " + str(len(same_500_results)))
     
@@ -724,15 +786,22 @@ if __name__ == '__main__':
     
     #time_vs_hardness(video_paths, result_paths)
     
-    for i in range(4):
-        conf_matrices(same_video_paths, same_500_results[10*i:10*(i + 1)], i + 1)
-        break
+    #for i in range(4):
+        #conf_matrices(same_video_paths, same_500_results[10*i:10*(i + 1)], i + 1)
+        
+    print('data results before: ' + str(same_500_results))
         
     same_500_dicts, same_video_dicts, NN_dict = read_json_files(same_500_results, 
                                                        same_video_paths, NN_results)
     
-    #for hard_score in ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']:
-        #hist_correct(same_video_dicts, same_500_dicts, NN_dict, hard_score)
+    print('data dicts after: ' + str(same_500_dicts))
+    
+    '''
+    for hard_score in ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']:
+        hist_correct(same_video_dicts, same_500_dicts, NN_dict, hard_score)
+    '''
+        
+    hist_correct(same_video_dicts, same_500_dicts, NN_dict)
     
     #conf_matrices(same_video_paths, NN_results, 'nn') # still working on this
     
